@@ -33,17 +33,17 @@ fig1.update_traces(textinfo="label+percent")
 
 
 # Creates a histogram to show the dynamics of interactions over time
-fig2 = px.histogram(interactions_preprocessed.date, title="Dynamics in time")
+fig2 = px.histogram(interactions_preprocessed.date)
 
 fig2.add_annotation(
     text="Instagram",
     x="2012-01-31",  # x position in the time interval (adjust as needed)
     y=6000,  # y position (adjust as needed)
     showarrow=False,
-    font=dict(size=15, color="black"),
+    font=dict(size=15, color="green"),
     bgcolor="rgba(255, 255, 255, 0.7)",  # Semi-transparent white background
     bordercolor="black",
-    borderwidth=1,
+    borderwidth=3,
     borderpad=4,
 )
 
@@ -51,8 +51,16 @@ fig2.add_annotation(
 fig2.update_layout(
     xaxis_title="Time",  # x-axis label
     yaxis_title="Number of interactions",  # y-axis label
-    showlegend=False,  # Disable the legend
+    showlegend=True,  # Enable the legend
+    title=dict(
+        text="Evolution of interactions",  # Graph title
+        x=0.5,  # Center the title
+        xanchor="center",
+        yanchor="top",
+        font=dict(size=20),  # Font size
+    ),
 )
+
 fig3 = px.violin(
     interactions_preprocessed.recipe_id.value_counts(),
     title="Too popular to be serious",
@@ -95,7 +103,7 @@ fig3.add_annotation(
     bgcolor="rgba(255, 255, 255, 0.7)",  # Semi-transparent white background
     bordercolor="black",
     borderwidth=1,
-    borderpad=4,
+    borderpad=1,
 )
 
 # Add a transparent shape to mark the area above 500 interactions

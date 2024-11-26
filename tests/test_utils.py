@@ -1,29 +1,29 @@
 import pandas as pd
 import pytest
 from src.data_loader import DataLoader
-from src.utils import filter_dataframebis1  # Assurez-vous que le chemin d'importation est correct
+from src.utils import filter_dataframebis1  # Ensure that import is correct
 
 
 @pytest.fixture
 def interactions_data():
-    """Simule le chargement des données en utilisant le DataLoader."""
+    """Simulate data lodaing."""
     data_loader = DataLoader()
     df = data_loader.load_data("dataset/RAW_recipes.csv.zip")
-    assert not df.empty, "Loaded DataFrame should not be empty"  # Vérifie que le DataFrame n'est pas vide
+    assert not df.empty, "Loaded DataFrame should not be empty"  # Check if dataframe isn't empty
     return df
 
 
 def test_filter_dataframebis1_no_matching_results(interactions_data):
     """Test filtering with no matching results."""
     column_names = ["tags"]
-    filter_values = ["non-existent-tag"]  # Une valeur qui n'existe pas
+    filter_values = ["non-existent-tag"]  
     filtered_df = filter_dataframebis1(interactions_data, column_names, filter_values)
-    assert len(filtered_df) == 0  # On s'attend à 0 lignes correspondant
+    assert len(filtered_df) == 0  
 
 
 def test_filter_dataframebis1_invalid_column(interactions_data):
     """Test filtering with an invalid column name."""
-    column_names = ["invalid_column"]  # Une colonne qui n'existe pas
+    column_names = ["invalid_column"]  
     filter_values = ["value"]
     
     with pytest.raises(KeyError):
@@ -37,18 +37,18 @@ def test_filter_dataframebis1_empty_dataframe():
     filter_values = ["bio"]
     
     filtered_df = filter_dataframebis1(df_empty, column_names, filter_values)
-    assert len(filtered_df) == 0  # On s'attend à 0 lignes 
+    assert len(filtered_df) == 0  
 
 
 def test_filter_dataframebis1_with_none(interactions_data):
     """Test filtering with None as a filter value."""
     column_names = ["tags"]
-    filter_values = [None]  # Vérifie que None est correctement traité
+    filter_values = [None]  
     
     filtered_df = filter_dataframebis1(interactions_data, column_names, filter_values)
     
-    # On s'attend à ce qu'il y ait des lignes où la colonne "tags" est None
-    assert all(filtered_df["tags"].isnull())  # Toutes les lignes doivent être None
+    
+    assert all(filtered_df["tags"].isnull())  
 
 
 def test_filter_dataframebis1_numeric_filter():
