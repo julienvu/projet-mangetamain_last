@@ -39,25 +39,25 @@ def display_title():
 @st.fragment
 def display_statistics(df_preprocessed, rate_bio_recipes, outliers_zscore_df):
     """Displays the key statistics using st.metric widgets"""
-    row0_1, row0_2, row0_3, row0_4 = st.columns((3, 2, 2, 4))
+    row0_1, row0_2, row0_3, row0_4 = st.columns(3)
 
     with row0_1:
         st.markdown(
-            "<div style='margin-top: 20px;'>## Bio recipes overview</div>",
+            "<div style='margin-top: 20px;'>Bio recipes overview</div>",
             unsafe_allow_html=True,
         )
     with row0_2:
         st.markdown(
-            "<div style='margin-top: 40px;'>## Large community fan</div>",
+            "<div style='margin-top: 40px;'>Large community fan</div>",
             unsafe_allow_html=True,
         )
     with row0_3:
         st.markdown(
-            "<div style='margin-top: 60px;'>## Ingredient food</div>",
+            "<div style='margin-top: 60px;'>Ingredient food</div>",
             unsafe_allow_html=True,
         )
 
-    row1_1, row1_2, row1_3, row1_4 = st.columns((3, 2, 2, 4))
+    row1_1, row1_2, row1_3, row1_4 = st.columns(3)
 
     with row1_1:
         st.metric(
@@ -91,8 +91,8 @@ def display_statistics(df_preprocessed, rate_bio_recipes, outliers_zscore_df):
 def display_general_aspects():
     """Displays general analysis charts"""
     st.write("The website and the database was extremely visited before 2011:")
-    st.plotly_chart(fig2)
     st.write("Instagram had an impact of the number of visitors after 2011")
+    st.plotly_chart(fig2)
 
 
 @st.fragment
