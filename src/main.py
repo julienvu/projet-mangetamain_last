@@ -134,17 +134,28 @@ def display_ideal_recipes_ratio_health():
     st.write("Tennessee Moonshine")
 
 
+@st.fragment
+def clear_cache_button():
+    """Empty cache"""
+    if st.button("Empty cache manually"):
+        st.cache_data.clear()
+
+
 def main():
     display_title()
     display_statistics(df_preprocessed, rate_bio_recipes, outliers_zscore_df)
     # Sidebar setup
     st.sidebar.title("“This is the sidebar”")
+    if st.sidebar.checkbox("Clear cache", True):
+        clear_cache_button()
     if st.sidebar.checkbox("Show general aspects", True):
         st.subheader("Some general purpose analysis")
         display_general_aspects()
     # displaying nutritional components recipe bio
     if st.sidebar.checkbox("Show analysis of nutritional components", True):
         display_nutritional_analysis()
+        # displaying nutritional ratio recipes
+        display_nutritional_analysis_ratio()
     if st.sidebar.checkbox(
         "Show food diets against diabete and for muscle strengthening", True
     ):
