@@ -146,8 +146,6 @@ def main():
     display_statistics(df_preprocessed, rate_bio_recipes, outliers_zscore_df)
     # Sidebar setup
     st.sidebar.title("“This is the sidebar”")
-    if st.sidebar.checkbox("Clear cache", True):
-        clear_cache_button()
     if st.sidebar.checkbox("Show general aspects", True):
         st.subheader("Some general purpose analysis")
         display_general_aspects()
