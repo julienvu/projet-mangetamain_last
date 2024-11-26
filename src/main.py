@@ -136,10 +136,9 @@ def display_ideal_recipes_ratio_health():
 
 @st.fragment
 def clear_cache_button():
-    """Displaysthe ideal recipes for the health contributors ."""
-    if st.button('Vider le cache'):
+    """Empty cache"""
+    if st.button('Empty cache manually'):
         st.cache_data.clear()
-        st.write("Le cache a été vidé.")
 
 
 def main():
@@ -155,6 +154,8 @@ def main():
     # displaying nutritional components recipe bio
     if st.sidebar.checkbox("Show analysis of nutritional components", True):
         display_nutritional_analysis()
+        # displaying nutritional ratio recipes
+        display_nutritional_analysis_ratio()
     if st.sidebar.checkbox(
         "Show food diets against diabete and for muscle strengthening", True
     ):
