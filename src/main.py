@@ -161,7 +161,7 @@ def main():
         display_nutritional_analysis_ratio()
         # displaying ideal recipes for reducing diabete and muscle strenghtening
         display_ideal_recipes_ratio_health()
-
+   
 
 if __name__ == "__main__":
     main()
