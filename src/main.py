@@ -106,18 +106,20 @@ def display_nutritional_analysis():
     selected_category = st.selectbox(
         "Select a nutritional component", categories, key="unique_key_for_selectbox_1"
     )
-    st.plotly_chart(nutrition_hist[selected_category])
+    st.plotly_chart(nutrition_hist[selected_category], key="unique_key_for_selectbox_8")
 
 
 @st.fragment
-def display_nutritional_analysis_ratio():
+def display_nutritional_analysis_ratio(context_key: str = "default"):
     """Displays a dropdown and chart for nutritional components analysis ratio."""
     # Categories that exist in the dictionary
     categories = ["Protein (g)", "Sodium (mg)", "Carbohydrates (g)"]
 
-    # Dropdown to select a category
+    # Dropdown to select a category with a context-specific unique key
     selected_category = st.selectbox(
-        "Select a nutritional component", categories, key="unique_key_for_selectbox_2"
+        "Select a nutritional component",
+        categories,
+        key=f"selectbox_{context_key}",  # Dynamically generate a unique key
     )
     st.plotly_chart(nutrition_hist_ratio[selected_category])
 
@@ -128,7 +130,7 @@ def display_ideal_recipes_ratio_health():
     # Categories that exist in the dictionary
     st.write("Ideal recipes for muscle strengthening:")
     st.write("Powdered hot cocoa mix ")
-    st.write("Jambon persillé")
+    st.write("Jambon persille")
     st.write("Ideal recipes against diabete and high blood pressure:")
     st.write("Powdered hot cocoa mix")
     st.write("Tennessee Moonshine")
@@ -146,20 +148,31 @@ def main():
     display_statistics(df_preprocessed, rate_bio_recipes, outliers_zscore_df)
     # Sidebar setup
     st.sidebar.title("“This is the sidebar”")
-    if st.sidebar.checkbox("Show general aspects", True):
+    if st.sidebar.checkbox("Clear cache", True, key="clear_cache"):
+        st.subheader("Some general purpose analysis")
+        clear_cache_button()
+    if st.sidebar.checkbox(
+        "Show general aspects", True, key="general_aspects_checkbox"
+    ):
         st.subheader("Some general purpose analysis")
         display_general_aspects()
     # displaying nutritional components recipe bio
-    if st.sidebar.checkbox("Show analysis of nutritional components", True):
+    if st.sidebar.checkbox(
+        "Show analysis of nutritional components",
+        True,
+        key="nutritional_analysis_checkbox",
+    ):
+        st.subheader("Ranking of recipes regarding their components")
         display_nutritional_analysis()
         # displaying nutritional ratio recipes
-        display_nutritional_analysis_ratio()
+        display_nutritional_analysis_ratio(context_key="nutritional_components")
     if st.sidebar.checkbox(
-        "Show food diets against diabete and for muscle strengthening", True
+        "Show food diets against diabete and for muscle strengthening",
+        True,
+        key="health_diet",
     ):
-        # displaying nutritional ratio recipes
-        display_nutritional_analysis_ratio()
         # displaying ideal recipes for reducing diabete and muscle strenghtening
+        st.subheader("The ideal recipes")
         display_ideal_recipes_ratio_health()
 
 
