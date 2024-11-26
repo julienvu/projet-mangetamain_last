@@ -134,11 +134,21 @@ def display_ideal_recipes_ratio_health():
     st.write("Tennessee Moonshine")
 
 
+@st.fragment
+def clear_cache_button():
+    """Displaysthe ideal recipes for the health contributors ."""
+    if st.button('Vider le cache'):
+        st.cache_data.clear()
+        st.write("Le cache a été vidé.")
+
+
 def main():
     display_title()
     display_statistics(df_preprocessed, rate_bio_recipes, outliers_zscore_df)
     # Sidebar setup
     st.sidebar.title("“This is the sidebar”")
+    if st.sidebar.checkbox("Clear cache", True):
+        clear_cache_button()
     if st.sidebar.checkbox("Show general aspects", True):
         st.subheader("Some general purpose analysis")
         display_general_aspects()
@@ -152,7 +162,7 @@ def main():
         display_nutritional_analysis_ratio()
         # displaying ideal recipes for reducing diabete and muscle strenghtening
         display_ideal_recipes_ratio_health()
-
+    
 
 if __name__ == "__main__":
     main()
