@@ -128,7 +128,7 @@ def display_ideal_recipes_ratio_health():
     # Categories that exist in the dictionary
     st.write("Ideal recipes for muscle strengthening:")
     st.write("Powdered hot cocoa mix ")
-    st.write("Jambon persillé")
+    st.write("Jambon persille")
     st.write("Ideal recipes against diabete and high blood pressure:")
     st.write("Powdered hot cocoa mix")
     st.write("Tennessee Moonshine")
@@ -146,20 +146,33 @@ def main():
     display_statistics(df_preprocessed, rate_bio_recipes, outliers_zscore_df)
     # Sidebar setup
     st.sidebar.title("“This is the sidebar”")
-    if st.sidebar.checkbox("Show general aspects", True):
+    if st.sidebar.checkbox("Clear cache", True, key="clear_cache"):
+        st.subheader("Some general purpose analysis")
+        display_general_aspects()
+    if st.sidebar.checkbox(
+        "Show general aspects", True, key="general_aspects_checkbox"
+    ):
         st.subheader("Some general purpose analysis")
         display_general_aspects()
     # displaying nutritional components recipe bio
-    if st.sidebar.checkbox("Show analysis of nutritional components", True):
+    if st.sidebar.checkbox(
+        "Show analysis of nutritional components",
+        True,
+        key="nutritional_analysis_checkbox",
+    ):
+        st.subheader("Ranking of recipes regarding their components")
         display_nutritional_analysis()
         # displaying nutritional ratio recipes
         display_nutritional_analysis_ratio()
     if st.sidebar.checkbox(
-        "Show food diets against diabete and for muscle strengthening", True
+        "Show food diets against diabete and for muscle strengthening",
+        True,
+        key="health_diet_checkbox",
     ):
         # displaying nutritional ratio recipes
         display_nutritional_analysis_ratio()
         # displaying ideal recipes for reducing diabete and muscle strenghtening
+        st.subheader("The ideal recipes")
         display_ideal_recipes_ratio_health()
 
 
