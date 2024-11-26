@@ -137,7 +137,7 @@ def display_ideal_recipes_ratio_health():
 @st.fragment
 def clear_cache_button():
     """Empty cache"""
-    if st.button('Empty cache manually'):
+    if st.button("Empty cache manually"):
         st.cache_data.clear()
 
 
@@ -163,7 +163,7 @@ def main():
         display_nutritional_analysis_ratio()
         # displaying ideal recipes for reducing diabete and muscle strenghtening
         display_ideal_recipes_ratio_health()
-    
+
 
 if __name__ == "__main__":
     main()
