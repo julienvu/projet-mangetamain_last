@@ -9,7 +9,11 @@ from utils import (
     outliers_zscore_df,
 )
 from visualisation.graphs import fig2
-from visualisation.graphs_nutrition import categories, nutrition_hist
+from visualisation.graphs_nutrition import (
+    categories,
+    nutrition_hist,
+    nutrition_hist_ratio,
+)
 
 # Initialize logging and set page configuration
 setup_logging()
@@ -90,8 +94,8 @@ def display_statistics(df_preprocessed, rate_bio_recipes, outliers_zscore_df):
 @st.fragment
 def display_general_aspects():
     """Displays general analysis charts"""
-    st.write("The website and the database was extremely visited before 2011:")
-    st.write("Instagram had an impact of the number of visitors after 2011")
+    st.write("The website and the database was extremely visited before 2011.")
+    st.write("Instagram had an impact of the number of visitors after 2011.")
     st.plotly_chart(fig2)
 
 
@@ -99,8 +103,35 @@ def display_general_aspects():
 def display_nutritional_analysis():
     """Displays a dropdown and chart for nutritional components analysis"""
     st.title("Top 4 Recipes per nutritional component")
-    selected_category = st.selectbox("Select a nutritional component", categories)
+    selected_category = st.selectbox(
+        "Select a nutritional component", categories, key="unique_key_for_selectbox_1"
+    )
     st.plotly_chart(nutrition_hist[selected_category])
+
+
+@st.fragment
+def display_nutritional_analysis_ratio():
+    """Displays a dropdown and chart for nutritional components analysis ratio."""
+    # Categories that exist in the dictionary
+    categories = ["Protein (g)", "Sodium (mg)", "Carbohydrates (g)"]
+
+    # Dropdown to select a category
+    selected_category = st.selectbox(
+        "Select a nutritional component", categories, key="unique_key_for_selectbox_2"
+    )
+    st.plotly_chart(nutrition_hist_ratio[selected_category])
+
+
+@st.fragment
+def display_ideal_recipes_ratio_health():
+    """Displaysthe ideal recipes for the health contributors ."""
+    # Categories that exist in the dictionary
+    st.write("Ideal recipes for muscle strengthening:")
+    st.write("Powdered hot cocoa mix ")
+    st.write("Jambon persillé")
+    st.write("Ideal recipes against diabete and high blood pressure:")
+    st.write("Powdered hot cocoa mix")
+    st.write("Tennessee Moonshine")
 
 
 def main():
@@ -114,6 +145,13 @@ def main():
     # displaying nutritional components recipe bio
     if st.sidebar.checkbox("Show analysis of nutritional components", True):
         display_nutritional_analysis()
+    if st.sidebar.checkbox(
+        "Show food diets against diabete and for muscle strengthening", True
+    ):
+        # displaying nutritional ratio recipes
+        display_nutritional_analysis_ratio()
+        # displaying ideal recipes for reducing diabete and muscle strenghtening
+        display_ideal_recipes_ratio_health()
 
 
 if __name__ == "__main__":

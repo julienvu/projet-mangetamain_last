@@ -1,7 +1,7 @@
 import pytest
 import pandas as pd
 import plotly.graph_objects as go
-from src.visualisation.graphs_nutrition import plot_top_4_recipes_by_nutrition  
+from src.visualisation.graphs_nutrition import plot_top_4_recipes_by_nutrition, nutrition_bar_ratio_sodium_proteins  
 
 
 @pytest.fixture
@@ -50,3 +50,26 @@ def test_plot_top_4_recipes_by_nutrition(sample_combined_df):
 
     # Optionally, check if the layout title for one of the figures is correct
     assert fig["Calories"].layout.title.text == "Top 4 Recipes by Calories"
+
+
+def test_nutrition_bar_ratio_sodium_proteins(sample_combined_df):
+    """Test the nutrition_bar_ratio_sodium_proteins function."""
+
+    categories = ["Protein (g)", "Sodium (mg)", "Carbohydrates (g)"]
+
+    # Call the function
+    fig = nutrition_bar_ratio_sodium_proteins(sample_combined_df, categories)
+
+    # Check if the figure is an instance of dict
+    assert isinstance(fig, dict)
+
+    # Check if the figure contains the expected number of categories
+    assert len(fig) == len(categories)
+
+    # Check if the figure for each category is an instance of go.Figure
+    for category in categories:
+        assert category in fig  # Ensure category exists in the output
+        assert isinstance(fig[category], go.Figure)
+
+    # Check the title of one figure to confirm correctness
+    assert fig["Protein (g)"].layout.title.text == "Ratios for Top 4 Recipes by Protein (g)"
