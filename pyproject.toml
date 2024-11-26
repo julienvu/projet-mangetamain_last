@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "projet_mangetamain_last"
+name = "projet-mangetamain_last"
 version = "0.1.0"
 description = ""
 authors = ["Julien VU <julienvu50@gmail.com>"]
