@@ -39,7 +39,7 @@ def display_title():
 @st.fragment
 def display_statistics(df_preprocessed, rate_bio_recipes, outliers_zscore_df):
     """Displays the key statistics using st.metric widgets"""
-    row0_1, row0_2, row0_3, row0_4 = st.columns(3)
+    row0_1, row0_2, row0_3 = st.columns(3)
 
     with row0_1:
         st.markdown(
@@ -57,7 +57,7 @@ def display_statistics(df_preprocessed, rate_bio_recipes, outliers_zscore_df):
             unsafe_allow_html=True,
         )
 
-    row1_1, row1_2, row1_3, row1_4 = st.columns(3)
+    row1_1, row1_2, row1_3 = st.columns(3)
 
     with row1_1:
         st.metric(
