@@ -34,7 +34,7 @@ pillow==10.4.0
 platformdirs==4.3.6
 plotly==5.24.1
 pluggy==1.5.0
--e git+https://github.com/julienvu/projet-mangetamain_last.git@05f38089049560f33ce7a5d6ccea0634809d311a#egg=projet_mangetamain_last
+git+https://github.com/julienvu/projet-mangetamain_last.git@5c126ed8a2aeeba5075cf5df0c448650ab8108a3#egg=projet-mangetamain_last
 protobuf==5.28.2
 pyarrow==17.0.0
 pycodestyle==2.12.1

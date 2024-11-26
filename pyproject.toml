@@ -1,8 +1,8 @@
 [tool.poetry]
-name = "projet-mangetamain"
+name = "projet_mangetamain_last"
 version = "0.1.0"
 description = ""
-authors = ["Mathieu Delarue <mat.delarue@hotmail.fr>"]
+authors = ["Julien VU <julienvu50@gmail.com>"]
 readme = "README.md"
 packages = [
     { include = "src" }
