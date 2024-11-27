@@ -8,25 +8,25 @@ from src.visualisation import graphs
 
 @pytest.fixture
 def interactions_data():
-    # Simule le chargement des données en utilisant le DataLoader
+    # Simulate data loading by dataloader
     data_loader = DataLoader()
     interactions = data_loader.load_data("dataset/RAW_interactions.csv.xz")
     return interactions
 
 @pytest.fixture
 def interactions_preprocessed_data():
-    # Simule le chargement des données en utilisant le DataLoader
+    # Simulate data loading by dataloader 
     data_loader = DataLoader()
     interactions_preprocessed = data_loader.load_data(
     "preprocessed_data/PP_interactions_mangetamain.csv")
     return interactions_preprocessed
 
 def test_interactions_loading(interactions_data):
-    # Vérifie que les données sont bien chargées sous forme de DataFrame
+    # Check if data is dataframe
     assert isinstance(
         interactions_data, pd.DataFrame
     ), "Les données ne sont pas un DataFrame."
-    # Vérifie que certaines colonnes critiques existent
+    # Check if the columns of the dataset exist
     assert "rating" in interactions_data.columns, "La colonne 'rating' est manquante."
     assert "date" in interactions_data.columns, "La colonne 'date' est manquante."
     assert (
@@ -34,21 +34,21 @@ def test_interactions_loading(interactions_data):
     ), "La colonne 'recipe_id' est manquante."
 
 def test_interactions_loading(interactions_preprocessed_data):
-    # Vérifie que les données sont bien chargées sous forme de DataFrame
+    # Check if date is the processed data
     assert "date" in interactions_preprocessed_data.columns, "La colonne 'date' est manquante."
     assert (
         "recipe_id" in interactions_preprocessed_data.columns
     ), "La colonne 'recipe_id' est manquante."
 
 def test_ratio_of_ratings(interactions_data):
-    # Calcule le ratio des ratings
+    # Calculate ratio ratings
     ratio_of_ratings = pd.DataFrame(interactions_data.rating.value_counts())
     ratio_of_ratings.columns = ["count"]
     ratio_of_ratings["ratio"] = (
         ratio_of_ratings["count"] / ratio_of_ratings["count"].sum()
     )
 
-    # Vérifie que le DataFrame contient bien les colonnes 'count' et 'ratio'
+    # Check dataset has count and ratio columns
     assert "count" in ratio_of_ratings.columns, "La colonne 'count' est manquante."
     assert "ratio" in ratio_of_ratings.columns, "La colonne 'ratio' est manquante."
     assert (
@@ -56,14 +56,14 @@ def test_ratio_of_ratings(interactions_data):
     ), "La somme des 'count' ne correspond pas au nombre total d'interactions."
 
 def test_pie_chart_creation(interactions_data):
-    # Crée un DataFrame avec les ratios
+    # Create dataframe
     ratio_of_ratings = pd.DataFrame(interactions_data.rating.value_counts())
     ratio_of_ratings.columns = ["count"]
     ratio_of_ratings["ratio"] = (
         ratio_of_ratings["count"] / ratio_of_ratings["count"].sum()
     )
 
-    # Crée le pie chart
+    # Create pie chart
     fig1 = px.pie(
         ratio_of_ratings,
         names=ratio_of_ratings.index,
@@ -73,44 +73,44 @@ def test_pie_chart_creation(interactions_data):
         color_discrete_sequence=px.colors.sequential.Blues[::-1],
     )
 
-    # Vérifie que le graphique est bien un objet de type Figure
+    # Check if the graph is figure object
     assert isinstance(
         fig1, go.Figure
     ), "Le graphique n'est pas un objet de type Figure."
 
 def test_histogram_creation(interactions_preprocessed_data):
-    # Crée un histogramme
-    fig2 = px.histogram(interactions_preprocessed_data.date, title="Dynamics in time")
+    # Create an histogram
+    fig2 = px.histogram(interactions_preprocessed_data.date, title="Evolution of interactions")
 
-    # Vérifie que le graphique est bien un objet de type Figure
+    # Check if the graph is a figure instance
     assert isinstance(
         fig2, go.Figure
     ), "Le graphique n'est pas un objet de type Figure."
 
-    # Vérifie que le titre est correct
+    # Check if the title is correct
     assert (
-        fig2.layout.title.text == "Dynamics in time"
+        fig2.layout.title.text == "Evolution of interactions"
     ), "Le titre de l'histogramme n'est pas correct."
 
 def test_scatter_plot_creation(interactions_preprocessed_data):
-    # Crée un scatter plot
+    # Create scatter plot
     fig3 = px.violin(
         interactions_preprocessed_data.recipe_id.value_counts(), title="Too popular to be serious"
     )
 
-    # Vérifie que le graphique est bien un objet de type Figure
+    # Check if the graph is figure object
     assert isinstance(
         fig3, go.Figure
     ), "Le graphique n'est pas un objet de type Figure."
 
-    # Vérifie que le titre est correct
+    # Check if the title is correct
     assert (
         fig3.layout.title.text == "Too popular to be serious"
     ), "Le titre du scatter plot n'est pas correct."
 
 def test_annotations_in_figures(interactions_preprocessed_data):
-    # Crée un histogramme
-    fig2 = px.histogram(interactions_preprocessed_data.date, title="Dynamics in time")
+    # Create an histogram
+    fig2 = px.histogram(interactions_preprocessed_data.date, title="Evolution of interactions")
     fig2.add_annotation(
         text="Instagram",
         x="2012-01-31",
@@ -123,7 +123,7 @@ def test_annotations_in_figures(interactions_preprocessed_data):
         borderpad=4,
     )
 
-    # Vérifie que l'annotation a bien été ajoutée
+    # Check if annotation
     assert (
         len(fig2.layout.annotations) == 1
     ), "L'annotation n'a pas été ajoutée correctement."
