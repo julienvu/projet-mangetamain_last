@@ -109,39 +109,38 @@ def display_explications_webapp() -> None:
 
     st.write(
         "**The first part of the project focuses on bio recipes.** "
-        "**Here, I worked on generating KPIs** "
-        "**to uncover meaningful patterns and observations.** "
+        "**Here, I worked on generating KPI's** "
+        "**to share meaningful patterns and observations.** "
         "**We analyzed the number of ingredients** "
         "**in bio recipes,calculated the percentage of recipes within the original** "
-        "'**Raw_recipes**' "
+        "**Raw recipes** "
         "**dataset, and examined the total number of bio recipes available.** "
         "**These metrics provide a clear** "
-        "**picture of the scope and richness of bio-based cooking.**"
-        "**I showed other indicators about users (techniques, number of users)**"
-        "**and ingredients.**"
+        "**picture of the scope and richness of bio-based cooking.** "
+        "**I showed other indicators about users (techniques, number of users)** "
+        "**and ingredients.** "
     )
 
     st.write(
         "**The second theme revolves around studying the nutritional** "
         "**components of bio recipes.** "
         "**By ranking the top 4 recipes for each nutritional component,** "
-        "**we can identify which dishes** "
-        "**align best with specific dietary needs.** "
-        "**This ranking offers practical guidance for those seeking**"
+        "**we can identify which dishes align best with specific dietary needs.** "
+        "**This ranking provides practical guidance for those seeking** "
         "**recipes that support muscle development, manage blood sugar,** "
-        "**or promote overall health.**"
+        "**or promote overall health.** "
     )
 
     st.write(
         "**In addition to the rankings, I created various visualizations,** "
         "**such as charts illustrating** "
         "**the ratio of proteins to sodium and proteins to carbohydrates.** "
-        "**These insights are critical for** "
+        "**These insights are crucial for** "
         "**users who want to optimize their diet to strive against diabetes,** "
-        "**high blood pressure,** "
+        "**high blood pressure** "
         "**or strengthen muscles.** "
         "**By visualizing these ratios,** "
-        "**we make it easier for users to select the right recipes for their goals.**"
+        "**we make it easier for users to adopt the right recipes for their goals.** "
     )
 
     st.write(
@@ -149,14 +148,14 @@ def display_explications_webapp() -> None:
         "**I included a table showcasing the ideal recipes tailored** "
         "**for users with specific dietary goals,** "
         "**whether it's muscle development or reducing the risk of diabetes.** "
-        "**This table consolidates all the insights in an easily accessible format,** "
-        "**empowering users to make informed choices.**"
+        "**This table combines all the insights in an available format.** "
+        "**It's empowers users to make informed choices.**"
     )
 
     st.write(
         "**The results from these analyses have been enlightening.** "
         "**The nutritional content of some recipes was higher** "
-        "**than expected, offering insights in their potential health benefits.** "
+        "**than expected, giving insights in their potential health benefits.** "
         "**This exploration has also provided** "
         "**me with a deeper understanding of how bio recipes can** "
         "**contribute to healthier eating habits.**"
@@ -437,7 +436,7 @@ def display_nutritional_analysis() -> None:
         with st.form("dv_conversion_form"):
             # Select component for conversion
             component = st.selectbox(
-                "Select a nutritional component:",
+                "Nutritional component:",
                 [
                     "Total fat",
                     "Sugar",
@@ -450,7 +449,7 @@ def display_nutritional_analysis() -> None:
 
             # Input for %CDV
             dv = st.number_input(
-                f"Enter %Daily Value for {component}:",
+                f"% Daily Value for {component}:",
                 min_value=0.0,
                 max_value=100.0,
                 step=1.0,
