@@ -273,7 +273,7 @@ def display_statistics(
         </div>
         """.format(
             f"{df_ingredients.shape[0]:,}".replace(",", " ")
-        ),
+        ),po
         unsafe_allow_html=True,
     )
 
