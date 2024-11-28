@@ -16,7 +16,10 @@ class TestDataLoader(unittest.TestCase):
     @patch("src.data_loader.zipfile.ZipFile")
     def test_unzip_data_zipfile(self, mock_zipfile, mock_listdir, mock_makedirs, mock_exists):
         """
-        Test that ZIP files are unzipped correctly and extracted files are returned.
+            Test the extraction of ZIP files.
+
+            This test checks that ZIP files are extracted correctly using the zipfile module
+            and verifies the creation of the appropriate directory and extracted file paths.
         """
         mock_exists.return_value = False
         mock_listdir.return_value = ["file1.csv", "file2.csv"]
@@ -37,7 +40,10 @@ class TestDataLoader(unittest.TestCase):
     @patch("src.data_loader.DataLoader.decompress_xz")
     def test_unzip_data_xzfile(self, mock_decompress_xz, mock_listdir, mock_makedirs, mock_exists):
         """
-        Test that XZ files are decompressed correctly and the decompressed file is returned.
+            Test the decompression of XZ files.
+
+            Ensures that the decompress_xz method is called correctly and that the output file
+            paths match the expected results.
         """
         mock_exists.return_value = False
         mock_listdir.return_value = ["file1.csv"]
@@ -54,7 +60,9 @@ class TestDataLoader(unittest.TestCase):
     @patch("src.data_loader.DataLoader.unzip_data")
     def test_load_data_from_zip(self, mock_unzip_data, mock_read_csv):
         """
-        Test that CSV files inside ZIP archives are loaded correctly.
+            Test loading data from a ZIP archive containing CSV files.
+
+            Verifies that the data is correctly unzipped and loaded into a pandas DataFrame.
         """
         mock_unzip_data.return_value = ["file1.csv"]
         mock_df = pd.DataFrame({"col1": [1, 2], "col2": [3, 4]})
@@ -70,7 +78,10 @@ class TestDataLoader(unittest.TestCase):
     @patch("pandas.read_csv")
     def test_load_data_from_csv(self, mock_read_csv):
         """
-        Test that CSV files are loaded directly without unzipping.
+            Test loading data directly from a CSV file.
+
+            Ensures that pandas' read_csv function is called and that the DataFrame
+            matches the expected structure and content.
         """
         mock_df = pd.DataFrame({"col1": [1, 2], "col2": [3, 4]})
         mock_read_csv.return_value = mock_df
@@ -84,7 +95,10 @@ class TestDataLoader(unittest.TestCase):
     @patch("pandas.read_pickle")
     def test_load_data_from_pickle(self, mock_read_pickle):
         """
-        Test that Pickle files are loaded correctly.
+            Test loading data from a Pickle file.
+
+            Ensures that pandas' read_pickle function correctly loads the data into
+            a DataFrame with the expected content.
         """
         mock_df = pd.DataFrame({"col1": [1, 2], "col2": [3, 4]})
         mock_read_pickle.return_value = mock_df
@@ -99,7 +113,9 @@ class TestDataLoader(unittest.TestCase):
     @patch("src.data_loader.DataLoader.unzip_data")
     def test_load_data_from_xz(self, mock_unzip_data, mock_read_csv):
         """
-        Test that CSV files inside XZ archives are loaded correctly.
+         Test loading data from an XZ archive containing CSV files.
+
+          Verifies that the data is unzipped and loaded into a pandas DataFrame as expected.
         """
         mock_unzip_data.return_value = ["test_extracted/file1.csv"]
         mock_df = pd.DataFrame({"col1": [1, 2], "col2": [3, 4]})
@@ -114,7 +130,9 @@ class TestDataLoader(unittest.TestCase):
 
     def test_load_data_unsupported_file_type(self):
         """
-        Test that an unsupported file type raises the correct exception.
+            Test handling of unsupported file types in load_data.
+
+            Ensures that a ValueError is raised when attempting to load an unsupported file type.
         """
         file_name = "test.txt"
         with self.assertRaises(ValueError) as context:
@@ -125,7 +143,9 @@ class TestDataLoader(unittest.TestCase):
     @patch("os.makedirs")
     def test_unzip_data_unsupported_file_type(self, mock_makedirs, mock_exists):
         """
-        Test that an unsupported file type raises a ValueError in unzip_data.
+        Test handling of unsupported file types in unzip_data.
+
+        Ensures that a ValueError is raised when attempting to unzip an unsupported file type.
         """
         mock_exists.return_value = False
         file_name = "test.unsupported"

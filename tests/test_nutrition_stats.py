@@ -6,6 +6,9 @@ from src.nutrition_stats import stats_bio
 def sample_bio_df():
     """
     Fixture that provides a small sample DataFrame with bio recipes.
+
+    Returns:
+        pd.DataFrame: A DataFrame with bio recipes for testing purposes.
     """
     data = {
         'name': ['Recipe1', 'Recipe2', 'Recipe3'],
@@ -17,10 +20,18 @@ def sample_bio_df():
         ]
     }
     return pd.DataFrame(data)
-def test_stats_bio(sample_bio_df: pd.DataFrame, capsys):
+def test_stats_bio(sample_bio_df: pd.DataFrame):
     """
-    Test the stats_bio function to ensure it correctly processes
-    the filtered bio DataFrame and prints the expected outputs.
+    Test the stats_bio function to ensure it correctly processes the filtered bio DataFrame and prints the expected outputs.
+
+    This test will capture the printed output and verify that the correct statistics are displayed for bio recipes.
+
+    Args:
+        sample_bio_df (pd.DataFrame): The small DataFrame containing bio recipes to be processed by stats_bio.
+        capsys (pytest.CaptureFixture): Pytest's capture fixture to capture printed output.
+
+    Returns:
+        None
     """
     # Call the function to test
     stats_bio(sample_bio_df)
