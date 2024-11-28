@@ -640,10 +640,13 @@ def main():
         """,
         unsafe_allow_html=True,
     )
+    clear_cache_button()
     # Expander for general observations
     with st.sidebar.expander("📊 General observations"):
         show_general_obs = st.checkbox(
-            "Bio recipes KPI", True, key="general_observations_checkbox34"
+            "Key numbers for recipes, ingredients and community",
+            True,
+            key="general_observations_checkbox34",
         )
         show_general_obs = st.checkbox(
             "Evolution of interactions", True, key="general_observations_checkbox4453"
@@ -669,10 +672,18 @@ def main():
         )
     # Expander for cache clearing
     with st.sidebar.expander("🛠️ Advanced options", expanded=False):
-        if st.checkbox("ო Clear cache", True, key="clear_cache"):
-            clear_cache_button()
+        show_clear_cache_button = st.checkbox("Clear Cache")
         if st.checkbox("🔄 Refresh Page"):
-            st.query_params(reload="true")
+            st.markdown(
+                """
+                <script>
+                window.location.reload();
+                </script>
+                """,
+                unsafe_allow_html=True,
+            )
+    if show_clear_cache_button:
+        clear_cache_button()
     # Main content
     if show_general_obs:
         st.subheader("Bio recipes KPI")
