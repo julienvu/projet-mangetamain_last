@@ -255,8 +255,8 @@ def display_statistics(
             </div>
         </div>
         """.format(
-            f"{df_PP_users.shape[0]:,}".replace(",", " "), 
-            f"{num_different_techniques:,}".replace(",", " ")
+            f"{df_PP_users.shape[0]:,}".replace(",", " "),
+            f"{num_different_techniques:,}".replace(",", " "),
         ),
         unsafe_allow_html=True,
     )
