@@ -589,16 +589,26 @@ def clear_cache_button() -> None:
     or freeing up memory during app development and testing.
 
     Behavior:
-        - Renders a button labeled "Empty cache and memory manually."
-        - Clears the `st.cache_data` and `st.cache_resource` upon button click.
+        - Clears the `st.cache_data` and `st.cache_resource`
 
     Example:
         ```python
         clear_cache_button()
     """
-    if st.button("Empty cache and memory manually"):
+    if st.button("Empty cache and refresh"):
+        # Vider le cache de Streamlit
         st.cache_data.clear()
         st.cache_resource.clear()
+
+        # Rafraîchir la page sans cache en ajoutant un paramètre unique
+        st.markdown(
+            """
+            <script>
+            window.location.href = window.location.href.split('?')[0] + '?nocache=';
+            </script>
+            """,
+            unsafe_allow_html=True,
+        )
 
 
 def main():
@@ -672,8 +682,7 @@ def main():
         )
     # Expander for cache clearing
     with st.sidebar.expander("🛠️ Advanced options", expanded=False):
-        show_clear_cache_button = st.checkbox("Clear Cache")
-        if st.checkbox("🔄 Refresh Page"):
+        if st.checkbox("🔄 Refresh Page", key="refresh_page_button"):
             st.markdown(
                 """
                 <script>
@@ -682,8 +691,6 @@ def main():
                 """,
                 unsafe_allow_html=True,
             )
-    if show_clear_cache_button:
-        clear_cache_button()
     # Main content
     if show_general_obs:
         st.subheader("Bio recipes KPI")
