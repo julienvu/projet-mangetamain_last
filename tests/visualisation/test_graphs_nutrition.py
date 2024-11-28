@@ -20,9 +20,36 @@ def sample_combined_df():
     return pd.DataFrame(data)
 
 
-def test_plot_top_4_recipes_by_nutrition(sample_combined_df):
-    """Test the plot_top_5_recipes_by_nutrition function."""
+def test_plot_top_4_recipes_by_nutrition(sample_combined_df: pd.DataFrame):
+    """
+    Test the `plot_top_4_recipes_by_nutrition` function from the `graphs_nutrition` module.
+    
+    Purpose:
+    This function verifies that the `plot_top_4_recipes_by_nutrition` correctly generates
+    individual `plotly.graph_objects.Figure` objects for each nutritional category.
 
+    Parameters:
+    - sample_combined_df (pd.DataFrame): A fixture that provides a sample DataFrame containing
+      recipe nutritional data (e.g., Calories, Fat, Sugar).
+
+    Steps:
+    1. Calls the `plot_top_4_recipes_by_nutrition` function with the test DataFrame.
+    2. Checks if the returned value is a dictionary where the keys are nutritional categories.
+    3. Asserts that the dictionary contains exactly 7 figures, corresponding to the 7 nutrition categories.
+    4. Ensures each figure is a valid `go.Figure` instance from the Plotly library.
+    5. Verifies that the title of the figure for the "Calories" category is set correctly.
+
+    Expected Results:
+    - The function should return a dictionary with 7 keys, one for each nutritional category.
+    - Each value in the dictionary should be a valid `go.Figure` object.
+    - The title for the "Calories" figure should be "Top 4 Recipes by Calories".
+
+    Assertions:
+    - `isinstance(fig, dict)` ensures the output is a dictionary.
+    - `len(fig) == expected_traces` checks that 7 figures are present.
+    - `isinstance(fig[category], go.Figure)` verifies each category is a valid Plotly figure.
+    - `fig["Calories"].layout.title.text` ensures the title is correct for one sample figure.
+    """
     categories = [
     "Calories",
     "Total Fat (g)",
@@ -52,9 +79,35 @@ def test_plot_top_4_recipes_by_nutrition(sample_combined_df):
     assert fig["Calories"].layout.title.text == "Top 4 Recipes by Calories"
 
 
-def test_nutrition_bar_ratio_sodium_proteins(sample_combined_df):
-    """Test the nutrition_bar_ratio_sodium_proteins function."""
+def test_nutrition_bar_ratio_sodium_proteins(sample_combined_df: pd.DataFrame):
+    """
+    Test the `nutrition_bar_ratio_sodium_proteins` function from the `graphs_nutrition` module.
 
+    Purpose:
+    This function verifies that `nutrition_bar_ratio_sodium_proteins` generates bar chart figures
+    comparing ratios of nutritional components (Protein, Sodium, and Carbohydrates) for the top 4 recipes.
+
+    Parameters:
+    - sample_combined_df (pd.DataFrame): A sample DataFrame containing recipe nutritional data.
+
+    Steps:
+    1. Calls the `nutrition_bar_ratio_sodium_proteins` function with the test DataFrame and nutrition categories.
+    2. Ensures the function returns a dictionary where keys are nutritional categories.
+    3. Checks that the length of the dictionary matches the number of specified categories (3 in this case).
+    4. Confirms that each value in the dictionary is a `plotly.graph_objects.Figure`.
+    5. Verifies that the title of the "Protein (g)" figure is correct.
+
+    Expected Results:
+    - The function should return a dictionary with 3 keys: "Protein (g)", "Sodium (mg)", and "Carbohydrates (g)".
+    - Each figure should be a valid `go.Figure` instance.
+    - The title for the "Protein (g)" figure should be "Ratios for Top 4 Recipes by Protein (g)".
+
+    Assertions:
+    - `isinstance(fig, dict)` checks that the output is a dictionary.
+    - `len(fig) == len(categories)` ensures the dictionary has entries for all provided categories.
+    - `isinstance(fig[category], go.Figure)` confirms each category maps to a valid Plotly figure.
+    - `fig["Protein (g)"].layout.title.text` validates the title for the "Protein (g)" figure.
+    """
     categories = ["Protein (g)", "Sodium (mg)", "Carbohydrates (g)"]
 
     # Call the function

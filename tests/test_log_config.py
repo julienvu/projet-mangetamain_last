@@ -21,6 +21,9 @@ class TestLogConfig(unittest.TestCase):
     ):
         """
         Test that setup_logging sets the correct log handlers for DEBUG and ERROR.
+
+        This test ensures that the setup_logging function configures the loggers
+        with the correct handlers and log levels.
         """
         # Mock log directory doesn't exist
         mock_exists.return_value = False
