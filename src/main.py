@@ -572,7 +572,7 @@ def display_ideal_recipes_health() -> None:
     # Style the dataframe with Pandas Styler (green text for all content)
     styled_df = df.style.set_properties(
         **{
-            "color": "#006400",  # Dark green text for the content
+            "color": "#FFFFFF",  # Dark green text for the content
         }
     ).set_table_styles(
         [{"selector": "th", "props": [("color", "#006400")]}]  # Dark green for headers
@@ -658,7 +658,7 @@ def main():
             True,
             key="general_observations_checkbox34",
         )
-        show_general_obs = st.checkbox(
+        show_inter_obs = st.checkbox(
             "Evolution of interactions", True, key="general_observations_checkbox4453"
         )
     # Expander for nutritional components analysis
@@ -668,7 +668,7 @@ def main():
             True,
             key="nutritional_analysis_checkbox58",
         )
-        show_nutritional_analysis = st.checkbox(
+        show_nutritional_analysis_1 = st.checkbox(
             "Ranking recipes based on nutritional components ratio",
             True,
             key="nutritional_analysis_checkbox_576",
@@ -693,15 +693,18 @@ def main():
             )
     # Main content
     if show_general_obs:
-        st.subheader("Bio recipes KPI")
+        st.subheader("Key numbers for recipes")
         display_statistics(df_preprocessed, rate_bio_recipes, outliers_zscore_df)
-        st.subheader("Interations graph")
+
+    if show_inter_obs:
+        st.subheader("Interactions graph")
         display_general_observations()
 
     if show_nutritional_analysis:
         st.subheader("Observations of recipes regarding their nutritional components")
         display_nutritional_analysis()
 
+    if show_nutritional_analysis_1:
         st.subheader("Observations of recipes regarding their components ratio")
         display_nutritional_analysis_ratio(context_key="nutritional_components")
 

@@ -34,7 +34,7 @@ fig1.update_traces(textinfo="label+percent")
 
 # Creates a histogram to show the dynamics of interactions over time
 fig2 = px.histogram(interactions_preprocessed.date)
-
+print(fig2)
 fig2.add_annotation(
     text="Instagram",
     x="2012-01-31",  # x position in the time interval (adjust as needed)
