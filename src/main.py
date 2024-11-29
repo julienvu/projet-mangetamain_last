@@ -432,7 +432,7 @@ def display_nutritional_analysis() -> None:
         # Add form within styled container
         st.markdown("<div class='form-container'>", unsafe_allow_html=True)
         # CDV Conversion Form
-        st.markdown("%Daily Value ---> g/mg")
+        st.markdown("% Daily Value ---> g/mg")
         with st.form("dv_conversion_form"):
             # Select component for conversion
             component = st.selectbox(
@@ -628,13 +628,12 @@ def main():
             """,
         unsafe_allow_html=True,
     )
-
     background_url = (
         "https://assets.afcdn.com/imsite1/acc11_691465/"
         "acc1257x1257a871129_w450h311c1.jpg"
     )  # Image URL
     add_background_from_url(background_url)
-    set_global_styles()
+    # set_global_styles()
     display_explications_webapp()
     display_title()
     # Sidebar setup
