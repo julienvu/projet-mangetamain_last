@@ -572,7 +572,7 @@ def display_ideal_recipes_health() -> None:
     # Style the dataframe with Pandas Styler (green text for all content)
     styled_df = df.style.set_properties(
         **{
-            "color": "#006400",  # Dark green text for the content
+            "color": "#FFFFFF",  # Dark green text for the content
         }
     ).set_table_styles(
         [{"selector": "th", "props": [("color", "#006400")]}]  # Dark green for headers
