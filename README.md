@@ -101,6 +101,43 @@ Documentation and guides for setting up and using the project.
 ### macOS and Linux
 Follow the same steps as for **Windows** to install Poetry and run the application.
 
+
+### Application Directory Structure (with the tree view)
+Our application is structured with the following organization below:
+projet-mangetamain_last/
+│
+projet-mangetamain_last/
+│
+├── .github/                # GitHub Actions configuration files
+│   └── workflows/          # CI/CD pipeline YAML files
+│
+├── docs/                    # Project documentation (user guides, setup instructions)
+│
+├── dataset/                 # Datasets used for analysis
+│   ├── raw/                 # Raw data files
+│   └── processed/           # Processed data for the app
+│
+├── preprocessed_data/       # Preprocessed data used for analysis
+│
+├── src/                     # Source code for the application
+│   ├── app.py               # Main entry point for the Streamlit app
+│   └── utils.py             # Helper functions used by the app
+│
+├── tests/                   # Unit tests for the application
+│   ├── test_app.py          # Tests for Streamlit app logic
+│   └── test_utils.py        # Tests for utility functions
+│
+├── .gitignore               # Specifies files to ignore in Git (e.g., virtual envs)
+├── LICENSE                  # Project license
+├── pyproject.toml           # Poetry configuration for the project
+├── poetry.lock              # Locked dependency versions for reproducibility
+├── requirements.txt         # Dependencies for pip (alternative to Poetry)
+├── .vscode/                 # VS Code workspace configuration
+│   └── settings.json        # VS Code settings (optional)
+├── .devcontainer/           # Dev container configuration for consistent development environments
+│   └── devcontainer.json    # Configuration file for the dev container
+└── README.md                # Project documentation (this file)
+
 ## Running the Application Locally
 
 1. **Clone the repository** to your local machine:
@@ -177,7 +214,7 @@ Replace `<your-local-branch>` with the name of your local branch (for example, `
 
 ## GitHub Actions (CI/CD)
 
-The project uses **GitHub Actions** to automate continuous integration and deployment (CI/CD). The CI pipeline runs tests and ensures that code quality checks are met before merging any changes into the main branch.
+The project uses **GitHub Actions** to automate continuous integration and deployment (CI/CD). The CI pipeline runs tests and guarantees that code quality checks are met before merging any changes into the main branch.
 
 The configuration for these workflows can be found in the `.github/workflows` directory. 
 
