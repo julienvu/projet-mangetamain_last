@@ -106,8 +106,6 @@ Follow the same steps as for **Windows** to install Poetry and run the applicati
 Our application is structured with the following organization below:
 projet-mangetamain_last/
 │
-projet-mangetamain_last/
-│
 ├── .github/                # GitHub Actions configuration files
 │   └── workflows/          # CI/CD pipeline YAML files
 │
