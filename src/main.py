@@ -573,7 +573,7 @@ def display_ideal_recipes_health() -> None:
             "🥓 Ideal recipes against bad cholesterol",
             "🥓 Ideal recipes against bad cholesterol",
         ],
-        "Recipes": [
+        "Recipes (at least of the ratios close to 1.0 or superior to 1.0)": [
             "jambon persille",
             "fresh spinach artichoke dip aka sheep dip",
             "powdered hot cocoa mix",
