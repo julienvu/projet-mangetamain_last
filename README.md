@@ -267,6 +267,6 @@ Testing is done using **pytest** to ensure the reliability and stability of the 
 
 ### Running Tests
 To run tests with a coverage superior to 90%:
-```bash
-poetry run pytest --cov=src --cov-fail-under=90
-'''
+  ```bash
+    poetry run pytest --cov=src --cov-fail-under=90
+  '''
