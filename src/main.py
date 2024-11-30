@@ -568,7 +568,7 @@ def display_ideal_recipes_health() -> None:
             "🥓 Bad cholesterol",
             "🥓 Bad cholesterol",
         ],
-        "🍉 Recipes (selecting the best retio)": [
+        "🍉 Recipes (selecting the best ratio)": [
             "lighter pistachio pudding salad",
             "basic baked fish easy dressing",
             "creamy cucumber bites",
@@ -587,7 +587,7 @@ def display_ideal_recipes_health() -> None:
     # Style the dataframe with Pandas Styler (green text for all content)
     styled_df = df.style.set_properties(
         **{
-            "color": "#000000",  # Dark green text for the content
+            "color": "white",  # white  text for the content
         }
     ).set_table_styles(
         [{"selector": "th", "props": [("color", "#006400")]}]  # Dark green for headers
