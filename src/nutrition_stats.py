@@ -133,24 +133,6 @@ def stats_bio(df_preprocessed: pd.DataFrame) -> pd.DataFrame:
     combined_df = pd.concat(
         [df_preprocessed.reset_index(drop=True), nutrition_df], axis=1
     )
-    combined_df["Total Fat (g)"] = (
-        combined_df["Total Fat (g)"] * current_daily_total_fat
-    ) / 100
-    combined_df["Sugar (g)"] = (
-        combined_df["Sugar (g)"] * current_daily_total_sugar
-    ) / 100
-    combined_df["Sodium (mg)"] = (
-        combined_df["Sodium (mg)"] * current_daily_total_sodium
-    ) / 100
-    combined_df["Protein (g)"] = (
-        combined_df["Protein (g)"] * current_daily_total_protein
-    ) / 100
-    combined_df["Saturated Fat (g)"] = (
-        combined_df["Saturated Fat (g)"] * current_daily_total_saturated_fat
-    ) / 100
-    combined_df["Carbohydrates (g)"] = (
-        combined_df["Carbohydrates (g)"] * current_daily_total_carbo
-    ) / 100
     # Add ranking columns for each nutritional component
     combined_df["Calories Rank"] = combined_df["Calories"].rank(
         method="min", ascending=True

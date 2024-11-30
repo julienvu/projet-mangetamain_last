@@ -16,6 +16,7 @@ from visualisation.graphs_nutrition import (
     nutrition_hist_ratio,
 )
 
+
 # Initialize logging and set page configuration
 setup_logging()
 # Use session state to avoid reloading data multiple times
@@ -24,7 +25,8 @@ if "data_loader" not in st.session_state:
 
 
 # Load data files once using caching
-@st.fragment
+# Load data with cache putting
+@st.cache_data(show_spinner=False)
 def load_data_files():
     """
     Load data files required for the application.
@@ -179,6 +181,7 @@ def display_title() -> None:
     )
 
 
+@st.cache_data(show_spinner=False)
 @st.fragment
 def display_statistics(
     df_preprocessed: pd.DataFrame, rate_bio_recipes: float, outliers_zscore_df: int
@@ -271,7 +274,7 @@ def display_statistics(
             </div>
         </div>
         """.format(
-            f"{df_ingredients.shape[0]:,}".replace(",", " ")
+            f"{df_ingredients.shape[0]:,}".replace(",", " "),
         ),
         unsafe_allow_html=True,
     )
@@ -643,7 +646,9 @@ def main():
             /* Sidebar color */
             [data-testid="stSidebar"] {
                 background-color: #2E8B57,
-                padding: 20px;
+                padding: 0;
+                margin: 0;
+                overflow: hidden;
             }
         </style>
         """,
@@ -696,15 +701,17 @@ def main():
         display_statistics(df_preprocessed, rate_bio_recipes, outliers_zscore_df)
 
     if show_inter_obs:
-        st.subheader("Interactions graph")
+        st.subheader("👨🏻‍💻 Interactions graph")
         display_general_observations()
 
     if show_nutritional_analysis:
-        st.subheader("Observations of recipes regarding their nutritional components")
+        st.subheader(
+            "🎯 Observations of recipes regarding their nutritional components"
+        )
         display_nutritional_analysis()
 
     if show_nutritional_analysis_1:
-        st.subheader("Observations of recipes regarding their components ratio")
+        st.subheader("📈 Observations of recipes regarding their components ratio")
         display_nutritional_analysis_ratio(context_key="nutritional_components")
 
     if show_health_diets:

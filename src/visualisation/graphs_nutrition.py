@@ -30,7 +30,7 @@ def plot_top_4_recipes_by_nutrition(
             labels={"name": "Recipe Name", category: category},
             color_discrete_sequence=["#1f77b4"],
         )
-
+        fig.update_layout(title_x=0.5)
         # Storage the figure in the dictionnary
         figures[category] = fig
     return figures
@@ -98,6 +98,7 @@ def nutrition_bar_ratio_sodium_proteins(
             annotation_text="Balanced Ratio (1.0)",
             annotation_position="bottom right",
         )
+        fig2.update_layout(title_x=0.5)
         # Store the figure in the dictionary
         figures[category] = fig2
     return figures
