@@ -1,4 +1,4 @@
-# Mangetamain Project
+# Mangetamain Project (Julien VU)
 
 The **Mangetamain** application is an interactive data visualization tool built with **Streamlit**. It permits users to explore and analyze datasets in real-time using interactive visualizations. The project is managed with **Poetry** for dependency management, ensuring a smooth setup and environment management process.
 
