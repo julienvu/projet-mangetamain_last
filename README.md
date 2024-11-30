@@ -104,40 +104,39 @@ Follow the same steps as for **Windows** to install Poetry and run the applicati
 
 ### Application Directory Structure (with the tree view)
 Our application is structured with the following organization below:
-projet-mangetamain_last/
-│
-projet-mangetamain_last/
-│
-├── .github/                # GitHub Actions configuration files
-│   └── workflows/          # CI/CD pipeline YAML files
-│
-├── docs/                    # Project documentation (user guides, setup instructions)
-│
-├── dataset/                 # Datasets used for analysis
-│   ├── raw/                 # Raw data files
-│   └── processed/           # Processed data for the app
-│
-├── preprocessed_data/       # Preprocessed data used for analysis
-│
-├── src/                     # Source code for the application
-│   ├── app.py               # Main entry point for the Streamlit app
-│   └── utils.py             # Helper functions used by the app
-│
-├── tests/                   # Unit tests for the application
-│   ├── test_app.py          # Tests for Streamlit app logic
-│   └── test_utils.py        # Tests for utility functions
-│
-├── .gitignore               # Specifies files to ignore in Git (e.g., virtual envs)
-├── LICENSE                  # Project license
-├── pyproject.toml           # Poetry configuration for the project
-├── poetry.lock              # Locked dependency versions for reproducibility
-├── requirements.txt         # Dependencies for pip (alternative to Poetry)
-├── .vscode/                 # VS Code workspace configuration
-│   └── settings.json        # VS Code settings (optional)
-├── .devcontainer/           # Dev container configuration for consistent development environments
-│   └── devcontainer.json    # Configuration file for the dev container
-└── README.md                # Project documentation (this file)
-
+```bash
+    projet-mangetamain_last/
+    │
+    ├── .github/                # GitHub Actions configuration files
+    │   └── workflows/          # CI/CD pipeline YAML files
+    │
+    ├── docs/                    # Project documentation (user guides, setup instructions)
+    │
+    ├── dataset/                 # Datasets used for analysis
+    │   ├── raw/                 # Raw data files
+    │   └── processed/           # Processed data for the app
+    │
+    ├── preprocessed_data/       # Preprocessed data used for analysis
+    │
+    ├── src/                     # Source code for the application
+    │   ├── app.py               # Main entry point for the Streamlit app
+    │   └── utils.py             # Helper functions used by the app
+    │
+    ├── tests/                   # Unit tests for the application
+    │   ├── test_app.py          # Tests for Streamlit app logic
+    │   └── test_utils.py        # Tests for utility functions
+    │
+    ├── .gitignore               # Specifies files to ignore in Git (e.g., virtual envs)
+    ├── LICENSE                  # Project license
+    ├── pyproject.toml           # Poetry configuration for the project
+    ├── poetry.lock              # Locked dependency versions for reproducibility
+    ├── requirements.txt         # Dependencies for pip (alternative to Poetry)
+    ├── .vscode/                 # VS Code workspace configuration
+    │   └── settings.json        # VS Code settings (optional)
+    ├── .devcontainer/           # Dev container configuration for consistent development environments
+    │   └── devcontainer.json    # Configuration file for the dev container
+    └── README.md                # Project documentation (this file)
+  ```
 ## Running the Application Locally
 
 1. **Clone the repository** to your local machine:
@@ -217,46 +216,46 @@ Replace `<your-local-branch>` with the name of your local branch (for example, `
 The project uses **GitHub Actions** to automate continuous integration and deployment (CI/CD). The CI pipeline runs tests and guarantees that code quality checks are met before merging any changes into the main branch.
 
 The configuration for these workflows can be found in the `.github/workflows` directory. 
+'''bash
+    name: Python CI
 
-name: Python CI
+    on:
+      push:
+        branches:
+          - main
+      pull_request:
+        branches:
+          - main
 
-on:
-  push:
-    branches:
-      - main
-  pull_request:
-    branches:
-      - main
-
-jobs:
-  test:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-      - name: Set up Python 3.11
-        uses: actions/setup-python@v4
-        with:
-          python-version: "3.11"
-      - name: Install Poetry
-        run: |
-          python -m pip install --upgrade pip
-          pip install poetry
-      - name: Install dependencies
-        run: |
-          poetry install
-      - name: Set PYTHONPATH
-        run: |
-          echo "PYTHONPATH=$PYTHONPATH:$(pwd)/src" >> $GITHUB_ENV
-      - name: Run Flake8
-        run: |
-          poetry run flake8 --max-line-length 88 --ignore=E402,E262,E265 src/
-      - name: Run Black
-        run: |
-          poetry run black --check src/
-      - name: Run tests with coverage
-        run: |
-          poetry run pytest --cov=src --cov-fail-under=90
-
+    jobs:
+      test:
+        runs-on: ubuntu-latest
+        steps:
+          - uses: actions/checkout@v3
+          - name: Set up Python 3.11
+            uses: actions/setup-python@v4
+            with:
+              python-version: "3.11"
+          - name: Install Poetry
+            run: |
+              python -m pip install --upgrade pip
+              pip install poetry
+          - name: Install dependencies
+            run: |
+              poetry install
+          - name: Set PYTHONPATH
+            run: |
+              echo "PYTHONPATH=$PYTHONPATH:$(pwd)/src" >> $GITHUB_ENV
+          - name: Run Flake8
+            run: |
+              poetry run flake8 --max-line-length 88 --ignore=E402,E262,E265 src/
+          - name: Run Black
+            run: |
+              poetry run black --check src/
+          - name: Run tests with coverage
+            run: |
+              poetry run pytest --cov=src --cov-fail-under=90
+    '''
 
 ### Automated Tasks:
 - **Test Automation**: Every push to the distant repository triggers a set of **tests** to ensure code correctness.
@@ -269,4 +268,5 @@ Testing is done using **pytest** to ensure the reliability and stability of the 
 ### Running Tests
 To run tests with a coverage superior to 90%:
 ```bash
-poetry run pytest --cov=src --cov-fail-under=90 
+poetry run pytest --cov=src --cov-fail-under=90
+'''
