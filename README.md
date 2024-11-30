@@ -216,7 +216,7 @@ Replace `<your-local-branch>` with the name of your local branch (for example, `
 The project uses **GitHub Actions** to automate continuous integration and deployment (CI/CD). The CI pipeline runs tests and guarantees that code quality checks are met before merging any changes into the main branch.
 
 The configuration for these workflows can be found in the `.github/workflows` directory. 
-'''bash
+    '''bash
     name: Python CI
 
     on:
@@ -255,7 +255,7 @@ The configuration for these workflows can be found in the `.github/workflows` di
           - name: Run tests with coverage
             run: |
               poetry run pytest --cov=src --cov-fail-under=90
-    '''
+      '''
 
 ### Automated Tasks:
 - **Test Automation**: Every push to the distant repository triggers a set of **tests** to ensure code correctness.
@@ -268,5 +268,6 @@ Testing is done using **pytest** to ensure the reliability and stability of the 
 ### Running Tests
 To run tests with a coverage superior to 90%:
   ```bash
-    poetry run pytest --cov=src --cov-fail-under=90
-  '''
+  poetry run pytest --cov=src --cov-fail-under=90
+  ```
+    
