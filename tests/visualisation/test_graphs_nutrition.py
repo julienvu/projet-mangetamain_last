@@ -98,7 +98,7 @@ def test_nutrition_bar_ratio_sodium_proteins(sample_combined_df: pd.DataFrame):
     5. Verifies that the title of the "Protein (g)" figure is correct.
 
     Expected Results:
-    - The function should return a dictionary with 3 keys: "Protein (g)", "Sodium (mg)", and "Carbohydrates (g)".
+    - The function should return a dictionary with 4 keys: "Protein (g)", "Sodium (mg)", "Carbohydrates (g)" and "Saturated fat (g)".
     - Each figure should be a valid `go.Figure` instance.
     - The title for the "Protein (g)" figure should be "Ratios for Top 4 Recipes by Protein (g)".
 
@@ -108,7 +108,7 @@ def test_nutrition_bar_ratio_sodium_proteins(sample_combined_df: pd.DataFrame):
     - `isinstance(fig[category], go.Figure)` confirms each category maps to a valid Plotly figure.
     - `fig["Protein (g)"].layout.title.text` validates the title for the "Protein (g)" figure.
     """
-    categories = ["Protein (g)", "Sodium (mg)", "Carbohydrates (g)"]
+    categories = ["Protein (g)", "Sodium (mg)", "Saturated Fat (g)", "Carbohydrates (g)"]
 
     # Call the function
     fig = nutrition_bar_ratio_sodium_proteins(sample_combined_df, categories)

@@ -2,6 +2,7 @@ import pandas as pd
 import re  # N'oubliez pas d'importer le module `re` pour les expressions régulières
 from data_loader import DataLoader
 from scipy import stats
+import streamlit as st
 
 # Loads the raw interactions dataset using the data_loader module
 data_loader = DataLoader()
@@ -10,6 +11,7 @@ df = data_loader.load_data("dataset/RAW_recipes.csv.zip")
 df_preprocessed = data_loader.load_data("preprocessed_data/PP_recipes_mangetamain.csv")
 
 
+@st.cache_data(show_spinner=False)
 def filter_dataframebis1(
     df: pd.DataFrame, column_names: list, filter_values: list
 ) -> pd.DataFrame:

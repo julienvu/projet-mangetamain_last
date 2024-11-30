@@ -16,6 +16,7 @@ from visualisation.graphs_nutrition import (
     nutrition_hist_ratio,
 )
 
+
 # Initialize logging and set page configuration
 setup_logging()
 # Use session state to avoid reloading data multiple times
@@ -24,7 +25,8 @@ if "data_loader" not in st.session_state:
 
 
 # Load data files once using caching
-@st.fragment
+# Load data with cache putting
+@st.cache_data(show_spinner=False)
 def load_data_files():
     """
     Load data files required for the application.
@@ -113,7 +115,7 @@ def display_explications_webapp() -> None:
         "**to share meaningful patterns and observations.** "
         "**We analyzed the number of ingredients** "
         "**in bio recipes,calculated the percentage of recipes within the original** "
-        "**Raw recipes** "
+        "**raw recipes** "
         "**dataset, and examined the total number of bio recipes available.** "
         "**These metrics provide a clear** "
         "**picture of the scope and richness of bio-based cooking.** "
@@ -132,12 +134,12 @@ def display_explications_webapp() -> None:
     )
 
     st.write(
-        "**In addition to the rankings, I created various visualizations,** "
+        "**In addition to the rankings, I created various visualizations** "
         "**such as charts illustrating** "
-        "**the ratio of proteins to sodium and proteins to carbohydrates.** "
+        "**the ratio of proteins to sodium, carbohydrates and saturated fat.** "
         "**These insights are crucial for** "
         "**users who want to optimize their diet to strive against diabetes,** "
-        "**high blood pressure** "
+        "**high blood pressure, bad cholesterol** "
         "**or strengthen muscles.** "
         "**By visualizing these ratios,** "
         "**we make it easier for users to adopt the right recipes for their goals.** "
@@ -146,8 +148,8 @@ def display_explications_webapp() -> None:
     st.write(
         "**To give the efficient recommendations,** "
         "**I included a table showcasing the ideal recipes tailored** "
-        "**for users with specific dietary goals,** "
-        "**whether it's muscle development or reducing the risk of diabetes.** "
+        "**for users with specific dietary goals. It refers to** "
+        "**muscle development, reducing the risk of diabetes or bad cholesterol.** "
         "**This table combines all the insights in an available format.** "
         "**It's empowers users to make informed choices.**"
     )
@@ -179,6 +181,7 @@ def display_title() -> None:
     )
 
 
+@st.cache_data(show_spinner=False)
 @st.fragment
 def display_statistics(
     df_preprocessed: pd.DataFrame, rate_bio_recipes: float, outliers_zscore_df: int
@@ -271,7 +274,7 @@ def display_statistics(
             </div>
         </div>
         """.format(
-            f"{df_ingredients.shape[0]:,}".replace(",", " ")
+            f"{df_ingredients.shape[0]:,}".replace(",", " "),
         ),
         unsafe_allow_html=True,
     )
@@ -499,7 +502,12 @@ def display_nutritional_analysis_ratio(context_key: str = "default") -> None:
         display_nutritional_analysis_ratio(context_key="unique_context")
     """
     # Categories that exist in the dictionary
-    categories = ["Protein (g)", "Sodium (mg)", "Carbohydrates (g)"]
+    categories = [
+        "Protein (g)",
+        "Sodium (mg)",
+        "Saturated Fat (g)",
+        "Carbohydrates (g)",
+    ]
 
     # Add border and style to the radio buttons container
     selected_category = st.radio(
@@ -535,7 +543,7 @@ def display_nutritional_analysis_ratio(context_key: str = "default") -> None:
 def display_ideal_recipes_health() -> None:
     """Displays the ideal recipes for the health contributors .
     This function creates and displays a dataframe that lists ideal recipes
-    for various health goals, such as muscle strengthening and managing
+    for various health goals like muscle strengthening and managing
     diabetes or high blood pressure.
 
     Behavior:
@@ -550,25 +558,42 @@ def display_ideal_recipes_health() -> None:
     data = {
         "Category": [
             "🏋️‍♂️ Ideal recipes for muscle strengthening",
+            "🏋️‍♂️ Ideal recipes for muscle strengthening",
             "🫀 Ideal recipes against diabetes and high blood pressure",
             "🫀 Ideal recipes against diabetes and high blood pressure",
             "🫀 Ideal recipes against diabetes and high blood pressure",
             "🫀 Ideal recipes against diabetes and high blood pressure",
+            "🫀 Ideal recipes against diabetes and high blood pressure",
+            "🫀 Ideal recipes against diabetes and high blood pressure",
+            "🥓 Ideal recipes against bad cholesterol",
+            "🥓 Ideal recipes against bad cholesterol",
+            "🥓 Ideal recipes against bad cholesterol",
+            "🥓 Ideal recipes against bad cholesterol",
+            "🥓 Ideal recipes against bad cholesterol",
+            "🥓 Ideal recipes against bad cholesterol",
+            "🥓 Ideal recipes against bad cholesterol",
         ],
         "Recipes": [
+            "jambon persille",
+            "fresh spinach artichoke dip aka sheep dip",
+            "powdered hot cocoa mix",
+            "tennessee monshine",
             "Jambon persille",
-            "Powdered hot cocoa mix",
-            "Tennessee Moonshine",
-            "Jambon persille",
-            "Apple core and peeling jeely",
+            "apple core and peeling jeely",
+            "baked potato soup for a crowd",
+            "fresh spinach artichoke dip aka sheep dip",
+            "roasted pepper salt blend",
+            "polish dill pickles made in a crock",
+            "jambon persille",
+            "fast n easy ham glaze",
+            "apple core and peeling jelly",
+            "tennessee moonshine",
+            "powdered hot cocoa mix",
         ],
     }
 
     # Dataframe creation
     df = pd.DataFrame(data)
-    # Display the table
-    # st.dataframe(df)
-    # Style the dataframe with Pandas Styler
     # Style the dataframe with Pandas Styler (green text for all content)
     styled_df = df.style.set_properties(
         **{
@@ -578,7 +603,7 @@ def display_ideal_recipes_health() -> None:
         [{"selector": "th", "props": [("color", "#006400")]}]  # Dark green for headers
     )
     # Display the styled dataframe
-    st.write(styled_df.to_html(), unsafe_allow_html=True)
+    st.write(styled_df.hide(axis="index").to_html(), unsafe_allow_html=True)
 
 
 @st.fragment
@@ -643,7 +668,9 @@ def main():
             /* Sidebar color */
             [data-testid="stSidebar"] {
                 background-color: #2E8B57,
-                padding: 20px;
+                padding: 0;
+                margin: 0;
+                overflow: hidden;
             }
         </style>
         """,
@@ -696,19 +723,21 @@ def main():
         display_statistics(df_preprocessed, rate_bio_recipes, outliers_zscore_df)
 
     if show_inter_obs:
-        st.subheader("Interactions graph")
+        st.subheader("👨🏻‍💻 Interactions graph")
         display_general_observations()
 
     if show_nutritional_analysis:
-        st.subheader("Observations of recipes regarding their nutritional components")
+        st.subheader(
+            "🎯 Observations of recipes regarding their nutritional components"
+        )
         display_nutritional_analysis()
 
     if show_nutritional_analysis_1:
-        st.subheader("Observations of recipes regarding their components ratio")
+        st.subheader("📈 Observations of recipes regarding their components ratio")
         display_nutritional_analysis_ratio(context_key="nutritional_components")
 
     if show_health_diets:
-        st.subheader("💕 The ideal recipes")
+        st.subheader("💕 The ideal recipes for a better health")
         display_ideal_recipes_health()
 
 
