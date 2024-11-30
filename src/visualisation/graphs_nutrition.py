@@ -51,7 +51,12 @@ def nutrition_bar_ratio_sodium_proteins(
         and values are Plotly figures and the ratios
     """
     # Filter the relevant categories
-    categories = ["Protein (g)", "Sodium (mg)", "Carbohydrates (g)"]
+    categories = [
+        "Protein (g)",
+        "Sodium (mg)",
+        "Carbohydrates (g)",
+        "Saturated Fat (g)",
+    ]
     figures = {}
     for category in categories:
         # Sort recipes depending on the category
@@ -67,10 +72,19 @@ def nutrition_bar_ratio_sodium_proteins(
             top_4_recipes["Sodium (mg)"] * 0.001
         )  # Convert Sodium to grams
 
+        # Calculate the Protein/Saturated fat Ratio
+        top_4_recipes["Protein_Saturated_fat_Ratio"] = (
+            top_4_recipes["Protein (g)"] / top_4_recipes["Saturated Fat (g)"]
+        )
+
         # Reshape data to have both ratios as columns for grouped bar plot
         top_4_recipes_long = top_4_recipes.melt(
             id_vars=["name"],
-            value_vars=["Protein_Carb_Ratio", "Protein_Sodium_Ratio"],
+            value_vars=[
+                "Protein_Carb_Ratio",
+                "Protein_Sodium_Ratio",
+                "Protein_Saturated_fat_Ratio",
+            ],
             var_name="Ratio Type",
             value_name="Ratio Value",
         )

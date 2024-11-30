@@ -502,7 +502,12 @@ def display_nutritional_analysis_ratio(context_key: str = "default") -> None:
         display_nutritional_analysis_ratio(context_key="unique_context")
     """
     # Categories that exist in the dictionary
-    categories = ["Protein (g)", "Sodium (mg)", "Carbohydrates (g)"]
+    categories = [
+        "Protein (g)",
+        "Sodium (mg)",
+        "Carbohydrates (g)",
+        "Saturated Fat (g)",
+    ]
 
     # Add border and style to the radio buttons container
     selected_category = st.radio(
@@ -553,25 +558,42 @@ def display_ideal_recipes_health() -> None:
     data = {
         "Category": [
             "🏋️‍♂️ Ideal recipes for muscle strengthening",
+            "🏋️‍♂️ Ideal recipes for muscle strengthening",
             "🫀 Ideal recipes against diabetes and high blood pressure",
             "🫀 Ideal recipes against diabetes and high blood pressure",
             "🫀 Ideal recipes against diabetes and high blood pressure",
             "🫀 Ideal recipes against diabetes and high blood pressure",
+            "🫀 Ideal recipes against diabetes and high blood pressure",
+            "🫀 Ideal recipes against diabetes and high blood pressure",
+            "🥓 Ideal recipes against bad cholesterol",
+            "🥓 Ideal recipes against bad cholesterol",
+            "🥓 Ideal recipes against bad cholesterol",
+            "🥓 Ideal recipes against bad cholesterol",
+            "🥓 Ideal recipes against bad cholesterol",
+            "🥓 Ideal recipes against bad cholesterol",
+            "🥓 Ideal recipes against bad cholesterol",
         ],
         "Recipes": [
+            "jambon persille",
+            "fresh spinach artichoke dip aka sheep dip",
+            "powdered hot cocoa mix",
+            "tennessee monshine",
             "Jambon persille",
-            "Powdered hot cocoa mix",
-            "Tennessee Moonshine",
-            "Jambon persille",
-            "Apple core and peeling jeely",
+            "apple core and peeling jeely",
+            "baked potato soup for a crowd",
+            "fresh spinach artichoke dip aka sheep dip",
+            "roasted pepper salt blend",
+            "polish dill pickles made in a crock",
+            "jambon persille",
+            "fast n easy ham glaze",
+            "apple core and peeling jelly",
+            "tennessee moonshine",
+            "powdered hot cocoa mix",
         ],
     }
 
     # Dataframe creation
     df = pd.DataFrame(data)
-    # Display the table
-    # st.dataframe(df)
-    # Style the dataframe with Pandas Styler
     # Style the dataframe with Pandas Styler (green text for all content)
     styled_df = df.style.set_properties(
         **{
@@ -581,7 +603,7 @@ def display_ideal_recipes_health() -> None:
         [{"selector": "th", "props": [("color", "#006400")]}]  # Dark green for headers
     )
     # Display the styled dataframe
-    st.write(styled_df.to_html(), unsafe_allow_html=True)
+    st.write(styled_df.hide(axis="index").to_html(), unsafe_allow_html=True)
 
 
 @st.fragment
@@ -715,7 +737,7 @@ def main():
         display_nutritional_analysis_ratio(context_key="nutritional_components")
 
     if show_health_diets:
-        st.subheader("💕 The ideal recipes")
+        st.subheader("💕 The ideal recipes for a better health")
         display_ideal_recipes_health()
 
 
