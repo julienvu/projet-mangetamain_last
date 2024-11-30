@@ -8,7 +8,7 @@ interactions_preprocessed = data_loader.load_data(
     "preprocessed_data/PP_interactions_mangetamain.csv"
 )
 # Creates a histogram to show the dynamics of interactions over time
-fig2 = px.histogram(interactions_preprocessed.date)
+fig2 = px.histogram(interactions_preprocessed.date, color_discrete_sequence=["green"])
 print(fig2)
 fig2.add_annotation(
     text="Instagram",

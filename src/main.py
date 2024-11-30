@@ -245,15 +245,15 @@ def display_statistics(
             <h2 style="text-align: center; font-size: 28px;">Community Insights</h2>
             <div style="margin-top: 10px; font-size: 22px;">
                 <p>Total users:</p>
-                <b style="font-size: 26px;color: purple;">{}</b>
+                <b style="font-size: 26px;color: pink;">{}</b>
             </div>
             <div style="margin-top: 10px; font-size: 22px;">
                 <p>New users (last month):</p>
-                <b style="font-size: 26px;color: purple;">452</b>
+                <b style="font-size: 26px;color: pink;">452</b>
             </div>
             <div style="margin-top: 10px; font-size: 22px;">
                 <p>Number of different techniques:</p>
-                <b style="font-size: 26px;color: purple;">{}</b>
+                <b style="font-size: 26px;color: pink;">{}</b>
             </div>
         </div>
         """.format(
@@ -565,6 +565,7 @@ def display_ideal_recipes_health() -> None:
             "🫀 Ideal recipes against diabetes and high blood pressure",
             "🫀 Ideal recipes against diabetes and high blood pressure",
             "🫀 Ideal recipes against diabetes and high blood pressure",
+            "🫀 Ideal recipes against diabetes and high blood pressure",
             "🥓 Ideal recipes against bad cholesterol",
             "🥓 Ideal recipes against bad cholesterol",
             "🥓 Ideal recipes against bad cholesterol",
@@ -573,7 +574,7 @@ def display_ideal_recipes_health() -> None:
             "🥓 Ideal recipes against bad cholesterol",
             "🥓 Ideal recipes against bad cholesterol",
         ],
-        "Recipes (at least one of the ratios close to 1.0 or superior to 1.0)": [
+        "🍉 Recipes (at least one of the ratios close to 1.0 or superior to 1.0)": [
             "jambon persille",
             "fresh spinach artichoke dip aka sheep dip",
             "powdered hot cocoa mix",
@@ -582,6 +583,7 @@ def display_ideal_recipes_health() -> None:
             "apple core and peeling jeely",
             "baked potato soup for a crowd",
             "fresh spinach artichoke dip aka sheep dip",
+            "white holiday punch",
             "roasted pepper salt blend",
             "polish dill pickles made in a crock",
             "jambon persille",
@@ -688,7 +690,7 @@ def main():
             "Evolution of interactions", True, key="general_observations_checkbox4453"
         )
     # Expander for nutritional components analysis
-    with st.sidebar.expander("🍏 Nutritional components"):
+    with st.sidebar.expander("🥒 Nutritional components"):
         show_nutritional_analysis = st.checkbox(
             "Ranking recipes based on nutritional components",
             True,
@@ -700,7 +702,7 @@ def main():
             key="nutritional_analysis_checkbox_576",
         )
     # Expander for health diets
-    with st.sidebar.expander("🍴 Food diets"):
+    with st.sidebar.expander("🍽️ Food diets"):
         show_health_diets = st.checkbox(
             "Show food diets against diabetes and for muscle strengthening",
             True,
