@@ -28,7 +28,7 @@ def plot_top_4_recipes_by_nutrition(
             y=category,
             title=f"Top 4 Recipes by {category}",
             labels={"name": "Recipe Name", category: category},
-            color_discrete_sequence=["#1f77b4"],
+            color_discrete_sequence=["green"],
         )
         fig.update_layout(title_x=0.5)
         # Storage the figure in the dictionnary
@@ -91,7 +91,12 @@ def nutrition_bar_ratio_sodium_proteins(
             var_name="Ratio Type",
             value_name="Ratio Value",
         )
-
+        # Define colors for each ratio type
+        color_map = {
+            "Protein_Carb_Ratio": "brown",  # First ratio: brown
+            "Protein_Sodium_Ratio": "pink",  # Second ratio: pink
+            "Protein_Saturated_fat_Ratio": "orange",  # Third ratio: green
+        }
         # Create a grouped bar chart
         fig2 = px.bar(
             top_4_recipes_long,
@@ -106,6 +111,7 @@ def nutrition_bar_ratio_sodium_proteins(
             },  # Axis labels and legend title
             barmode="group",  # Group bars for each recipe (side-by-side)
             template="plotly_white",  # Clean white background for readability
+            color_discrete_map=color_map,
         )
 
         # Add a reference line for a balanced ratio (optional)
