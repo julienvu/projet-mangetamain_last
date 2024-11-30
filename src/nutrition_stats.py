@@ -153,7 +153,7 @@ def stats_bio(df_preprocessed: pd.DataFrame) -> pd.DataFrame:
     top_4_carbohydrates = combined_df["Carbohydrates (g)"].nsmallest(4).index
     top_4_protein = combined_df["Protein (g)"].nlargest(4).index
 
-    # Flag the top 4 for each nutritional component 
+    # Flag the top 4 for each nutritional component
     # Using vectorized operations (boolean column value)
     combined_df["Top 4 Calories"] = combined_df.index.isin(top_4_calories)
     combined_df["Top 4 Total Fat"] = combined_df.index.isin(top_4_fat)
