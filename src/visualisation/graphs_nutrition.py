@@ -20,7 +20,13 @@ def plot_top_4_recipes_by_nutrition(
     figures = {}
     for category in categories:
         # Sort recipes depending on the category
-        top_4_recipes = combined_df.sort_values(by=category, ascending=False).head(4)
+        if category == "Protein (g)":
+            top_4_recipes = combined_df.sort_values(by=category, ascending=False).head(
+                4
+            )
+        else:
+            # Sort recipes depending on the category (ascending order by default)
+            top_4_recipes = combined_df.sort_values(by=category, ascending=True).head(4)
 
         fig = px.bar(
             top_4_recipes,
@@ -63,7 +69,7 @@ def nutrition_bar_ratio_sodium_proteins(
         if category not in combined_df.columns:
             raise ValueError(f"Category '{category}' not found in the DataFrame")
         # Sort recipes depending on the category
-        top_4_recipes = combined_df.sort_values(by=category, ascending=False).head(4)
+        top_4_recipes = combined_df.sort_values(by=category).head(4)
 
         # Calculate the Protein/Carbohydrate Ratio
         top_4_recipes["Protein_Carb_Ratio"] = (

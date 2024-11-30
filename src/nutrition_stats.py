@@ -112,60 +112,56 @@ def stats_bio(df_preprocessed: pd.DataFrame) -> pd.DataFrame:
     )
     # convert %daily value to interational measures(g,mg)
     nutrition_df["Total Fat (g)"] = (
-        nutrition_df["Total Fat (g)"] * current_daily_total_fat
+        (nutrition_df["Total Fat (g)"] * current_daily_total_fat)
     ) / 100
     nutrition_df["Sugar (g)"] = (
-        nutrition_df["Sugar (g)"] * current_daily_total_sugar
+        (nutrition_df["Sugar (g)"] * current_daily_total_sugar)
     ) / 100
     nutrition_df["Sodium (mg)"] = (
-        nutrition_df["Sodium (mg)"] * current_daily_total_sodium
+        (nutrition_df["Sodium (mg)"] * current_daily_total_sodium)
     ) / 100
     nutrition_df["Protein (g)"] = (
-        nutrition_df["Protein (g)"] * current_daily_total_protein
+        (nutrition_df["Protein (g)"] * current_daily_total_protein)
     ) / 100
     nutrition_df["Saturated Fat (g)"] = (
-        nutrition_df["Saturated Fat (g)"] * current_daily_total_saturated_fat
+        (nutrition_df["Saturated Fat (g)"] * current_daily_total_saturated_fat)
     ) / 100
     nutrition_df["Carbohydrates (g)"] = (
-        nutrition_df["Carbohydrates (g)"] * current_daily_total_carbo
+        (nutrition_df["Carbohydrates (g)"] * current_daily_total_carbo)
     ) / 100
     # Calculate basic statistical indicators: mean, median, standard deviation, min, max
     combined_df = pd.concat(
         [df_preprocessed.reset_index(drop=True), nutrition_df], axis=1
     )
-    # Add ranking columns for each nutritional component
-    combined_df["Calories Rank"] = combined_df["Calories"].rank(
-        method="min", ascending=True
-    )
-    combined_df["Total Fat Rank"] = combined_df["Total Fat (g)"].rank(
-        method="min", ascending=True
-    )
-    combined_df["Sugar Rank"] = combined_df["Sugar (g)"].rank(
-        method="min", ascending=True
-    )
-    combined_df["Sodium Rank"] = combined_df["Sodium (mg)"].rank(
-        method="min", ascending=True
-    )
-    combined_df["Protein Rank"] = combined_df["Protein (g)"].rank(
-        method="min", ascending=False
-    )
-    combined_df["Saturated Fat Rank"] = combined_df["Saturated Fat (g)"].rank(
-        method="min", ascending=True
-    )
-    combined_df["Carbohydrates Rank"] = combined_df["Carbohydrates (g)"].rank(
-        method="min", ascending=True
-    )
-    # Filter to include only the top 5 recipes for each nutritional component
-    combined_df["Top 4 Calories"] = combined_df["Calories Rank"] <= 4
-    combined_df["Top 4 Total Fat"] = combined_df["Total Fat Rank"] <= 4
-    combined_df["Top 4 Sugar"] = combined_df["Sugar Rank"] <= 4
-    combined_df["Top 4 Sodium"] = combined_df["Sodium Rank"] <= 4
-    combined_df["Top 4 Protein"] = combined_df["Protein Rank"] <= 4
-    combined_df["Top 4 Saturated Fat"] = combined_df["Saturated Fat Rank"] <= 4
-    combined_df["Top 4 Carbohydrates"] = combined_df["Carbohydrates Rank"] <= 4
+    # filter values of combined_df by putting values higher than 1
+    combined_df = combined_df[combined_df["Calories"] > 1]
+    combined_df = combined_df[combined_df["Total Fat (g)"] > 1]
+    combined_df = combined_df[combined_df["Sugar (g)"] > 1]
+    combined_df = combined_df[combined_df["Sodium (mg)"] > 1]
+    combined_df = combined_df[combined_df["Saturated Fat (g)"] > 1]
+    combined_df = combined_df[combined_df["Protein (g)"] > 1]
+    combined_df = combined_df[combined_df["Carbohydrates (g)"] > 1]
+    # Sort each nutritional component in ascending order to get the lowest values
+    # Flag the top 4 for each nutrient by sorting and selecting the first 4 rows
+    # Get the indices of the top 4 for each nutritional component
+    # maximizing the protein ranking but minimizing the others
+    top_4_calories = combined_df["Calories"].nsmallest(4).index
+    top_4_fat = combined_df["Total Fat (g)"].nsmallest(4).index
+    top_4_sugar = combined_df["Sugar (g)"].nsmallest(4).index
+    top_4_sodium = combined_df["Sodium (mg)"].nsmallest(4).index
+    top_4_saturated_fat = combined_df["Saturated Fat (g)"].nsmallest(4).index
+    top_4_carbohydrates = combined_df["Carbohydrates (g)"].nsmallest(4).index
+    top_4_protein = combined_df["Protein (g)"].nlargest(4).index
 
-    # Displaying the recipes in a dataframe with highest.
-    # quantity for each nutritional component
+    # Flag the top 4 for each nutritional component
+    # Using vectorized operations (boolean column value)
+    combined_df["Top 4 Calories"] = combined_df.index.isin(top_4_calories)
+    combined_df["Top 4 Total Fat"] = combined_df.index.isin(top_4_fat)
+    combined_df["Top 4 Sugar"] = combined_df.index.isin(top_4_sugar)
+    combined_df["Top 4 Sodium"] = combined_df.index.isin(top_4_sodium)
+    combined_df["Top 4 Saturated Fat"] = combined_df.index.isin(top_4_saturated_fat)
+    combined_df["Top 4 Carbohydrates"] = combined_df.index.isin(top_4_carbohydrates)
+    combined_df["Top 4 Protein"] = combined_df.index.isin(top_4_protein)
     return combined_df
 
 
