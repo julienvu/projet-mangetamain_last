@@ -40,7 +40,7 @@ def nutrition_bar_ratio_sodium_proteins(
     combined_df: pd.DataFrame, categories: list
 ) -> dict:
     """
-    Creates a plot for 3 categories with the ratios
+    Creates a plot for 4 categories with the ratios
     Returns a dictionary with a Plotly figure for each category.
     Args:
         combined_df (pd.DataFrame): DataFrame containing recipe names.
@@ -54,11 +54,14 @@ def nutrition_bar_ratio_sodium_proteins(
     categories = [
         "Protein (g)",
         "Sodium (mg)",
-        "Carbohydrates (g)",
         "Saturated Fat (g)",
+        "Carbohydrates (g)",
     ]
     figures = {}
     for category in categories:
+        # Ensure the category exists in the DataFrame columns
+        if category not in combined_df.columns:
+            raise ValueError(f"Category '{category}' not found in the DataFrame")
         # Sort recipes depending on the category
         top_4_recipes = combined_df.sort_values(by=category, ascending=False).head(4)
 

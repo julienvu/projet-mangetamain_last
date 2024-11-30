@@ -115,7 +115,7 @@ def display_explications_webapp() -> None:
         "**to share meaningful patterns and observations.** "
         "**We analyzed the number of ingredients** "
         "**in bio recipes,calculated the percentage of recipes within the original** "
-        "**Raw recipes** "
+        "**raw recipes** "
         "**dataset, and examined the total number of bio recipes available.** "
         "**These metrics provide a clear** "
         "**picture of the scope and richness of bio-based cooking.** "
@@ -134,12 +134,12 @@ def display_explications_webapp() -> None:
     )
 
     st.write(
-        "**In addition to the rankings, I created various visualizations,** "
+        "**In addition to the rankings, I created various visualizations** "
         "**such as charts illustrating** "
-        "**the ratio of proteins to sodium and proteins to carbohydrates.** "
+        "**the ratio of proteins to sodium, carbohydrates and saturated fat.** "
         "**These insights are crucial for** "
         "**users who want to optimize their diet to strive against diabetes,** "
-        "**high blood pressure** "
+        "**high blood pressure, bad cholesterol** "
         "**or strengthen muscles.** "
         "**By visualizing these ratios,** "
         "**we make it easier for users to adopt the right recipes for their goals.** "
@@ -148,8 +148,8 @@ def display_explications_webapp() -> None:
     st.write(
         "**To give the efficient recommendations,** "
         "**I included a table showcasing the ideal recipes tailored** "
-        "**for users with specific dietary goals,** "
-        "**whether it's muscle development or reducing the risk of diabetes.** "
+        "**for users with specific dietary goals. It refers to** "
+        "**muscle development, reducing the risk of diabetes or bad cholesterol.** "
         "**This table combines all the insights in an available format.** "
         "**It's empowers users to make informed choices.**"
     )
@@ -505,8 +505,8 @@ def display_nutritional_analysis_ratio(context_key: str = "default") -> None:
     categories = [
         "Protein (g)",
         "Sodium (mg)",
-        "Carbohydrates (g)",
         "Saturated Fat (g)",
+        "Carbohydrates (g)",
     ]
 
     # Add border and style to the radio buttons container
@@ -543,7 +543,7 @@ def display_nutritional_analysis_ratio(context_key: str = "default") -> None:
 def display_ideal_recipes_health() -> None:
     """Displays the ideal recipes for the health contributors .
     This function creates and displays a dataframe that lists ideal recipes
-    for various health goals, such as muscle strengthening and managing
+    for various health goals like muscle strengthening and managing
     diabetes or high blood pressure.
 
     Behavior:
