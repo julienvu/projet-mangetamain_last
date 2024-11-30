@@ -116,7 +116,7 @@ def display_explications_webapp() -> None:
         "**We analyzed the number of ingredients** "
         "**in bio recipes,calculated the percentage of recipes within the original** "
         "**raw recipes** "
-        "**dataset, and examined the total number of bio recipes available.** "
+        "**dataset and examined the total number of bio recipes available.** "
         "**These metrics provide a clear** "
         "**picture of the scope and richness of bio-based cooking.** "
         "**I showed other indicators about users (techniques, number of users)** "
@@ -129,7 +129,7 @@ def display_explications_webapp() -> None:
         "**By ranking the top 4 recipes for each nutritional component,** "
         "**we can identify which dishes align best with specific dietary needs.** "
         "**This ranking provides practical guidance for those seeking** "
-        "**recipes that support muscle development, manage blood sugar,** "
+        "**recipes that support muscle development, manage blood sugar** "
         "**or promote overall health.** "
     )
 
@@ -151,7 +151,7 @@ def display_explications_webapp() -> None:
         "**for users with specific dietary goals. It refers to** "
         "**muscle development, reducing the risk of diabetes or bad cholesterol.** "
         "**This table combines all the insights in an available format.** "
-        "**It's empowers users to make informed choices.**"
+        "**It empowers users to make informed choices.**"
     )
 
     st.write(
@@ -214,7 +214,7 @@ def display_statistics(
         <div style="border: 2px solid #e0e0e0; padding: 20px; margin-bottom: 20px;">
             <h2 style="text-align: center; font-size: 28px;">Bio Recipes Overview</h2>
             <div style="margin-top: 10px; font-size: 22px;">
-                <p>Total Bio recipes:</p>
+                <p>Total bio recipes:</p>
                 <b style="font-size: 26px;color: green;">{}</b>
             </div>
             <div style="margin-top: 10px; font-size: 22px;">
@@ -557,40 +557,28 @@ def display_ideal_recipes_health() -> None:
     # Categories that exist in the dictionary
     data = {
         "Category": [
-            "🏋️‍♂️ Ideal recipes for muscle strengthening",
-            "🏋️‍♂️ Ideal recipes for muscle strengthening",
-            "🫀 Ideal recipes against diabetes and high blood pressure",
-            "🫀 Ideal recipes against diabetes and high blood pressure",
-            "🫀 Ideal recipes against diabetes and high blood pressure",
-            "🫀 Ideal recipes against diabetes and high blood pressure",
-            "🫀 Ideal recipes against diabetes and high blood pressure",
-            "🫀 Ideal recipes against diabetes and high blood pressure",
-            "🫀 Ideal recipes against diabetes and high blood pressure",
-            "🥓 Ideal recipes against bad cholesterol",
-            "🥓 Ideal recipes against bad cholesterol",
-            "🥓 Ideal recipes against bad cholesterol",
-            "🥓 Ideal recipes against bad cholesterol",
-            "🥓 Ideal recipes against bad cholesterol",
-            "🥓 Ideal recipes against bad cholesterol",
-            "🥓 Ideal recipes against bad cholesterol",
+            "🏋️‍♂️ Muscle strengthening",
+            "🏋️‍♂️ Muscle strengthening",
+            "🫀 Diabetes and high blood pressure",
+            "🫀 Diabetes and high blood pressure",
+            "🫀 Diabetes and high blood pressure",
+            "🫀 Diabetes and high blood pressure",
+            "🥓 Bad cholesterol",
+            "🥓 Bad cholesterol",
+            "🥓 Bad cholesterol",
+            "🥓 Bad cholesterol",
         ],
-        "🍉 Recipes (at least one of the ratios close to 1.0 or superior to 1.0)": [
-            "jambon persille",
-            "fresh spinach artichoke dip aka sheep dip",
-            "powdered hot cocoa mix",
-            "tennessee monshine",
-            "Jambon persille",
-            "apple core and peeling jeely",
-            "baked potato soup for a crowd",
-            "fresh spinach artichoke dip aka sheep dip",
-            "white holiday punch",
-            "roasted pepper salt blend",
-            "polish dill pickles made in a crock",
-            "jambon persille",
-            "fast n easy ham glaze",
-            "apple core and peeling jelly",
-            "tennessee moonshine",
-            "powdered hot cocoa mix",
+        "🍉 Recipes (selecting the best retio)": [
+            "lighter pistachio pudding salad",
+            "basic baked fish easy dressing",
+            "creamy cucumber bites",
+            "lighter pistachio pudding salad",
+            "light and fluffy vegan lemon scones",
+            "basic baked fish easy dressing",
+            "easy cinammon sugar muffins",
+            "libbie corn for freezing",
+            "cute little egg chicks",
+            "basic baked fish easy dressing",
         ],
     }
 
