@@ -214,15 +214,15 @@ def display_statistics(
         <div style="border: 2px solid #e0e0e0; padding: 20px; margin-bottom: 20px;">
             <h2 style="text-align: center; font-size: 28px;">Bio Recipes Overview</h2>
             <div style="margin-top: 10px; font-size: 22px;">
-                <p>Total Bio Recipes:</p>
+                <p>Total Bio recipes:</p>
                 <b style="font-size: 26px;color: green;">{}</b>
             </div>
             <div style="margin-top: 10px; font-size: 22px;">
-                <p>Bio Recipes Proportion (%):</p>
+                <p>Bio recipes proportion (%):</p>
                 <b style="font-size: 26px;color: green;">{:.2f}%</b>
             </div>
             <div style="margin-top: 10px; font-size: 22px;">
-                <p>Outliers Detected:</p>
+                <p>Outliers detected:</p>
                 <b style="font-size: 26px;color: green;">{}</b>
             </div>
         </div>
@@ -248,11 +248,11 @@ def display_statistics(
                 <b style="font-size: 26px;color: purple;">{}</b>
             </div>
             <div style="margin-top: 10px; font-size: 22px;">
-                <p>New users (Last Month):</p>
+                <p>New users (last month):</p>
                 <b style="font-size: 26px;color: purple;">452</b>
             </div>
             <div style="margin-top: 10px; font-size: 22px;">
-                <p>Number of different Techniques:</p>
+                <p>Number of different techniques:</p>
                 <b style="font-size: 26px;color: purple;">{}</b>
             </div>
         </div>
@@ -269,7 +269,7 @@ def display_statistics(
         <div style="border: 2px solid #e0e0e0; padding: 20px;">
             <h2 style="text-align: center; font-size: 28px;">Ingredient Insights</h2>
             <div style="margin-top: 10px; font-size: 22px;">
-                <p>Unique Ingredients:</p>
+                <p>Unique ingredients:</p>
                 <b style="font-size: 26px;color: orange;">{}</b>
             </div>
         </div>
