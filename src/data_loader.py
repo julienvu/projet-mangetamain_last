@@ -13,7 +13,7 @@ class DataLoader:
     def __init__(self):
         pass
 
-    @st.cache_data
+    @st.cache_data(ttl=3600)
     def decompress_xz(_self, file_name, output_dir):
         """
         Decompresses a plain .xz file into the output directory.
@@ -30,7 +30,7 @@ class DataLoader:
             logger.error(f"Error while decompressing {file_name}: {e}")
             raise
 
-    @st.cache_data
+    @st.cache_data(ttl=3600)
     def unzip_data(_self, file_name: str) -> list:
         """
         Unzips a ZIP or decompresses an XZ file
@@ -57,7 +57,7 @@ class DataLoader:
             logger.error(f"Error while extracting {file_name}: {e}")
             raise
 
-    @st.cache_data
+    @st.cache_data(ttl=3600)
     def load_data(_self, file_name: str) -> pd.DataFrame:
         """
         Loads data from a file (CSV, ZIP containing CSV, or XZ containing CSV).

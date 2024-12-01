@@ -25,8 +25,7 @@ if "data_loader" not in st.session_state:
 
 
 # Load data files once using caching
-# Load data with cache putting
-@st.cache_data(show_spinner=False)
+@st.cache_data(ttl=3600)
 def load_data_files():
     """
     Load data files required for the application.
@@ -114,7 +113,7 @@ def display_explications_webapp() -> None:
         "**Here, I worked on generating KPI's** "
         "**to share meaningful patterns and observations.** "
         "**We analyzed the number of ingredients** "
-        "**in bio recipes,calculated the percentage of recipes within the original** "
+        "**in bio recipes, calculated the percentage of recipes within the original** "
         "**raw recipes** "
         "**dataset and examined the total number of bio recipes available.** "
         "**These metrics provide a clear** "
@@ -129,34 +128,39 @@ def display_explications_webapp() -> None:
         "**By ranking the top 4 recipes for each nutritional component,** "
         "**we can identify which dishes align best with specific dietary needs.** "
         "**This ranking provides practical guidance for those seeking** "
-        "**recipes that support muscle development, manage blood sugar** "
+        "**recipes that support muscular development, control blood sugar** "
         "**or promote overall health.** "
+        "**I decided to maximize the proteins quantities in the ranking.** "
+        "**The recipes with the lower values are chosen** "
+        "**about the other nutritional components.** "
     )
 
     st.write(
         "**In addition to the rankings, I created various visualizations** "
         "**such as charts illustrating** "
-        "**the ratio of proteins to sodium, carbohydrates and saturated fat.** "
+        "**the ratio of proteins to sodium,** "
+        "**proteins to carbohydrates and the proteins to saturated fat.** "
+        "**I selected the higher ratio value of each chart.** "
         "**These insights are crucial for** "
         "**users who want to optimize their diet to strive against diabetes,** "
         "**high blood pressure, bad cholesterol** "
         "**or strengthen muscles.** "
-        "**By visualizing these ratios,** "
-        "**we make it easier for users to adopt the right recipes for their goals.** "
+        "**Visualizing these ratios** "
+        "**makes it easier for users to adopt the right recipes for their goals.** "
     )
 
     st.write(
         "**To give the efficient recommendations,** "
         "**I included a table showcasing the ideal recipes tailored** "
         "**for users with specific dietary goals. It refers to** "
-        "**muscle development, reducing the risk of diabetes or bad cholesterol.** "
+        "**muscular development, reducing the risk of diabetes or bad cholesterol.** "
         "**This table combines all the insights in an available format.** "
         "**It empowers users to make informed choices.**"
     )
 
     st.write(
         "**The results from these analyses have been enlightening.** "
-        "**The nutritional content of some recipes was higher** "
+        "**The nutritional content of some recipes was lower** "
         "**than expected, giving insights in their potential health benefits.** "
         "**This exploration has also provided** "
         "**me with a deeper understanding of how bio recipes can** "
@@ -181,7 +185,7 @@ def display_title() -> None:
     )
 
 
-@st.cache_data(show_spinner=False)
+@st.cache_data(ttl=3600)
 @st.fragment
 def display_statistics(
     df_preprocessed: pd.DataFrame, rate_bio_recipes: float, outliers_zscore_df: int
@@ -212,16 +216,16 @@ def display_statistics(
     st.markdown(
         """
         <div style="border: 2px solid #e0e0e0; padding: 20px; margin-bottom: 20px;">
-            <h2 style="text-align: center; font-size: 28px;">Bio Recipes Overview</h2>
-            <div style="margin-top: 10px; font-size: 22px;">
+            <h2 style="text-align: center; font-size: 32px;">Bio Recipes Overview</h2>
+            <div style="margin-top: 10px; font-size: 27px;">
                 <p>Total bio recipes:</p>
                 <b style="font-size: 26px;color: green;">{}</b>
             </div>
-            <div style="margin-top: 10px; font-size: 22px;">
+            <div style="margin-top: 10px; font-size: 27px;">
                 <p>Bio recipes proportion (%):</p>
                 <b style="font-size: 26px;color: green;">{:.2f}%</b>
             </div>
-            <div style="margin-top: 10px; font-size: 22px;">
+            <div style="margin-top: 10px; font-size: 27px;">
                 <p>Outliers detected:</p>
                 <b style="font-size: 26px;color: green;">{}</b>
             </div>
@@ -242,18 +246,18 @@ def display_statistics(
     st.markdown(
         """
         <div style="border: 2px solid #e0e0e0; padding: 20px; margin-bottom: 20px;">
-            <h2 style="text-align: center; font-size: 28px;">Community Insights</h2>
-            <div style="margin-top: 10px; font-size: 22px;">
+            <h2 style="text-align: center; font-size: 32px;">Community Insights</h2>
+            <div style="margin-top: 10px; font-size: 27px;">
                 <p>Total users:</p>
-                <b style="font-size: 26px;color: pink;">{}</b>
+                <b style="font-size: 26px;color: #ff69b4;">{}</b>
             </div>
-            <div style="margin-top: 10px; font-size: 22px;">
+            <div style="margin-top: 10px; font-size: 27px;">
                 <p>New users (last month):</p>
-                <b style="font-size: 26px;color: pink;">452</b>
+                <b style="font-size: 26px;color: #ff69b4;">452</b>
             </div>
-            <div style="margin-top: 10px; font-size: 22px;">
+            <div style="margin-top: 10px; font-size: 27px;">
                 <p>Number of different techniques:</p>
-                <b style="font-size: 26px;color: pink;">{}</b>
+                <b style="font-size: 26px;color: #ff69b4;">{}</b>
             </div>
         </div>
         """.format(
@@ -267,8 +271,8 @@ def display_statistics(
     st.markdown(
         """
         <div style="border: 2px solid #e0e0e0; padding: 20px;">
-            <h2 style="text-align: center; font-size: 28px;">Ingredient Insights</h2>
-            <div style="margin-top: 10px; font-size: 22px;">
+            <h2 style="text-align: center; font-size: 32px;">Ingredient Insights</h2>
+            <div style="margin-top: 10px; font-size: 27px;">
                 <p>Unique ingredients:</p>
                 <b style="font-size: 26px;color: orange;">{}</b>
             </div>
@@ -348,7 +352,7 @@ def display_nutritional_analysis() -> None:
         ```python
         display_nutritional_analysis()
     """
-    st.subheader("🍲 Top 4 Recipes per nutritional component (calories in Kcal)")
+    st.subheader("🥥 Top 4 Recipes per nutritional component (calories in Kcal)")
     # Help button with an interactive display
     if st.button("ℹ️ Current Daily Value (DV) guide"):
         st.markdown(
@@ -374,7 +378,7 @@ def display_nutritional_analysis() -> None:
     with col1:
         # Custom HTML to wrap the radio button inside a div with class for styling
         selected_category = st.radio(
-            "Select a nutritional component",
+            "🔥 Select a nutritional component",
             categories,
             key="unique_key_for_selectbox_1",
         )
@@ -511,7 +515,7 @@ def display_nutritional_analysis_ratio(context_key: str = "default") -> None:
 
     # Add border and style to the radio buttons container
     selected_category = st.radio(
-        "Select a nutritional component",
+        "🦑 Select a nutritional component",
         categories,
         key=f"selectbox_{context_key}",  # Dynamically generate a unique key
     )
@@ -559,16 +563,16 @@ def display_ideal_recipes_health() -> None:
         "Category": [
             "🏋️‍♂️ Muscle strengthening",
             "🏋️‍♂️ Muscle strengthening",
-            "🫀 Diabetes and high blood pressure",
-            "🫀 Diabetes and high blood pressure",
-            "🫀 Diabetes and high blood pressure",
-            "🫀 Diabetes and high blood pressure",
+            "🫀 Diabete and high blood pressure",
+            "🫀 Diabete and high blood pressure",
+            "🫀 Diabete and high blood pressure",
+            "🫀 Diabete and high blood pressure",
             "🥓 Bad cholesterol",
             "🥓 Bad cholesterol",
             "🥓 Bad cholesterol",
             "🥓 Bad cholesterol",
         ],
-        "🍉 Recipes (selecting the best ratio)": [
+        "🍉 Recipes (selecting the higher ratio value)": [
             "lighter pistachio pudding salad",
             "basic baked fish easy dressing",
             "creamy cucumber bites",

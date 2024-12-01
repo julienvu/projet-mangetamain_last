@@ -11,7 +11,7 @@ df = data_loader.load_data("dataset/RAW_recipes.csv.zip")
 df_preprocessed = data_loader.load_data("preprocessed_data/PP_recipes_mangetamain.csv")
 
 
-@st.cache_data(show_spinner=False)
+@st.cache_data(ttl=3600)
 def filter_dataframebis1(
     df: pd.DataFrame, column_names: list, filter_values: list
 ) -> pd.DataFrame:
