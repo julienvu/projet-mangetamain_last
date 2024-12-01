@@ -105,60 +105,62 @@ Follow the same steps as for **Windows** to install Poetry and run the applicati
 ### Application Directory Structure (with the tree view)
 Our application is structured with the following organization below:
 ```bash
-  projet-mangetamain_last/
-  │
-  ├── .github/                 # GitHub Actions configuration files
-  │   └── workflows/           # CI/CD pipeline YAML files
-  │
-  ├── docs/                    # Project documentation (user guides, setup instructions)
-  │
-  ├── dataset/                 # Datasets used for analysis
-  │   ├── PP_users.csv.zip                 # Raw data files
-  │   └── RAW_recipes.csv.zip
-      └── ingr_map.pkl           
-  │
-  ├── preprocessed_data/       # Preprocessed data used for analysis
-  │   ├── PP_interactions_mangetamain.csv  # Interactions dataset
-  │   └── PP_recipes_mangetamain.csv      # Recipes dataset
-  │
-  ├── src/                     # Source code for the application
-  │   ├── __init__.py          # Package initialization
-  │   ├── app.py               # Main entry point for the Streamlit app
-  │   ├── data_loader.py       # Logic for loading data
-  │   ├── log_config.py        # Logging configuration
-  │   ├── main.py              # Main app logic
-  │   ├── nutrition_stats.py   # Nutrition statistics calculation
-  │   ├── utils.py             # Helper functions used by the app
-  │   ├── graphs.py            # Graph generation for visualizations
-  │   ├── graphs_nutrition.py  # Nutrition-related graph visualizations
-  │   └── visualization/       # Directory for visualization-related files
-  │       ├── plot.py          # Script for generating plots
-  │       └── dashboard.py     # Script for building dashboards
-  │
-  ├── tests/                   # Unit tests for the application
-  │   ├── __init__.py          # Package initialization
-  │   ├── conftest.py          # Configuration for test setup
-  │   ├── test_app.py          # Tests for Streamlit app logic
-  │   ├── test_data_loader.py  # Tests for the data loading functionality
-  │   ├── test_graphs.py       # Tests for graphing functionalities
-  │   ├── test_graphs_nutrition.py # Tests for nutrition-related graphs
-  │   ├── test_log_config.py   # Tests for logging configuration
-  │   ├── test_nutrition_stats.py # Tests for nutrition statistics functions
-  │   └── test_utils.py        # Tests for utility functions
-  │
-  ├── .vscode/                 # VS Code workspace configuration
-  │   └── settings.json        # VS Code settings
-  │
-  ├── .devcontainer/           # Dev container configuration for consistent 
-  │   └── devcontainer.json    # Configuration file for the dev container
-  │
-  ├── .gitignore               # Git ignore configuration
-  ├── LICENSE                  # Project license
-  ├── pyproject.toml           # Poetry configuration for the project
-  ├── poetry.lock              # Locked dependencies
-  ├── README.md                # Project overview and documentation
-  └── requirements.txt         # Dependencies for pip (alternative to Poetry)
-
+      projet-mangetamain_last/
+    │
+    ├── .github/                 # GitHub Actions configuration files
+    │   └── workflows/           # CI/CD pipeline YAML files
+    │       └── python-ci.yml     # CI workflow for Python tests and deployment
+    │
+    ├── docs/                    # Project documentation (user guides, setup instructions)
+    │   ├── source/              # Documentation source files
+    │   │   ├── conf.py          # Sphinx configuration file for documentation generation
+    │   │   └── index.rst        # Main reStructuredText file for documentation
+    │
+    ├── dataset/                 # Datasets used for analysis
+    │   ├── PP_users.csv.zip     # Users data
+    │   ├── RAW_recipes.csv.zip  # Raw recipes data
+    │   └── ingr_map.pkl         # Ingredient mapping
+    │
+    ├── preprocessed_data/       # Preprocessed data used for analysis
+    │   ├── PP_interactions_mangetamain.csv  # Interactions dataset
+    │   └── PP_recipes_mangetamain.csv      # Recipes dataset
+    │
+    ├── src/                     # Source code for the application
+    │   ├── __init__.py          # Package initialization
+    │   ├── data_loader.py       # Logic for loading data
+    │   ├── log_config.py        # Logging configuration
+    │   ├── main.py              # Main app logic
+    │   ├── nutrition_stats.py   # Nutrition statistics calculation
+    │   ├── utils.py             # Helper functions used by the app
+    │   ├── visualization/       # Directory for visualization-related files
+    │   │   ├── __init__.py      # Package initialization for visualization
+    │   │   ├── graphs.py        # Graph generation for visualizations
+    │   │   └── graphs_nutrition.py  # Nutrition-related graph visualizations
+    │
+    ├── tests/                   # Unit tests for the application
+    │   ├── __init__.py          # Package initialization for tests
+    │   ├── conftest.py          # Configuration for test setup
+    │   ├── test_data_loader.py  # Tests for the data loading functionality
+    │   ├── test_log_config.py   # Tests for logging configuration
+    │   ├── test_nutrition_stats.py # Tests for nutrition statistics functions
+    │   ├── test_utils.py        # Tests for utility functions
+    │   ├── visualization/       # Directory for visualization-related tests
+    │   │   ├── __init__.py      # Package initialization for visualization tests
+    │   │   ├── test_graphs.py   # Tests for graph generation
+    │   │   └── test_graphs_nutrition.py # Tests for nutrition-related graphs
+    │
+    ├── .vscode/                 # VS Code workspace configuration
+    │   └── settings.json        # VS Code settings
+    │
+    ├── .devcontainer/           # Dev container configuration for consistent development environments
+    │   └── devcontainer.json    # Configuration file for the dev container
+    │
+    ├── .gitignore               # Git ignore configuration
+    ├── LICENSE                  # Project license
+    ├── pyproject.toml           # Poetry configuration for the project
+    ├── poetry.lock              # Locked dependencies
+    ├── README.md                # Project overview and documentation
+    └── requirements.txt         # Dependencies for pip (alternative to Poetry)
   ```
 ## Running the Application Locally
 
