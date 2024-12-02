@@ -517,7 +517,7 @@ def display_nutritional_analysis_ratio(context_key: str = "default") -> None:
     selected_category = st.radio(
         "Select a nutritional component",
         categories,
-        key=f"selectbox_{context_key}", # Dynamically generate a unique key
+        key=f"selectbox_{context_key}",  # Dynamically generate a unique key
     )
     # Add border and margin around the chart to separate it from the radio buttons
     st.markdown(
@@ -696,7 +696,7 @@ def main():
     # Expander for health diets
     with st.sidebar.expander("🍽️ Food diets"):
         show_health_diets = st.checkbox(
-            "Recommended Diets for diabetes, obesity, muscle building, and bad cholesterol",
+            "Diet Plans: diabete, obesity, muscle strenghtening & bad cholesterol",
             True,
             key="health_diet",
         )
