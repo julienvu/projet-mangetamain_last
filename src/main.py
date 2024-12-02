@@ -140,9 +140,9 @@ def display_explications_webapp() -> None:
         "**such as charts illustrating** "
         "**the ratio of proteins to sodium,** "
         "**proteins to carbohydrates and the proteins to saturated fat.** "
-        "**I selected the higher ratio value of each chart.** "
+        "**For each chart, I selected the recipe that has the highest ratio value.** "
         "**These insights are crucial for** "
-        "**users who want to optimize their diet to strive against diabetes,** "
+        "**users who want to optimize their diet to strive against diabete,** "
         "**high blood pressure, bad cholesterol** "
         "**or strengthen muscles.** "
         "**Visualizing these ratios** "
@@ -153,7 +153,7 @@ def display_explications_webapp() -> None:
         "**To give the efficient recommendations,** "
         "**I included a table showcasing the ideal recipes tailored** "
         "**for users with specific dietary goals. It refers to** "
-        "**muscular development, reducing the risk of diabetes or bad cholesterol.** "
+        "**muscular development, reducing the risk of diabete or bad cholesterol.** "
         "**This table combines all the insights in an available format.** "
         "**It empowers users to make informed choices.**"
     )
@@ -515,7 +515,7 @@ def display_nutritional_analysis_ratio(context_key: str = "default") -> None:
 
     # Add border and style to the radio buttons container
     selected_category = st.radio(
-        "🦑 Select a nutritional component",
+        "Select a nutritional component",
         categories,
         key=f"selectbox_{context_key}",  # Dynamically generate a unique key
     )
@@ -548,7 +548,7 @@ def display_ideal_recipes_health() -> None:
     """Displays the ideal recipes for the health contributors .
     This function creates and displays a dataframe that lists ideal recipes
     for various health goals like muscle strengthening and managing
-    diabetes or high blood pressure.
+    diabete or high blood pressure.
 
     Behavior:
         - Constructs a pandas DataFrame with health categories and recipes.
@@ -561,8 +561,8 @@ def display_ideal_recipes_health() -> None:
     # Categories that exist in the dictionary
     data = {
         "Category": [
-            "🏋️‍♂️ Muscle strengthening",
-            "🏋️‍♂️ Muscle strengthening",
+            "🏋️‍♂️ Muscle strengthening and obesity",
+            "🫀 Diabete and high blood pressure",
             "🫀 Diabete and high blood pressure",
             "🫀 Diabete and high blood pressure",
             "🫀 Diabete and high blood pressure",
@@ -572,17 +572,17 @@ def display_ideal_recipes_health() -> None:
             "🥓 Bad cholesterol",
             "🥓 Bad cholesterol",
         ],
-        "🍉 Recipes (selecting the higher ratio value)": [
-            "lighter pistachio pudding salad",
-            "basic baked fish easy dressing",
-            "creamy cucumber bites",
-            "lighter pistachio pudding salad",
-            "light and fluffy vegan lemon scones",
-            "basic baked fish easy dressing",
-            "easy cinammon sugar muffins",
-            "libbie corn for freezing",
-            "cute little egg chicks",
-            "basic baked fish easy dressing",
+        "🍉 Recipes (selecting the highest ratio value and ideally higher than 1.0)": [
+            "crabmeat st peter",
+            "moroccan fennel salad",
+            "almond raisin winter cookies",
+            "warm potato salad with herbs",
+            "cabbage side dish",
+            "crabmeat st peter",
+            "moroccan tomato and capsicum salad",
+            "warm potato salad with herbs",
+            "asian style edaname and corn",
+            "crabmeat st peter",
         ],
     }
 
@@ -682,21 +682,21 @@ def main():
             "Evolution of interactions", True, key="general_observations_checkbox4453"
         )
     # Expander for nutritional components analysis
-    with st.sidebar.expander("🥒 Nutritional components"):
+    with st.sidebar.expander("🥒 Nutritional components findings"):
         show_nutritional_analysis = st.checkbox(
-            "Ranking recipes based on nutritional components",
+            "Recipes ranking/nutritional component",
             True,
             key="nutritional_analysis_checkbox58",
         )
         show_nutritional_analysis_1 = st.checkbox(
-            "Ranking recipes based on nutritional components ratio",
+            "Recipes ranking/nutritional component ratio",
             True,
             key="nutritional_analysis_checkbox_576",
         )
     # Expander for health diets
     with st.sidebar.expander("🍽️ Food diets"):
         show_health_diets = st.checkbox(
-            "Show food diets against diabetes and for muscle strengthening",
+            "Diet plans: diabete, obesity, muscle strenghtening & bad cholesterol",
             True,
             key="health_diet",
         )
@@ -731,7 +731,7 @@ def main():
         display_nutritional_analysis_ratio(context_key="nutritional_components")
 
     if show_health_diets:
-        st.subheader("💕 The ideal recipes for a better health")
+        st.subheader("ﮩـﮩﮩ٨ـ🫀ﮩ٨ـﮩﮩ٨ـ Top recipes for optimal health")
         display_ideal_recipes_health()
 
 
