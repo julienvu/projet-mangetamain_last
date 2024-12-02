@@ -320,3 +320,1169 @@
 2024-11-25 23:36:09,179 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
 2024-11-25 23:36:09,379 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
 2024-11-25 23:36:09,545 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-26 10:15:49,351 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-26 10:15:49,676 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-26 10:15:49,711 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-26 10:15:49,819 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-26 10:20:40,649 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-26 10:20:40,879 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-26 10:20:40,925 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-26 10:20:41,023 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-26 10:24:34,959 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-26 10:24:35,215 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-26 10:24:35,245 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-26 10:24:35,323 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-26 10:32:27,070 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-26 10:32:27,325 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-26 10:32:27,353 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-26 10:32:27,438 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-26 10:42:33,771 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-26 10:42:34,081 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-26 10:42:34,125 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-26 10:42:34,223 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-26 10:47:57,153 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-26 10:47:57,417 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-26 10:47:57,457 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-26 10:47:57,563 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-26 13:31:38,807 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-26 13:31:39,235 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-26 13:31:39,263 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-26 13:31:39,335 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-26 13:33:30,036 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-26 13:33:30,231 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-26 13:33:30,260 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-26 13:33:30,328 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-26 13:39:19,148 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-26 13:39:19,333 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-26 13:39:19,358 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-26 13:39:19,427 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-26 13:42:00,986 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-26 13:42:01,189 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-26 13:42:01,211 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-26 13:42:01,281 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-26 18:49:32,894 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-26 18:49:33,171 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-26 18:49:33,208 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-26 18:49:33,296 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-26 18:55:44,817 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-26 18:55:45,177 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-26 18:55:45,209 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-26 18:55:45,293 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-26 19:15:09,983 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-26 19:15:10,253 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-26 19:15:10,284 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-26 19:15:10,359 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-26 19:21:35,730 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-26 19:21:35,930 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-26 19:21:35,958 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-26 19:21:36,035 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-26 19:34:33,925 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-26 19:34:34,123 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-26 19:34:34,160 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-26 19:34:34,235 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-26 19:41:16,443 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-26 19:41:16,667 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-26 19:41:16,697 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-26 19:41:16,778 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-26 19:47:01,224 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-26 19:47:01,458 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-26 19:47:01,627 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-26 19:47:01,798 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-26 19:54:00,867 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-26 19:54:01,079 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-26 19:54:01,108 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-26 19:54:01,176 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-26 19:59:32,751 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-26 19:59:33,131 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-26 19:59:33,186 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-26 19:59:33,343 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-26 20:03:16,281 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-26 20:03:16,477 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-26 20:03:16,505 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-26 20:03:16,573 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-26 20:05:58,686 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-26 20:05:58,877 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-26 20:05:58,907 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-26 20:05:58,990 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-26 20:07:54,974 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-26 20:07:55,169 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-26 20:07:55,199 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-26 20:07:55,263 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-26 20:09:49,561 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-26 20:09:49,780 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-26 20:09:49,821 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-26 20:09:49,893 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-26 21:07:12,509 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-26 21:07:12,920 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-26 21:07:12,958 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-26 21:07:13,052 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-26 21:14:07,193 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-26 21:14:08,138 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-26 21:14:08,310 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-26 21:14:08,561 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-26 21:18:49,196 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-26 21:18:49,470 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-26 21:18:49,511 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-26 21:18:49,591 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-26 21:22:38,725 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-26 21:22:39,127 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-26 21:22:39,167 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-26 21:22:39,253 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-26 21:30:53,518 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-26 21:30:53,783 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-26 21:30:53,820 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-26 21:30:54,258 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-26 21:33:46,371 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-26 21:33:46,575 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-26 21:33:46,600 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-26 21:33:46,693 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-27 14:07:48,074 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-27 14:07:48,426 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-27 14:07:48,461 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-27 14:07:48,548 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-27 14:13:24,627 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-27 14:13:24,842 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-27 14:13:24,869 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-27 14:13:24,935 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-27 14:20:16,920 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-27 14:20:17,135 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-27 14:20:17,189 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-27 14:20:17,261 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-27 14:27:59,681 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-27 14:28:00,123 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-27 14:28:00,171 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-27 14:28:00,305 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-27 14:33:42,594 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-27 14:33:42,945 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-27 14:33:42,997 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-27 14:33:43,079 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-27 14:48:44,129 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-27 14:48:44,372 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-27 14:48:44,417 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-27 14:48:44,500 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-27 14:52:36,490 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-27 14:52:36,690 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-27 14:52:36,723 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-27 14:52:36,790 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-27 14:58:21,676 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-27 14:58:21,863 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-27 14:58:21,894 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-27 14:58:21,963 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-27 15:01:58,894 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-27 15:01:59,073 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-27 15:01:59,100 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-27 15:01:59,165 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-27 15:11:30,365 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-27 15:11:30,570 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-27 15:11:30,602 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-27 15:11:30,675 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-27 15:13:15,535 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-27 15:13:16,292 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-27 15:13:16,368 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-27 15:13:16,554 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-27 15:37:04,879 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-27 15:37:05,163 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-27 15:37:05,206 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-27 15:37:05,357 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-27 15:39:58,639 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-27 15:39:58,844 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-27 15:39:58,879 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-27 15:39:58,954 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-27 15:48:15,929 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-27 15:48:16,320 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-27 15:48:16,411 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-27 15:48:16,561 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-27 15:52:47,942 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-27 15:52:48,197 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-27 15:52:48,275 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-27 15:52:48,433 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-27 15:58:40,843 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-27 15:58:41,119 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-27 15:58:41,147 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-27 15:58:41,246 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-27 16:03:13,143 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-27 16:03:13,393 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-27 16:03:13,431 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-27 16:03:13,505 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-27 16:06:43,773 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-27 16:06:43,970 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-27 16:06:44,002 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-27 16:06:44,071 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-27 16:08:26,217 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-27 16:08:26,420 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-27 16:08:26,449 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-27 16:08:26,521 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-27 16:10:44,329 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-27 16:10:44,554 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-27 16:10:44,581 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-27 16:10:44,649 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-27 16:13:56,809 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-27 16:13:57,019 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-27 16:13:57,055 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-27 16:13:57,126 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-27 16:16:06,247 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-27 16:16:06,516 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-27 16:16:06,559 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-27 16:16:06,654 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-28 06:39:01,361 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-28 06:39:01,665 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-28 06:39:01,690 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-28 06:39:01,762 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-28 06:41:07,891 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-28 06:41:08,201 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-28 06:41:08,247 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-28 06:41:08,381 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-28 06:43:08,956 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-28 06:43:09,183 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-28 06:43:09,235 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-28 06:43:09,325 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-28 06:48:51,275 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-28 06:48:51,481 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-28 06:48:51,507 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-28 06:48:51,573 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-28 08:25:10,663 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-28 08:25:10,987 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-28 08:25:11,058 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-28 08:25:11,262 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-28 08:29:15,335 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-28 08:29:15,551 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-28 08:29:15,592 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-28 08:29:15,663 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-28 08:36:33,080 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-28 08:36:33,383 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-28 08:36:33,423 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-28 08:36:33,520 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-28 08:38:18,757 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-28 08:38:18,990 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-28 08:38:19,028 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-28 08:38:19,100 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-28 10:28:07,813 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-28 10:28:08,003 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-28 10:28:08,033 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-28 10:28:08,098 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-28 10:34:02,386 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-28 10:34:02,718 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-28 10:34:02,763 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-28 10:34:02,830 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-28 10:36:31,161 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-28 10:36:31,378 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-28 10:36:31,421 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-28 10:36:31,500 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-28 10:41:30,011 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-28 10:41:30,213 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-28 10:41:30,245 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-28 10:41:30,326 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-28 10:45:06,809 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-28 10:45:06,992 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-28 10:45:07,019 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-28 10:45:07,082 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-28 11:41:45,966 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-28 11:41:46,172 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-28 11:41:46,211 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-28 11:41:46,279 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-28 12:35:28,968 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-28 12:35:29,235 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-28 12:35:29,275 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-28 12:35:29,352 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-28 13:42:23,309 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-28 13:42:23,492 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-28 13:42:23,518 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-28 13:42:23,583 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-28 13:45:57,752 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-28 13:45:58,007 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-28 13:45:58,060 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-28 13:45:58,217 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-28 13:48:10,531 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-28 13:48:10,723 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-28 13:48:10,749 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-28 13:48:10,817 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-28 13:52:27,099 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-28 13:52:27,287 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-28 13:52:27,314 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-28 13:52:27,378 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-28 13:52:28,237 - matplotlib - DEBUG - matplotlib data path: /Users/julienvu/.pyenv/versions/3.11.8/lib/python3.11/site-packages/matplotlib/mpl-data
+2024-11-28 13:52:28,253 - matplotlib - DEBUG - CONFIGDIR=/Users/julienvu/.matplotlib
+2024-11-28 13:52:28,258 - matplotlib - DEBUG - interactive is False
+2024-11-28 13:52:28,258 - matplotlib - DEBUG - platform is darwin
+2024-11-28 13:52:28,377 - matplotlib - DEBUG - CACHEDIR=/Users/julienvu/.matplotlib
+2024-11-28 13:52:28,382 - matplotlib.font_manager - DEBUG - Using fontManager instance from /Users/julienvu/.matplotlib/fontlist-v390.json
+2024-11-28 13:56:37,003 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-28 13:56:37,185 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-28 13:56:37,214 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-28 13:56:37,279 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-28 13:56:38,231 - matplotlib - DEBUG - matplotlib data path: /Users/julienvu/.pyenv/versions/3.11.8/lib/python3.11/site-packages/matplotlib/mpl-data
+2024-11-28 13:56:38,241 - matplotlib - DEBUG - CONFIGDIR=/Users/julienvu/.matplotlib
+2024-11-28 13:56:38,243 - matplotlib - DEBUG - interactive is False
+2024-11-28 13:56:38,243 - matplotlib - DEBUG - platform is darwin
+2024-11-28 13:56:38,379 - matplotlib - DEBUG - CACHEDIR=/Users/julienvu/.matplotlib
+2024-11-28 13:56:38,385 - matplotlib.font_manager - DEBUG - Using fontManager instance from /Users/julienvu/.matplotlib/fontlist-v390.json
+2024-11-28 14:01:00,843 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-28 14:01:01,024 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-28 14:01:01,053 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-28 14:01:01,117 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-28 14:01:02,101 - matplotlib - DEBUG - matplotlib data path: /Users/julienvu/.pyenv/versions/3.11.8/lib/python3.11/site-packages/matplotlib/mpl-data
+2024-11-28 14:01:02,112 - matplotlib - DEBUG - CONFIGDIR=/Users/julienvu/.matplotlib
+2024-11-28 14:01:02,114 - matplotlib - DEBUG - interactive is False
+2024-11-28 14:01:02,114 - matplotlib - DEBUG - platform is darwin
+2024-11-28 14:01:02,383 - matplotlib - DEBUG - CACHEDIR=/Users/julienvu/.matplotlib
+2024-11-28 14:01:02,388 - matplotlib.font_manager - DEBUG - Using fontManager instance from /Users/julienvu/.matplotlib/fontlist-v390.json
+2024-11-28 14:14:01,403 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-28 14:14:01,584 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-28 14:14:01,611 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-28 14:14:01,679 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-28 14:15:58,306 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-28 14:15:58,492 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-28 14:15:58,522 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-28 14:15:58,589 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-28 14:19:10,239 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-28 14:19:10,431 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-28 14:19:10,459 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-28 14:19:10,525 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-28 14:21:56,243 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-28 14:21:56,430 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-28 14:21:56,459 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-28 14:21:56,527 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-28 14:23:49,668 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-28 14:23:49,853 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-28 14:23:49,886 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-28 14:23:49,950 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-28 14:25:32,055 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-28 14:25:32,497 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-28 14:25:32,535 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-28 14:25:32,623 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-28 16:32:47,315 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-28 16:32:47,930 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-28 16:32:47,980 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-28 16:32:48,084 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-28 18:10:39,514 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-28 18:10:39,719 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-28 18:10:39,749 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-28 18:10:40,074 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-28 18:10:41,521 - matplotlib - DEBUG - matplotlib data path: /Users/julienvu/.pyenv/versions/3.11.8/lib/python3.11/site-packages/matplotlib/mpl-data
+2024-11-28 18:10:41,534 - matplotlib - DEBUG - CONFIGDIR=/Users/julienvu/.matplotlib
+2024-11-28 18:10:41,536 - matplotlib - DEBUG - interactive is False
+2024-11-28 18:10:41,537 - matplotlib - DEBUG - platform is darwin
+2024-11-28 18:10:41,687 - matplotlib - DEBUG - CACHEDIR=/Users/julienvu/.matplotlib
+2024-11-28 18:10:41,693 - matplotlib.font_manager - DEBUG - Using fontManager instance from /Users/julienvu/.matplotlib/fontlist-v390.json
+2024-11-28 18:18:16,018 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-28 18:18:16,202 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-28 18:18:16,227 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-28 18:18:16,292 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-28 18:18:17,326 - matplotlib - DEBUG - matplotlib data path: /Users/julienvu/.pyenv/versions/3.11.8/lib/python3.11/site-packages/matplotlib/mpl-data
+2024-11-28 18:18:17,343 - matplotlib - DEBUG - CONFIGDIR=/Users/julienvu/.matplotlib
+2024-11-28 18:18:17,345 - matplotlib - DEBUG - interactive is False
+2024-11-28 18:18:17,345 - matplotlib - DEBUG - platform is darwin
+2024-11-28 18:18:17,636 - matplotlib - DEBUG - CACHEDIR=/Users/julienvu/.matplotlib
+2024-11-28 18:18:17,647 - matplotlib.font_manager - DEBUG - Using fontManager instance from /Users/julienvu/.matplotlib/fontlist-v390.json
+2024-11-28 18:23:19,627 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-28 18:23:20,188 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-28 18:23:20,244 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-28 18:23:20,774 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-28 18:23:22,580 - matplotlib - DEBUG - matplotlib data path: /Users/julienvu/.pyenv/versions/3.11.8/lib/python3.11/site-packages/matplotlib/mpl-data
+2024-11-28 18:23:22,616 - matplotlib - DEBUG - CONFIGDIR=/Users/julienvu/.matplotlib
+2024-11-28 18:23:22,623 - matplotlib - DEBUG - interactive is False
+2024-11-28 18:23:22,624 - matplotlib - DEBUG - platform is darwin
+2024-11-28 18:23:22,894 - matplotlib - DEBUG - CACHEDIR=/Users/julienvu/.matplotlib
+2024-11-28 18:23:22,950 - matplotlib.font_manager - DEBUG - Using fontManager instance from /Users/julienvu/.matplotlib/fontlist-v390.json
+2024-11-28 18:27:44,771 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-28 18:27:44,961 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-28 18:27:44,996 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-28 18:27:45,079 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-28 18:27:46,424 - matplotlib - DEBUG - matplotlib data path: /Users/julienvu/.pyenv/versions/3.11.8/lib/python3.11/site-packages/matplotlib/mpl-data
+2024-11-28 18:27:46,438 - matplotlib - DEBUG - CONFIGDIR=/Users/julienvu/.matplotlib
+2024-11-28 18:27:46,444 - matplotlib - DEBUG - interactive is False
+2024-11-28 18:27:46,444 - matplotlib - DEBUG - platform is darwin
+2024-11-28 18:27:46,693 - matplotlib - DEBUG - CACHEDIR=/Users/julienvu/.matplotlib
+2024-11-28 18:27:46,701 - matplotlib.font_manager - DEBUG - Using fontManager instance from /Users/julienvu/.matplotlib/fontlist-v390.json
+2024-11-28 18:35:40,744 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-28 18:35:40,933 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-28 18:35:40,966 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-28 18:35:41,029 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-28 18:35:42,007 - matplotlib - DEBUG - matplotlib data path: /Users/julienvu/.pyenv/versions/3.11.8/lib/python3.11/site-packages/matplotlib/mpl-data
+2024-11-28 18:35:42,023 - matplotlib - DEBUG - CONFIGDIR=/Users/julienvu/.matplotlib
+2024-11-28 18:35:42,026 - matplotlib - DEBUG - interactive is False
+2024-11-28 18:35:42,027 - matplotlib - DEBUG - platform is darwin
+2024-11-28 18:35:42,200 - matplotlib - DEBUG - CACHEDIR=/Users/julienvu/.matplotlib
+2024-11-28 18:35:42,222 - matplotlib.font_manager - DEBUG - Using fontManager instance from /Users/julienvu/.matplotlib/fontlist-v390.json
+2024-11-28 18:39:40,275 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-28 18:39:40,464 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-28 18:39:40,495 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-28 18:39:40,563 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-28 18:39:42,115 - matplotlib - DEBUG - matplotlib data path: /Users/julienvu/.pyenv/versions/3.11.8/lib/python3.11/site-packages/matplotlib/mpl-data
+2024-11-28 18:39:42,125 - matplotlib - DEBUG - CONFIGDIR=/Users/julienvu/.matplotlib
+2024-11-28 18:39:42,127 - matplotlib - DEBUG - interactive is False
+2024-11-28 18:39:42,127 - matplotlib - DEBUG - platform is darwin
+2024-11-28 18:39:42,331 - matplotlib - DEBUG - CACHEDIR=/Users/julienvu/.matplotlib
+2024-11-28 18:39:42,347 - matplotlib.font_manager - DEBUG - Using fontManager instance from /Users/julienvu/.matplotlib/fontlist-v390.json
+2024-11-28 18:41:23,620 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-28 18:41:23,825 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-28 18:41:23,850 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-28 18:41:23,920 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-28 18:41:25,639 - matplotlib - DEBUG - matplotlib data path: /Users/julienvu/.pyenv/versions/3.11.8/lib/python3.11/site-packages/matplotlib/mpl-data
+2024-11-28 18:41:25,657 - matplotlib - DEBUG - CONFIGDIR=/Users/julienvu/.matplotlib
+2024-11-28 18:41:25,661 - matplotlib - DEBUG - interactive is False
+2024-11-28 18:41:25,661 - matplotlib - DEBUG - platform is darwin
+2024-11-28 18:41:25,827 - matplotlib - DEBUG - CACHEDIR=/Users/julienvu/.matplotlib
+2024-11-28 18:41:25,833 - matplotlib.font_manager - DEBUG - Using fontManager instance from /Users/julienvu/.matplotlib/fontlist-v390.json
+2024-11-28 19:08:18,266 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-28 19:08:18,455 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-28 19:08:18,483 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-28 19:08:18,560 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-28 19:08:19,737 - matplotlib - DEBUG - matplotlib data path: /Users/julienvu/.pyenv/versions/3.11.8/lib/python3.11/site-packages/matplotlib/mpl-data
+2024-11-28 19:08:19,756 - matplotlib - DEBUG - CONFIGDIR=/Users/julienvu/.matplotlib
+2024-11-28 19:08:19,759 - matplotlib - DEBUG - interactive is False
+2024-11-28 19:08:19,759 - matplotlib - DEBUG - platform is darwin
+2024-11-28 19:08:19,872 - matplotlib - DEBUG - CACHEDIR=/Users/julienvu/.matplotlib
+2024-11-28 19:08:19,877 - matplotlib.font_manager - DEBUG - Using fontManager instance from /Users/julienvu/.matplotlib/fontlist-v390.json
+2024-11-28 19:18:24,911 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-28 19:18:25,101 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-28 19:18:25,128 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-28 19:18:25,196 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-28 19:18:26,426 - matplotlib - DEBUG - matplotlib data path: /Users/julienvu/.pyenv/versions/3.11.8/lib/python3.11/site-packages/matplotlib/mpl-data
+2024-11-28 19:18:26,444 - matplotlib - DEBUG - CONFIGDIR=/Users/julienvu/.matplotlib
+2024-11-28 19:18:26,446 - matplotlib - DEBUG - interactive is False
+2024-11-28 19:18:26,446 - matplotlib - DEBUG - platform is darwin
+2024-11-28 19:18:26,647 - matplotlib - DEBUG - CACHEDIR=/Users/julienvu/.matplotlib
+2024-11-28 19:18:26,656 - matplotlib.font_manager - DEBUG - Using fontManager instance from /Users/julienvu/.matplotlib/fontlist-v390.json
+2024-11-28 22:27:00,130 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-28 22:27:00,389 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-28 22:27:00,432 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-28 22:27:00,503 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-28 22:32:08,205 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-28 22:32:08,409 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-28 22:32:08,437 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-28 22:32:08,505 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-28 22:35:29,860 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-28 22:35:30,103 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-28 22:35:30,175 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-28 22:35:30,424 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-28 22:41:59,847 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-28 22:42:00,161 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-28 22:42:00,206 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-28 22:42:00,270 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-28 22:42:01,663 - matplotlib - DEBUG - matplotlib data path: /Users/julienvu/.pyenv/versions/3.11.8/lib/python3.11/site-packages/matplotlib/mpl-data
+2024-11-28 22:42:01,678 - matplotlib - DEBUG - CONFIGDIR=/Users/julienvu/.matplotlib
+2024-11-28 22:42:01,681 - matplotlib - DEBUG - interactive is False
+2024-11-28 22:42:01,681 - matplotlib - DEBUG - platform is darwin
+2024-11-28 22:42:01,865 - matplotlib - DEBUG - CACHEDIR=/Users/julienvu/.matplotlib
+2024-11-28 22:42:01,871 - matplotlib.font_manager - DEBUG - Using fontManager instance from /Users/julienvu/.matplotlib/fontlist-v390.json
+2024-11-28 22:44:34,842 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-28 22:44:35,228 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-28 22:44:35,298 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-28 22:44:35,452 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-28 22:44:36,580 - matplotlib - DEBUG - matplotlib data path: /Users/julienvu/.pyenv/versions/3.11.8/lib/python3.11/site-packages/matplotlib/mpl-data
+2024-11-28 22:44:36,600 - matplotlib - DEBUG - CONFIGDIR=/Users/julienvu/.matplotlib
+2024-11-28 22:44:36,601 - matplotlib - DEBUG - interactive is False
+2024-11-28 22:44:36,601 - matplotlib - DEBUG - platform is darwin
+2024-11-28 22:44:36,845 - matplotlib - DEBUG - CACHEDIR=/Users/julienvu/.matplotlib
+2024-11-28 22:44:36,850 - matplotlib.font_manager - DEBUG - Using fontManager instance from /Users/julienvu/.matplotlib/fontlist-v390.json
+2024-11-28 22:47:18,541 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-28 22:47:18,763 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-28 22:47:18,800 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-28 22:47:18,875 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-28 22:47:19,991 - matplotlib - DEBUG - matplotlib data path: /Users/julienvu/.pyenv/versions/3.11.8/lib/python3.11/site-packages/matplotlib/mpl-data
+2024-11-28 22:47:20,001 - matplotlib - DEBUG - CONFIGDIR=/Users/julienvu/.matplotlib
+2024-11-28 22:47:20,004 - matplotlib - DEBUG - interactive is False
+2024-11-28 22:47:20,005 - matplotlib - DEBUG - platform is darwin
+2024-11-28 22:47:20,161 - matplotlib - DEBUG - CACHEDIR=/Users/julienvu/.matplotlib
+2024-11-28 22:47:20,166 - matplotlib.font_manager - DEBUG - Using fontManager instance from /Users/julienvu/.matplotlib/fontlist-v390.json
+2024-11-28 22:50:03,920 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-28 22:50:04,102 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-28 22:50:04,130 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-28 22:50:04,193 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-28 22:50:05,110 - matplotlib - DEBUG - matplotlib data path: /Users/julienvu/.pyenv/versions/3.11.8/lib/python3.11/site-packages/matplotlib/mpl-data
+2024-11-28 22:50:05,123 - matplotlib - DEBUG - CONFIGDIR=/Users/julienvu/.matplotlib
+2024-11-28 22:50:05,125 - matplotlib - DEBUG - interactive is False
+2024-11-28 22:50:05,125 - matplotlib - DEBUG - platform is darwin
+2024-11-28 22:50:05,302 - matplotlib - DEBUG - CACHEDIR=/Users/julienvu/.matplotlib
+2024-11-28 22:50:05,308 - matplotlib.font_manager - DEBUG - Using fontManager instance from /Users/julienvu/.matplotlib/fontlist-v390.json
+2024-11-28 22:52:10,162 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-28 22:52:10,412 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-28 22:52:10,455 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-28 22:52:10,522 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-28 22:52:11,856 - matplotlib - DEBUG - matplotlib data path: /Users/julienvu/.pyenv/versions/3.11.8/lib/python3.11/site-packages/matplotlib/mpl-data
+2024-11-28 22:52:11,897 - matplotlib - DEBUG - CONFIGDIR=/Users/julienvu/.matplotlib
+2024-11-28 22:52:11,901 - matplotlib - DEBUG - interactive is False
+2024-11-28 22:52:11,902 - matplotlib - DEBUG - platform is darwin
+2024-11-28 22:52:12,082 - matplotlib - DEBUG - CACHEDIR=/Users/julienvu/.matplotlib
+2024-11-28 22:52:12,113 - matplotlib.font_manager - DEBUG - Using fontManager instance from /Users/julienvu/.matplotlib/fontlist-v390.json
+2024-11-28 23:46:00,246 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-28 23:46:00,451 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-28 23:46:00,482 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-28 23:46:00,555 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-28 23:46:02,316 - matplotlib - DEBUG - matplotlib data path: /Users/julienvu/.pyenv/versions/3.11.8/lib/python3.11/site-packages/matplotlib/mpl-data
+2024-11-28 23:46:02,333 - matplotlib - DEBUG - CONFIGDIR=/Users/julienvu/.matplotlib
+2024-11-28 23:46:02,335 - matplotlib - DEBUG - interactive is False
+2024-11-28 23:46:02,335 - matplotlib - DEBUG - platform is darwin
+2024-11-28 23:46:02,616 - matplotlib - DEBUG - CACHEDIR=/Users/julienvu/.matplotlib
+2024-11-28 23:46:02,622 - matplotlib.font_manager - DEBUG - Using fontManager instance from /Users/julienvu/.matplotlib/fontlist-v390.json
+2024-11-28 23:48:35,701 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-28 23:48:35,968 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-28 23:48:35,998 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-28 23:48:36,066 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-28 23:48:37,509 - matplotlib - DEBUG - matplotlib data path: /Users/julienvu/.pyenv/versions/3.11.8/lib/python3.11/site-packages/matplotlib/mpl-data
+2024-11-28 23:48:37,524 - matplotlib - DEBUG - CONFIGDIR=/Users/julienvu/.matplotlib
+2024-11-28 23:48:37,526 - matplotlib - DEBUG - interactive is False
+2024-11-28 23:48:37,526 - matplotlib - DEBUG - platform is darwin
+2024-11-28 23:48:37,648 - matplotlib - DEBUG - CACHEDIR=/Users/julienvu/.matplotlib
+2024-11-28 23:48:37,653 - matplotlib.font_manager - DEBUG - Using fontManager instance from /Users/julienvu/.matplotlib/fontlist-v390.json
+2024-11-28 23:51:49,437 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-28 23:51:49,718 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-28 23:51:49,758 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-28 23:51:49,846 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-28 23:51:51,039 - matplotlib - DEBUG - matplotlib data path: /Users/julienvu/.pyenv/versions/3.11.8/lib/python3.11/site-packages/matplotlib/mpl-data
+2024-11-28 23:51:51,067 - matplotlib - DEBUG - CONFIGDIR=/Users/julienvu/.matplotlib
+2024-11-28 23:51:51,068 - matplotlib - DEBUG - interactive is False
+2024-11-28 23:51:51,069 - matplotlib - DEBUG - platform is darwin
+2024-11-28 23:51:51,266 - matplotlib - DEBUG - CACHEDIR=/Users/julienvu/.matplotlib
+2024-11-28 23:51:51,271 - matplotlib.font_manager - DEBUG - Using fontManager instance from /Users/julienvu/.matplotlib/fontlist-v390.json
+2024-11-28 23:53:27,153 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-28 23:53:27,494 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-28 23:53:27,523 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-28 23:53:27,590 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-29 00:12:07,117 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-29 00:12:07,313 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-29 00:12:07,340 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-29 00:12:07,408 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-29 00:12:08,727 - matplotlib - DEBUG - matplotlib data path: /Users/julienvu/.pyenv/versions/3.11.8/lib/python3.11/site-packages/matplotlib/mpl-data
+2024-11-29 00:12:08,752 - matplotlib - DEBUG - CONFIGDIR=/Users/julienvu/.matplotlib
+2024-11-29 00:12:08,756 - matplotlib - DEBUG - interactive is False
+2024-11-29 00:12:08,756 - matplotlib - DEBUG - platform is darwin
+2024-11-29 00:12:08,964 - matplotlib - DEBUG - CACHEDIR=/Users/julienvu/.matplotlib
+2024-11-29 00:12:08,972 - matplotlib.font_manager - DEBUG - Using fontManager instance from /Users/julienvu/.matplotlib/fontlist-v390.json
+2024-11-29 00:13:45,994 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-29 00:13:47,018 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-29 00:13:47,069 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-29 00:13:47,541 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-29 00:13:49,779 - matplotlib - DEBUG - matplotlib data path: /Users/julienvu/.pyenv/versions/3.11.8/lib/python3.11/site-packages/matplotlib/mpl-data
+2024-11-29 00:13:49,807 - matplotlib - DEBUG - CONFIGDIR=/Users/julienvu/.matplotlib
+2024-11-29 00:13:49,814 - matplotlib - DEBUG - interactive is False
+2024-11-29 00:13:49,815 - matplotlib - DEBUG - platform is darwin
+2024-11-29 00:13:50,235 - matplotlib - DEBUG - CACHEDIR=/Users/julienvu/.matplotlib
+2024-11-29 00:13:50,278 - matplotlib.font_manager - DEBUG - Using fontManager instance from /Users/julienvu/.matplotlib/fontlist-v390.json
+2024-11-29 00:16:50,241 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-29 00:16:50,960 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-29 00:16:51,001 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-29 00:16:51,104 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-29 00:16:52,380 - matplotlib - DEBUG - matplotlib data path: /Users/julienvu/.pyenv/versions/3.11.8/lib/python3.11/site-packages/matplotlib/mpl-data
+2024-11-29 00:16:52,390 - matplotlib - DEBUG - CONFIGDIR=/Users/julienvu/.matplotlib
+2024-11-29 00:16:52,392 - matplotlib - DEBUG - interactive is False
+2024-11-29 00:16:52,392 - matplotlib - DEBUG - platform is darwin
+2024-11-29 00:16:52,513 - matplotlib - DEBUG - CACHEDIR=/Users/julienvu/.matplotlib
+2024-11-29 00:16:52,519 - matplotlib.font_manager - DEBUG - Using fontManager instance from /Users/julienvu/.matplotlib/fontlist-v390.json
+2024-11-29 00:19:29,415 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-29 00:19:29,949 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-29 00:19:30,027 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-29 00:19:30,174 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-29 00:19:31,859 - matplotlib - DEBUG - matplotlib data path: /Users/julienvu/.pyenv/versions/3.11.8/lib/python3.11/site-packages/matplotlib/mpl-data
+2024-11-29 00:19:31,870 - matplotlib - DEBUG - CONFIGDIR=/Users/julienvu/.matplotlib
+2024-11-29 00:19:31,872 - matplotlib - DEBUG - interactive is False
+2024-11-29 00:19:31,873 - matplotlib - DEBUG - platform is darwin
+2024-11-29 00:19:32,179 - matplotlib - DEBUG - CACHEDIR=/Users/julienvu/.matplotlib
+2024-11-29 00:19:32,190 - matplotlib.font_manager - DEBUG - Using fontManager instance from /Users/julienvu/.matplotlib/fontlist-v390.json
+2024-11-29 00:25:00,218 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-29 00:25:00,447 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-29 00:25:00,479 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-29 00:25:00,555 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-29 00:25:01,669 - matplotlib - DEBUG - matplotlib data path: /Users/julienvu/.pyenv/versions/3.11.8/lib/python3.11/site-packages/matplotlib/mpl-data
+2024-11-29 00:25:01,683 - matplotlib - DEBUG - CONFIGDIR=/Users/julienvu/.matplotlib
+2024-11-29 00:25:01,686 - matplotlib - DEBUG - interactive is False
+2024-11-29 00:25:01,686 - matplotlib - DEBUG - platform is darwin
+2024-11-29 00:25:01,806 - matplotlib - DEBUG - CACHEDIR=/Users/julienvu/.matplotlib
+2024-11-29 00:25:01,814 - matplotlib.font_manager - DEBUG - Using fontManager instance from /Users/julienvu/.matplotlib/fontlist-v390.json
+2024-11-29 00:28:32,874 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-29 00:28:33,254 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-29 00:28:33,306 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-29 00:28:33,421 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-29 00:28:35,050 - matplotlib - DEBUG - matplotlib data path: /Users/julienvu/.pyenv/versions/3.11.8/lib/python3.11/site-packages/matplotlib/mpl-data
+2024-11-29 00:28:35,067 - matplotlib - DEBUG - CONFIGDIR=/Users/julienvu/.matplotlib
+2024-11-29 00:28:35,070 - matplotlib - DEBUG - interactive is False
+2024-11-29 00:28:35,070 - matplotlib - DEBUG - platform is darwin
+2024-11-29 00:28:35,361 - matplotlib - DEBUG - CACHEDIR=/Users/julienvu/.matplotlib
+2024-11-29 00:28:35,387 - matplotlib.font_manager - DEBUG - Using fontManager instance from /Users/julienvu/.matplotlib/fontlist-v390.json
+2024-11-29 00:28:47,164 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-29 00:28:47,495 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-29 00:28:47,535 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-29 00:28:47,597 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-29 00:50:06,692 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-29 00:50:06,886 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-29 00:50:06,927 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-29 00:50:07,019 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-29 00:50:08,114 - matplotlib - DEBUG - matplotlib data path: /Users/julienvu/.pyenv/versions/3.11.8/lib/python3.11/site-packages/matplotlib/mpl-data
+2024-11-29 00:50:08,202 - matplotlib - DEBUG - CONFIGDIR=/Users/julienvu/.matplotlib
+2024-11-29 00:50:08,207 - matplotlib - DEBUG - interactive is False
+2024-11-29 00:50:08,209 - matplotlib - DEBUG - platform is darwin
+2024-11-29 00:50:08,467 - matplotlib - DEBUG - CACHEDIR=/Users/julienvu/.matplotlib
+2024-11-29 00:50:08,481 - matplotlib.font_manager - DEBUG - Using fontManager instance from /Users/julienvu/.matplotlib/fontlist-v390.json
+2024-11-29 00:51:08,836 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-29 00:51:09,237 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-29 00:51:09,266 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-29 00:51:09,357 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-29 00:54:00,458 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-29 00:54:01,214 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-29 00:54:01,264 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-29 00:54:01,378 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-29 00:54:03,549 - matplotlib - DEBUG - matplotlib data path: /Users/julienvu/.pyenv/versions/3.11.8/lib/python3.11/site-packages/matplotlib/mpl-data
+2024-11-29 00:54:03,565 - matplotlib - DEBUG - CONFIGDIR=/Users/julienvu/.matplotlib
+2024-11-29 00:54:03,568 - matplotlib - DEBUG - interactive is False
+2024-11-29 00:54:03,569 - matplotlib - DEBUG - platform is darwin
+2024-11-29 00:54:03,755 - matplotlib - DEBUG - CACHEDIR=/Users/julienvu/.matplotlib
+2024-11-29 00:54:03,761 - matplotlib.font_manager - DEBUG - Using fontManager instance from /Users/julienvu/.matplotlib/fontlist-v390.json
+2024-11-29 00:59:45,788 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-29 00:59:45,992 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-29 00:59:46,025 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-29 00:59:46,099 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-29 00:59:48,025 - matplotlib - DEBUG - matplotlib data path: /Users/julienvu/.pyenv/versions/3.11.8/lib/python3.11/site-packages/matplotlib/mpl-data
+2024-11-29 00:59:48,035 - matplotlib - DEBUG - CONFIGDIR=/Users/julienvu/.matplotlib
+2024-11-29 00:59:48,037 - matplotlib - DEBUG - interactive is False
+2024-11-29 00:59:48,037 - matplotlib - DEBUG - platform is darwin
+2024-11-29 00:59:48,167 - matplotlib - DEBUG - CACHEDIR=/Users/julienvu/.matplotlib
+2024-11-29 00:59:48,175 - matplotlib.font_manager - DEBUG - Using fontManager instance from /Users/julienvu/.matplotlib/fontlist-v390.json
+2024-11-29 11:44:10,032 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-29 11:44:10,229 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-29 11:44:10,254 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-29 11:44:10,346 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-29 11:44:11,483 - matplotlib - DEBUG - matplotlib data path: /Users/julienvu/.pyenv/versions/3.11.8/lib/python3.11/site-packages/matplotlib/mpl-data
+2024-11-29 11:44:11,496 - matplotlib - DEBUG - CONFIGDIR=/Users/julienvu/.matplotlib
+2024-11-29 11:44:11,500 - matplotlib - DEBUG - interactive is False
+2024-11-29 11:44:11,500 - matplotlib - DEBUG - platform is darwin
+2024-11-29 11:44:11,610 - matplotlib - DEBUG - CACHEDIR=/Users/julienvu/.matplotlib
+2024-11-29 11:44:11,616 - matplotlib.font_manager - DEBUG - Using fontManager instance from /Users/julienvu/.matplotlib/fontlist-v390.json
+2024-11-29 11:49:13,248 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-29 11:49:13,446 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-29 11:49:13,473 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-29 11:49:13,542 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-29 11:49:14,902 - matplotlib - DEBUG - matplotlib data path: /Users/julienvu/.pyenv/versions/3.11.8/lib/python3.11/site-packages/matplotlib/mpl-data
+2024-11-29 11:49:14,911 - matplotlib - DEBUG - CONFIGDIR=/Users/julienvu/.matplotlib
+2024-11-29 11:49:14,913 - matplotlib - DEBUG - interactive is False
+2024-11-29 11:49:14,913 - matplotlib - DEBUG - platform is darwin
+2024-11-29 11:49:15,017 - matplotlib - DEBUG - CACHEDIR=/Users/julienvu/.matplotlib
+2024-11-29 11:49:15,022 - matplotlib.font_manager - DEBUG - Using fontManager instance from /Users/julienvu/.matplotlib/fontlist-v390.json
+2024-11-29 11:50:40,032 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-29 11:50:40,220 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-29 11:50:40,250 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-29 11:50:40,317 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-29 11:50:41,336 - matplotlib - DEBUG - matplotlib data path: /Users/julienvu/.pyenv/versions/3.11.8/lib/python3.11/site-packages/matplotlib/mpl-data
+2024-11-29 11:50:41,347 - matplotlib - DEBUG - CONFIGDIR=/Users/julienvu/.matplotlib
+2024-11-29 11:50:41,350 - matplotlib - DEBUG - interactive is False
+2024-11-29 11:50:41,350 - matplotlib - DEBUG - platform is darwin
+2024-11-29 11:50:41,565 - matplotlib - DEBUG - CACHEDIR=/Users/julienvu/.matplotlib
+2024-11-29 11:50:41,576 - matplotlib.font_manager - DEBUG - Using fontManager instance from /Users/julienvu/.matplotlib/fontlist-v390.json
+2024-11-29 21:49:40,554 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-29 21:49:40,745 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-29 21:49:40,772 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-29 21:49:40,847 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-29 21:49:42,565 - matplotlib - DEBUG - matplotlib data path: /Users/julienvu/.pyenv/versions/3.11.8/lib/python3.11/site-packages/matplotlib/mpl-data
+2024-11-29 21:49:42,595 - matplotlib - DEBUG - CONFIGDIR=/Users/julienvu/.matplotlib
+2024-11-29 21:49:42,599 - matplotlib - DEBUG - interactive is False
+2024-11-29 21:49:42,600 - matplotlib - DEBUG - platform is darwin
+2024-11-29 21:49:42,780 - matplotlib - DEBUG - CACHEDIR=/Users/julienvu/.matplotlib
+2024-11-29 21:49:42,787 - matplotlib.font_manager - DEBUG - Using fontManager instance from /Users/julienvu/.matplotlib/fontlist-v390.json
+2024-11-29 21:58:40,206 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-29 21:58:40,409 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-29 21:58:40,432 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-29 21:58:40,505 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-29 21:58:41,674 - matplotlib - DEBUG - matplotlib data path: /Users/julienvu/.pyenv/versions/3.11.8/lib/python3.11/site-packages/matplotlib/mpl-data
+2024-11-29 21:58:41,689 - matplotlib - DEBUG - CONFIGDIR=/Users/julienvu/.matplotlib
+2024-11-29 21:58:41,691 - matplotlib - DEBUG - interactive is False
+2024-11-29 21:58:41,691 - matplotlib - DEBUG - platform is darwin
+2024-11-29 21:58:41,812 - matplotlib - DEBUG - CACHEDIR=/Users/julienvu/.matplotlib
+2024-11-29 21:58:41,818 - matplotlib.font_manager - DEBUG - Using fontManager instance from /Users/julienvu/.matplotlib/fontlist-v390.json
+2024-11-29 22:00:51,756 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-29 22:00:51,944 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-29 22:00:51,971 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-29 22:00:52,039 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-29 22:00:53,854 - matplotlib - DEBUG - matplotlib data path: /Users/julienvu/.pyenv/versions/3.11.8/lib/python3.11/site-packages/matplotlib/mpl-data
+2024-11-29 22:00:53,868 - matplotlib - DEBUG - CONFIGDIR=/Users/julienvu/.matplotlib
+2024-11-29 22:00:53,870 - matplotlib - DEBUG - interactive is False
+2024-11-29 22:00:53,871 - matplotlib - DEBUG - platform is darwin
+2024-11-29 22:00:54,000 - matplotlib - DEBUG - CACHEDIR=/Users/julienvu/.matplotlib
+2024-11-29 22:00:54,006 - matplotlib.font_manager - DEBUG - Using fontManager instance from /Users/julienvu/.matplotlib/fontlist-v390.json
+2024-11-29 22:02:45,296 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-29 22:02:45,598 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-29 22:02:45,642 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-29 22:02:45,708 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-29 22:02:47,169 - matplotlib - DEBUG - matplotlib data path: /Users/julienvu/.pyenv/versions/3.11.8/lib/python3.11/site-packages/matplotlib/mpl-data
+2024-11-29 22:02:47,190 - matplotlib - DEBUG - CONFIGDIR=/Users/julienvu/.matplotlib
+2024-11-29 22:02:47,193 - matplotlib - DEBUG - interactive is False
+2024-11-29 22:02:47,194 - matplotlib - DEBUG - platform is darwin
+2024-11-29 22:02:47,615 - matplotlib - DEBUG - CACHEDIR=/Users/julienvu/.matplotlib
+2024-11-29 22:02:47,732 - matplotlib.font_manager - DEBUG - Using fontManager instance from /Users/julienvu/.matplotlib/fontlist-v390.json
+2024-11-29 22:07:52,514 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-29 22:07:52,727 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-29 22:07:52,755 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-29 22:07:52,826 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-29 22:07:54,125 - matplotlib - DEBUG - matplotlib data path: /Users/julienvu/.pyenv/versions/3.11.8/lib/python3.11/site-packages/matplotlib/mpl-data
+2024-11-29 22:07:54,138 - matplotlib - DEBUG - CONFIGDIR=/Users/julienvu/.matplotlib
+2024-11-29 22:07:54,140 - matplotlib - DEBUG - interactive is False
+2024-11-29 22:07:54,141 - matplotlib - DEBUG - platform is darwin
+2024-11-29 22:07:54,262 - matplotlib - DEBUG - CACHEDIR=/Users/julienvu/.matplotlib
+2024-11-29 22:07:54,268 - matplotlib.font_manager - DEBUG - Using fontManager instance from /Users/julienvu/.matplotlib/fontlist-v390.json
+2024-11-29 22:10:09,361 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-29 22:10:09,546 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-29 22:10:09,572 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-29 22:10:09,644 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-29 22:10:10,417 - matplotlib - DEBUG - matplotlib data path: /Users/julienvu/.pyenv/versions/3.11.8/lib/python3.11/site-packages/matplotlib/mpl-data
+2024-11-29 22:10:10,432 - matplotlib - DEBUG - CONFIGDIR=/Users/julienvu/.matplotlib
+2024-11-29 22:10:10,433 - matplotlib - DEBUG - interactive is False
+2024-11-29 22:10:10,434 - matplotlib - DEBUG - platform is darwin
+2024-11-29 22:10:10,538 - matplotlib - DEBUG - CACHEDIR=/Users/julienvu/.matplotlib
+2024-11-29 22:10:10,544 - matplotlib.font_manager - DEBUG - Using fontManager instance from /Users/julienvu/.matplotlib/fontlist-v390.json
+2024-11-29 22:45:30,724 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-29 22:45:30,904 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-29 22:45:30,932 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-29 22:45:31,002 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-29 22:58:14,444 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-29 22:58:14,634 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-29 22:58:14,661 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-29 22:58:14,739 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-29 22:59:26,491 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-29 22:59:26,950 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-29 22:59:27,015 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-29 22:59:27,188 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-29 23:00:51,779 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-29 23:00:51,967 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-29 23:00:51,990 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-29 23:00:52,065 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-29 23:02:09,235 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-29 23:02:09,442 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-29 23:02:09,468 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-29 23:02:09,534 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-29 23:04:22,940 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-29 23:04:23,119 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-29 23:04:23,146 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-29 23:04:23,212 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-29 23:07:48,970 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-29 23:07:49,172 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-29 23:07:49,202 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-29 23:07:49,279 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-29 23:13:58,497 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-29 23:13:58,711 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-29 23:13:58,739 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-29 23:13:58,814 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-29 23:15:56,923 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-29 23:15:57,108 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-29 23:15:57,137 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-29 23:15:57,197 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-30 09:44:45,398 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-30 09:44:45,677 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-30 09:44:45,752 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-30 09:44:45,877 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-30 09:51:01,261 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-30 09:51:01,447 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-30 09:51:01,474 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-30 09:51:01,549 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-30 10:00:41,431 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-30 10:00:41,721 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-30 10:00:41,764 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-30 10:00:41,893 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-30 10:04:06,117 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-30 10:04:06,307 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-30 10:04:06,339 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-30 10:04:06,405 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-30 10:04:07,972 - matplotlib - DEBUG - matplotlib data path: /Users/julienvu/.pyenv/versions/3.11.8/lib/python3.11/site-packages/matplotlib/mpl-data
+2024-11-30 10:04:07,983 - matplotlib - DEBUG - CONFIGDIR=/Users/julienvu/.matplotlib
+2024-11-30 10:04:07,987 - matplotlib - DEBUG - interactive is False
+2024-11-30 10:04:07,987 - matplotlib - DEBUG - platform is darwin
+2024-11-30 10:04:08,099 - matplotlib - DEBUG - CACHEDIR=/Users/julienvu/.matplotlib
+2024-11-30 10:04:08,105 - matplotlib.font_manager - DEBUG - Using fontManager instance from /Users/julienvu/.matplotlib/fontlist-v390.json
+2024-11-30 10:16:05,525 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-30 10:16:05,749 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-30 10:16:05,786 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-30 10:16:05,858 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-30 10:16:07,192 - matplotlib - DEBUG - matplotlib data path: /Users/julienvu/.pyenv/versions/3.11.8/lib/python3.11/site-packages/matplotlib/mpl-data
+2024-11-30 10:16:07,206 - matplotlib - DEBUG - CONFIGDIR=/Users/julienvu/.matplotlib
+2024-11-30 10:16:07,207 - matplotlib - DEBUG - interactive is False
+2024-11-30 10:16:07,208 - matplotlib - DEBUG - platform is darwin
+2024-11-30 10:16:07,571 - matplotlib - DEBUG - CACHEDIR=/Users/julienvu/.matplotlib
+2024-11-30 10:16:07,590 - matplotlib.font_manager - DEBUG - Using fontManager instance from /Users/julienvu/.matplotlib/fontlist-v390.json
+2024-11-30 10:52:47,402 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-30 10:52:47,652 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-30 10:52:47,702 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-30 10:52:47,813 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-30 11:07:35,101 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-30 11:07:35,299 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-30 11:07:35,326 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-30 11:07:35,397 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-30 11:09:13,876 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-30 11:09:14,084 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-30 11:09:14,118 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-30 11:09:14,239 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-30 11:12:51,499 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-30 11:12:51,694 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-30 11:12:51,722 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-30 11:12:51,790 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-30 11:19:17,339 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-30 11:19:17,523 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-30 11:19:17,548 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-30 11:19:17,618 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-30 11:21:54,889 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-30 11:21:55,078 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-30 11:21:55,105 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-30 11:21:55,173 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-30 11:23:29,874 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-30 11:23:30,418 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-30 11:23:30,484 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-30 11:23:30,619 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-30 11:24:44,759 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-30 11:24:45,057 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-30 11:24:45,093 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-30 11:24:45,167 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-30 11:50:30,046 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-30 11:50:30,231 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-30 11:50:30,257 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-30 11:50:30,324 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-30 11:53:02,705 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-30 11:53:03,035 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-30 11:53:03,077 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-30 11:53:03,193 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-30 12:18:11,945 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-30 12:18:12,199 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-30 12:18:12,233 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-30 12:18:12,300 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-30 12:27:30,617 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-30 12:27:31,222 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-30 12:27:31,255 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-30 12:27:31,343 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-30 21:02:18,743 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-30 21:02:19,231 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-30 21:02:19,269 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-30 21:02:19,341 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-30 21:12:49,786 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-30 21:12:49,985 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-30 21:12:50,017 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-30 21:12:50,120 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-30 21:12:51,954 - matplotlib - DEBUG - matplotlib data path: /Users/julienvu/.pyenv/versions/3.11.8/lib/python3.11/site-packages/matplotlib/mpl-data
+2024-11-30 21:12:51,973 - matplotlib - DEBUG - CONFIGDIR=/Users/julienvu/.matplotlib
+2024-11-30 21:12:51,977 - matplotlib - DEBUG - interactive is False
+2024-11-30 21:12:51,977 - matplotlib - DEBUG - platform is darwin
+2024-11-30 21:12:52,157 - matplotlib - DEBUG - CACHEDIR=/Users/julienvu/.matplotlib
+2024-11-30 21:12:52,165 - matplotlib.font_manager - DEBUG - Using fontManager instance from /Users/julienvu/.matplotlib/fontlist-v390.json
+2024-11-30 21:18:54,543 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-30 21:18:55,072 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-30 21:18:55,123 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-30 21:18:55,300 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-30 21:18:56,824 - matplotlib - DEBUG - matplotlib data path: /Users/julienvu/.pyenv/versions/3.11.8/lib/python3.11/site-packages/matplotlib/mpl-data
+2024-11-30 21:18:56,841 - matplotlib - DEBUG - CONFIGDIR=/Users/julienvu/.matplotlib
+2024-11-30 21:18:56,843 - matplotlib - DEBUG - interactive is False
+2024-11-30 21:18:56,843 - matplotlib - DEBUG - platform is darwin
+2024-11-30 21:18:56,969 - matplotlib - DEBUG - CACHEDIR=/Users/julienvu/.matplotlib
+2024-11-30 21:18:56,974 - matplotlib.font_manager - DEBUG - Using fontManager instance from /Users/julienvu/.matplotlib/fontlist-v390.json
+2024-11-30 21:24:44,734 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-30 21:24:44,929 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-30 21:24:44,956 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-30 21:24:45,031 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-30 21:27:46,247 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-30 21:27:46,564 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-30 21:27:46,706 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-30 21:27:47,070 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-30 21:31:27,674 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-30 21:31:28,246 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-30 21:31:28,410 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-30 21:31:28,830 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-30 21:33:32,324 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-30 21:33:32,552 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-30 21:33:32,584 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-30 21:33:32,662 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-30 21:37:55,676 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-30 21:37:55,864 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-30 21:37:55,890 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-30 21:37:55,960 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-30 22:06:55,676 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-30 22:06:56,055 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-30 22:06:56,111 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-30 22:06:56,231 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-30 22:10:00,723 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-30 22:10:00,949 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-30 22:10:00,992 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-30 22:10:01,063 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-30 22:13:02,026 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-30 22:13:02,284 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-30 22:13:02,327 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-30 22:13:02,419 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-30 22:15:27,965 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-30 22:15:28,170 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-30 22:15:28,203 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-30 22:15:28,288 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-30 22:18:28,210 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-30 22:18:28,396 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-30 22:18:28,423 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-30 22:18:28,489 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-30 22:19:46,688 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-30 22:19:47,043 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-30 22:19:47,078 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-30 22:19:47,253 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-30 22:22:57,069 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-30 22:22:57,261 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-30 22:22:57,290 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-30 22:22:57,356 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-30 22:30:02,175 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-30 22:30:02,450 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-30 22:30:02,486 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-30 22:30:02,815 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-30 22:30:04,853 - matplotlib - DEBUG - matplotlib data path: /Users/julienvu/.pyenv/versions/3.11.8/lib/python3.11/site-packages/matplotlib/mpl-data
+2024-11-30 22:30:04,865 - matplotlib - DEBUG - CONFIGDIR=/Users/julienvu/.matplotlib
+2024-11-30 22:30:04,871 - matplotlib - DEBUG - interactive is False
+2024-11-30 22:30:04,872 - matplotlib - DEBUG - platform is darwin
+2024-11-30 22:30:05,007 - matplotlib - DEBUG - CACHEDIR=/Users/julienvu/.matplotlib
+2024-11-30 22:30:05,013 - matplotlib.font_manager - DEBUG - Using fontManager instance from /Users/julienvu/.matplotlib/fontlist-v390.json
+2024-11-30 22:35:20,380 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-30 22:35:20,579 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-30 22:35:20,610 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-30 22:35:20,683 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-30 22:36:31,474 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-30 22:36:31,693 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-30 22:36:31,724 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-30 22:36:31,811 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-30 22:40:10,288 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-30 22:40:10,687 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-30 22:40:10,731 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-30 22:40:10,809 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-11-30 23:09:47,049 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-11-30 23:09:47,230 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-11-30 23:09:47,257 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-11-30 23:09:47,327 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-12-01 21:06:43,980 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-12-01 21:06:44,225 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-12-01 21:06:44,262 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-12-01 21:06:44,384 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-12-01 21:06:46,315 - matplotlib - DEBUG - matplotlib data path: /Users/julienvu/.pyenv/versions/3.11.8/lib/python3.11/site-packages/matplotlib/mpl-data
+2024-12-01 21:06:46,336 - matplotlib - DEBUG - CONFIGDIR=/Users/julienvu/.matplotlib
+2024-12-01 21:06:46,342 - matplotlib - DEBUG - interactive is False
+2024-12-01 21:06:46,342 - matplotlib - DEBUG - platform is darwin
+2024-12-01 21:06:46,516 - matplotlib - DEBUG - CACHEDIR=/Users/julienvu/.matplotlib
+2024-12-01 21:06:46,526 - matplotlib.font_manager - DEBUG - Using fontManager instance from /Users/julienvu/.matplotlib/fontlist-v390.json
+2024-12-01 21:12:05,055 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-12-01 21:12:05,345 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-12-01 21:12:05,379 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-12-01 21:12:05,465 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-12-01 21:12:06,996 - matplotlib - DEBUG - matplotlib data path: /Users/julienvu/.pyenv/versions/3.11.8/lib/python3.11/site-packages/matplotlib/mpl-data
+2024-12-01 21:12:07,008 - matplotlib - DEBUG - CONFIGDIR=/Users/julienvu/.matplotlib
+2024-12-01 21:12:07,010 - matplotlib - DEBUG - interactive is False
+2024-12-01 21:12:07,010 - matplotlib - DEBUG - platform is darwin
+2024-12-01 21:12:07,128 - matplotlib - DEBUG - CACHEDIR=/Users/julienvu/.matplotlib
+2024-12-01 21:12:07,135 - matplotlib.font_manager - DEBUG - Using fontManager instance from /Users/julienvu/.matplotlib/fontlist-v390.json
+2024-12-01 21:15:15,646 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-12-01 21:15:15,846 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-12-01 21:15:15,876 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-12-01 21:15:15,938 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-12-01 21:15:18,165 - matplotlib - DEBUG - matplotlib data path: /Users/julienvu/.pyenv/versions/3.11.8/lib/python3.11/site-packages/matplotlib/mpl-data
+2024-12-01 21:15:18,210 - matplotlib - DEBUG - CONFIGDIR=/Users/julienvu/.matplotlib
+2024-12-01 21:15:18,221 - matplotlib - DEBUG - interactive is False
+2024-12-01 21:15:18,222 - matplotlib - DEBUG - platform is darwin
+2024-12-01 21:15:18,436 - matplotlib - DEBUG - CACHEDIR=/Users/julienvu/.matplotlib
+2024-12-01 21:15:18,441 - matplotlib.font_manager - DEBUG - Using fontManager instance from /Users/julienvu/.matplotlib/fontlist-v390.json
+2024-12-01 21:18:10,894 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-12-01 21:18:11,076 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-12-01 21:18:11,104 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-12-01 21:18:11,165 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-12-01 21:18:12,120 - matplotlib - DEBUG - matplotlib data path: /Users/julienvu/.pyenv/versions/3.11.8/lib/python3.11/site-packages/matplotlib/mpl-data
+2024-12-01 21:18:12,127 - matplotlib - DEBUG - CONFIGDIR=/Users/julienvu/.matplotlib
+2024-12-01 21:18:12,129 - matplotlib - DEBUG - interactive is False
+2024-12-01 21:18:12,129 - matplotlib - DEBUG - platform is darwin
+2024-12-01 21:18:12,237 - matplotlib - DEBUG - CACHEDIR=/Users/julienvu/.matplotlib
+2024-12-01 21:18:12,249 - matplotlib.font_manager - DEBUG - Using fontManager instance from /Users/julienvu/.matplotlib/fontlist-v390.json
+2024-12-01 21:25:58,499 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-12-01 21:25:58,794 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-12-01 21:25:58,829 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-12-01 21:25:58,927 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-12-01 21:26:00,144 - matplotlib - DEBUG - matplotlib data path: /Users/julienvu/.pyenv/versions/3.11.8/lib/python3.11/site-packages/matplotlib/mpl-data
+2024-12-01 21:26:00,158 - matplotlib - DEBUG - CONFIGDIR=/Users/julienvu/.matplotlib
+2024-12-01 21:26:00,160 - matplotlib - DEBUG - interactive is False
+2024-12-01 21:26:00,160 - matplotlib - DEBUG - platform is darwin
+2024-12-01 21:26:00,294 - matplotlib - DEBUG - CACHEDIR=/Users/julienvu/.matplotlib
+2024-12-01 21:26:00,301 - matplotlib.font_manager - DEBUG - Using fontManager instance from /Users/julienvu/.matplotlib/fontlist-v390.json
+2024-12-01 21:29:18,875 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-12-01 21:29:19,173 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-12-01 21:29:19,223 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-12-01 21:29:19,304 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-12-01 21:29:20,646 - matplotlib - DEBUG - matplotlib data path: /Users/julienvu/.pyenv/versions/3.11.8/lib/python3.11/site-packages/matplotlib/mpl-data
+2024-12-01 21:29:20,686 - matplotlib - DEBUG - CONFIGDIR=/Users/julienvu/.matplotlib
+2024-12-01 21:29:20,689 - matplotlib - DEBUG - interactive is False
+2024-12-01 21:29:20,691 - matplotlib - DEBUG - platform is darwin
+2024-12-01 21:29:20,870 - matplotlib - DEBUG - CACHEDIR=/Users/julienvu/.matplotlib
+2024-12-01 21:29:20,876 - matplotlib.font_manager - DEBUG - Using fontManager instance from /Users/julienvu/.matplotlib/fontlist-v390.json
+2024-12-01 21:33:41,966 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-12-01 21:33:43,257 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-12-01 21:33:43,322 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-12-01 21:33:43,427 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-12-01 21:33:48,754 - matplotlib - DEBUG - matplotlib data path: /Users/julienvu/.pyenv/versions/3.11.8/lib/python3.11/site-packages/matplotlib/mpl-data
+2024-12-01 21:33:48,764 - matplotlib - DEBUG - CONFIGDIR=/Users/julienvu/.matplotlib
+2024-12-01 21:33:48,766 - matplotlib - DEBUG - interactive is False
+2024-12-01 21:33:48,766 - matplotlib - DEBUG - platform is darwin
+2024-12-01 21:33:48,893 - matplotlib - DEBUG - CACHEDIR=/Users/julienvu/.matplotlib
+2024-12-01 21:33:48,898 - matplotlib.font_manager - DEBUG - Using fontManager instance from /Users/julienvu/.matplotlib/fontlist-v390.json
+2024-12-01 21:36:16,701 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-12-01 21:36:16,924 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-12-01 21:36:16,954 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-12-01 21:36:17,045 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-12-01 21:36:18,788 - matplotlib - DEBUG - matplotlib data path: /Users/julienvu/.pyenv/versions/3.11.8/lib/python3.11/site-packages/matplotlib/mpl-data
+2024-12-01 21:36:18,801 - matplotlib - DEBUG - CONFIGDIR=/Users/julienvu/.matplotlib
+2024-12-01 21:36:18,802 - matplotlib - DEBUG - interactive is False
+2024-12-01 21:36:18,803 - matplotlib - DEBUG - platform is darwin
+2024-12-01 21:36:18,937 - matplotlib - DEBUG - CACHEDIR=/Users/julienvu/.matplotlib
+2024-12-01 21:36:18,950 - matplotlib.font_manager - DEBUG - Using fontManager instance from /Users/julienvu/.matplotlib/fontlist-v390.json
+2024-12-02 02:45:18,631 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-12-02 02:45:19,218 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-12-02 02:45:19,302 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-12-02 02:45:19,455 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-12-02 02:45:23,805 - matplotlib - DEBUG - matplotlib data path: /Users/julienvu/.pyenv/versions/3.11.8/lib/python3.11/site-packages/matplotlib/mpl-data
+2024-12-02 02:45:23,854 - matplotlib - DEBUG - CONFIGDIR=/Users/julienvu/.matplotlib
+2024-12-02 02:45:23,865 - matplotlib - DEBUG - interactive is False
+2024-12-02 02:45:23,866 - matplotlib - DEBUG - platform is darwin
+2024-12-02 02:45:24,259 - matplotlib - DEBUG - CACHEDIR=/Users/julienvu/.matplotlib
+2024-12-02 02:45:24,267 - matplotlib.font_manager - DEBUG - Using fontManager instance from /Users/julienvu/.matplotlib/fontlist-v390.json
+2024-12-02 02:48:25,756 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-12-02 02:48:26,092 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-12-02 02:48:26,191 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-12-02 02:48:26,409 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-12-02 02:48:29,232 - matplotlib - DEBUG - matplotlib data path: /Users/julienvu/.pyenv/versions/3.11.8/lib/python3.11/site-packages/matplotlib/mpl-data
+2024-12-02 02:48:29,248 - matplotlib - DEBUG - CONFIGDIR=/Users/julienvu/.matplotlib
+2024-12-02 02:48:29,250 - matplotlib - DEBUG - interactive is False
+2024-12-02 02:48:29,251 - matplotlib - DEBUG - platform is darwin
+2024-12-02 02:48:29,528 - matplotlib - DEBUG - CACHEDIR=/Users/julienvu/.matplotlib
+2024-12-02 02:48:29,539 - matplotlib.font_manager - DEBUG - Using fontManager instance from /Users/julienvu/.matplotlib/fontlist-v390.json
+2024-12-02 02:49:59,483 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-12-02 02:49:59,836 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-12-02 02:49:59,883 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-12-02 02:50:00,002 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-12-02 02:50:02,045 - matplotlib - DEBUG - matplotlib data path: /Users/julienvu/.pyenv/versions/3.11.8/lib/python3.11/site-packages/matplotlib/mpl-data
+2024-12-02 02:50:02,056 - matplotlib - DEBUG - CONFIGDIR=/Users/julienvu/.matplotlib
+2024-12-02 02:50:02,058 - matplotlib - DEBUG - interactive is False
+2024-12-02 02:50:02,059 - matplotlib - DEBUG - platform is darwin
+2024-12-02 02:50:02,175 - matplotlib - DEBUG - CACHEDIR=/Users/julienvu/.matplotlib
+2024-12-02 02:50:02,182 - matplotlib.font_manager - DEBUG - Using fontManager instance from /Users/julienvu/.matplotlib/fontlist-v390.json
+2024-12-02 02:54:04,966 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-12-02 02:54:05,148 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-12-02 02:54:05,173 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-12-02 02:54:05,234 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-12-02 02:54:06,609 - matplotlib - DEBUG - matplotlib data path: /Users/julienvu/.pyenv/versions/3.11.8/lib/python3.11/site-packages/matplotlib/mpl-data
+2024-12-02 02:54:06,628 - matplotlib - DEBUG - CONFIGDIR=/Users/julienvu/.matplotlib
+2024-12-02 02:54:06,630 - matplotlib - DEBUG - interactive is False
+2024-12-02 02:54:06,630 - matplotlib - DEBUG - platform is darwin
+2024-12-02 02:54:06,836 - matplotlib - DEBUG - CACHEDIR=/Users/julienvu/.matplotlib
+2024-12-02 02:54:06,845 - matplotlib.font_manager - DEBUG - Using fontManager instance from /Users/julienvu/.matplotlib/fontlist-v390.json
+2024-12-02 02:55:29,174 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-12-02 02:55:29,403 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-12-02 02:55:29,432 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-12-02 02:55:29,506 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-12-02 02:55:30,445 - matplotlib - DEBUG - matplotlib data path: /Users/julienvu/.pyenv/versions/3.11.8/lib/python3.11/site-packages/matplotlib/mpl-data
+2024-12-02 02:55:30,460 - matplotlib - DEBUG - CONFIGDIR=/Users/julienvu/.matplotlib
+2024-12-02 02:55:30,462 - matplotlib - DEBUG - interactive is False
+2024-12-02 02:55:30,462 - matplotlib - DEBUG - platform is darwin
+2024-12-02 02:55:30,817 - matplotlib - DEBUG - CACHEDIR=/Users/julienvu/.matplotlib
+2024-12-02 02:55:30,838 - matplotlib.font_manager - DEBUG - Using fontManager instance from /Users/julienvu/.matplotlib/fontlist-v390.json
+2024-12-02 02:57:18,960 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-12-02 02:57:19,210 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-12-02 02:57:19,244 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-12-02 02:57:19,319 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-12-02 02:57:21,196 - matplotlib - DEBUG - matplotlib data path: /Users/julienvu/.pyenv/versions/3.11.8/lib/python3.11/site-packages/matplotlib/mpl-data
+2024-12-02 02:57:21,218 - matplotlib - DEBUG - CONFIGDIR=/Users/julienvu/.matplotlib
+2024-12-02 02:57:21,220 - matplotlib - DEBUG - interactive is False
+2024-12-02 02:57:21,221 - matplotlib - DEBUG - platform is darwin
+2024-12-02 02:57:21,519 - matplotlib - DEBUG - CACHEDIR=/Users/julienvu/.matplotlib
+2024-12-02 02:57:21,527 - matplotlib.font_manager - DEBUG - Using fontManager instance from /Users/julienvu/.matplotlib/fontlist-v390.json
+2024-12-02 03:10:20,608 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-12-02 03:10:20,792 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-12-02 03:10:20,816 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-12-02 03:10:20,877 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-12-02 03:10:22,283 - matplotlib - DEBUG - matplotlib data path: /Users/julienvu/.pyenv/versions/3.11.8/lib/python3.11/site-packages/matplotlib/mpl-data
+2024-12-02 03:10:22,298 - matplotlib - DEBUG - CONFIGDIR=/Users/julienvu/.matplotlib
+2024-12-02 03:10:22,300 - matplotlib - DEBUG - interactive is False
+2024-12-02 03:10:22,300 - matplotlib - DEBUG - platform is darwin
+2024-12-02 03:10:22,417 - matplotlib - DEBUG - CACHEDIR=/Users/julienvu/.matplotlib
+2024-12-02 03:10:22,423 - matplotlib.font_manager - DEBUG - Using fontManager instance from /Users/julienvu/.matplotlib/fontlist-v390.json
+2024-12-02 03:11:43,057 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-12-02 03:11:43,237 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-12-02 03:11:43,266 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-12-02 03:11:43,326 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-12-02 03:11:44,678 - matplotlib - DEBUG - matplotlib data path: /Users/julienvu/.pyenv/versions/3.11.8/lib/python3.11/site-packages/matplotlib/mpl-data
+2024-12-02 03:11:44,687 - matplotlib - DEBUG - CONFIGDIR=/Users/julienvu/.matplotlib
+2024-12-02 03:11:44,690 - matplotlib - DEBUG - interactive is False
+2024-12-02 03:11:44,690 - matplotlib - DEBUG - platform is darwin
+2024-12-02 03:11:44,808 - matplotlib - DEBUG - CACHEDIR=/Users/julienvu/.matplotlib
+2024-12-02 03:11:44,814 - matplotlib.font_manager - DEBUG - Using fontManager instance from /Users/julienvu/.matplotlib/fontlist-v390.json
+2024-12-02 03:17:55,487 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-12-02 03:17:55,698 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-12-02 03:17:55,727 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-12-02 03:17:55,803 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-12-02 03:17:57,905 - matplotlib - DEBUG - matplotlib data path: /Users/julienvu/.pyenv/versions/3.11.8/lib/python3.11/site-packages/matplotlib/mpl-data
+2024-12-02 03:17:57,918 - matplotlib - DEBUG - CONFIGDIR=/Users/julienvu/.matplotlib
+2024-12-02 03:17:57,919 - matplotlib - DEBUG - interactive is False
+2024-12-02 03:17:57,920 - matplotlib - DEBUG - platform is darwin
+2024-12-02 03:17:58,154 - matplotlib - DEBUG - CACHEDIR=/Users/julienvu/.matplotlib
+2024-12-02 03:17:58,164 - matplotlib.font_manager - DEBUG - Using fontManager instance from /Users/julienvu/.matplotlib/fontlist-v390.json
+2024-12-02 03:20:17,141 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-12-02 03:20:17,376 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-12-02 03:20:17,409 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-12-02 03:20:17,485 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-12-02 03:20:19,054 - matplotlib - DEBUG - matplotlib data path: /Users/julienvu/.pyenv/versions/3.11.8/lib/python3.11/site-packages/matplotlib/mpl-data
+2024-12-02 03:20:19,091 - matplotlib - DEBUG - CONFIGDIR=/Users/julienvu/.matplotlib
+2024-12-02 03:20:19,093 - matplotlib - DEBUG - interactive is False
+2024-12-02 03:20:19,093 - matplotlib - DEBUG - platform is darwin
+2024-12-02 03:20:19,281 - matplotlib - DEBUG - CACHEDIR=/Users/julienvu/.matplotlib
+2024-12-02 03:20:19,286 - matplotlib.font_manager - DEBUG - Using fontManager instance from /Users/julienvu/.matplotlib/fontlist-v390.json
+2024-12-02 03:23:20,052 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-12-02 03:23:20,678 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-12-02 03:23:20,738 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-12-02 03:23:20,865 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-12-02 03:23:21,938 - matplotlib - DEBUG - matplotlib data path: /Users/julienvu/.pyenv/versions/3.11.8/lib/python3.11/site-packages/matplotlib/mpl-data
+2024-12-02 03:23:21,945 - matplotlib - DEBUG - CONFIGDIR=/Users/julienvu/.matplotlib
+2024-12-02 03:23:21,949 - matplotlib - DEBUG - interactive is False
+2024-12-02 03:23:21,950 - matplotlib - DEBUG - platform is darwin
+2024-12-02 03:23:22,064 - matplotlib - DEBUG - CACHEDIR=/Users/julienvu/.matplotlib
+2024-12-02 03:23:22,071 - matplotlib.font_manager - DEBUG - Using fontManager instance from /Users/julienvu/.matplotlib/fontlist-v390.json
+2024-12-02 03:25:14,174 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-12-02 03:25:14,353 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-12-02 03:25:14,380 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-12-02 03:25:14,438 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-12-02 03:25:15,587 - matplotlib - DEBUG - matplotlib data path: /Users/julienvu/.pyenv/versions/3.11.8/lib/python3.11/site-packages/matplotlib/mpl-data
+2024-12-02 03:25:15,601 - matplotlib - DEBUG - CONFIGDIR=/Users/julienvu/.matplotlib
+2024-12-02 03:25:15,603 - matplotlib - DEBUG - interactive is False
+2024-12-02 03:25:15,603 - matplotlib - DEBUG - platform is darwin
+2024-12-02 03:25:15,694 - matplotlib - DEBUG - CACHEDIR=/Users/julienvu/.matplotlib
+2024-12-02 03:25:15,698 - matplotlib.font_manager - DEBUG - Using fontManager instance from /Users/julienvu/.matplotlib/fontlist-v390.json
+2024-12-02 03:26:52,250 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-12-02 03:26:52,422 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-12-02 03:26:52,447 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-12-02 03:26:52,509 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-12-02 03:26:53,692 - matplotlib - DEBUG - matplotlib data path: /Users/julienvu/.pyenv/versions/3.11.8/lib/python3.11/site-packages/matplotlib/mpl-data
+2024-12-02 03:26:53,701 - matplotlib - DEBUG - CONFIGDIR=/Users/julienvu/.matplotlib
+2024-12-02 03:26:53,703 - matplotlib - DEBUG - interactive is False
+2024-12-02 03:26:53,703 - matplotlib - DEBUG - platform is darwin
+2024-12-02 03:26:53,800 - matplotlib - DEBUG - CACHEDIR=/Users/julienvu/.matplotlib
+2024-12-02 03:26:53,804 - matplotlib.font_manager - DEBUG - Using fontManager instance from /Users/julienvu/.matplotlib/fontlist-v390.json
+2024-12-02 03:55:27,718 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-12-02 03:55:28,088 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-12-02 03:55:28,115 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-12-02 03:55:28,202 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-12-02 03:55:30,244 - matplotlib - DEBUG - matplotlib data path: /Users/julienvu/.pyenv/versions/3.11.8/lib/python3.11/site-packages/matplotlib/mpl-data
+2024-12-02 03:55:30,265 - matplotlib - DEBUG - CONFIGDIR=/Users/julienvu/.matplotlib
+2024-12-02 03:55:30,269 - matplotlib - DEBUG - interactive is False
+2024-12-02 03:55:30,270 - matplotlib - DEBUG - platform is darwin
+2024-12-02 03:55:30,465 - matplotlib - DEBUG - CACHEDIR=/Users/julienvu/.matplotlib
+2024-12-02 03:55:30,477 - matplotlib.font_manager - DEBUG - Using fontManager instance from /Users/julienvu/.matplotlib/fontlist-v390.json
+2024-12-02 03:59:33,088 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-12-02 03:59:33,351 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-12-02 03:59:33,405 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-12-02 03:59:33,513 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-12-02 04:01:59,752 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-12-02 04:01:59,959 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-12-02 04:01:59,992 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-12-02 04:02:00,063 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-12-02 04:02:02,161 - matplotlib - DEBUG - matplotlib data path: /Users/julienvu/.pyenv/versions/3.11.8/lib/python3.11/site-packages/matplotlib/mpl-data
+2024-12-02 04:02:02,176 - matplotlib - DEBUG - CONFIGDIR=/Users/julienvu/.matplotlib
+2024-12-02 04:02:02,177 - matplotlib - DEBUG - interactive is False
+2024-12-02 04:02:02,178 - matplotlib - DEBUG - platform is darwin
+2024-12-02 04:02:02,377 - matplotlib - DEBUG - CACHEDIR=/Users/julienvu/.matplotlib
+2024-12-02 04:02:02,384 - matplotlib.font_manager - DEBUG - Using fontManager instance from /Users/julienvu/.matplotlib/fontlist-v390.json
+2024-12-02 04:10:38,221 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-12-02 04:10:38,606 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-12-02 04:10:38,676 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-12-02 04:10:38,859 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-12-02 04:10:42,620 - matplotlib - DEBUG - matplotlib data path: /Users/julienvu/.pyenv/versions/3.11.8/lib/python3.11/site-packages/matplotlib/mpl-data
+2024-12-02 04:10:42,724 - matplotlib - DEBUG - CONFIGDIR=/Users/julienvu/.matplotlib
+2024-12-02 04:10:42,732 - matplotlib - DEBUG - interactive is False
+2024-12-02 04:10:42,868 - matplotlib - DEBUG - platform is darwin
+2024-12-02 04:10:43,352 - matplotlib - DEBUG - CACHEDIR=/Users/julienvu/.matplotlib
+2024-12-02 04:10:43,364 - matplotlib.font_manager - DEBUG - Using fontManager instance from /Users/julienvu/.matplotlib/fontlist-v390.json
