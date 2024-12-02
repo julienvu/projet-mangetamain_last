@@ -682,7 +682,7 @@ def main():
             "Evolution of interactions", True, key="general_observations_checkbox4453"
         )
     # Expander for nutritional components analysis
-    with st.sidebar.expander("🥒 Nutritional components"):
+    with st.sidebar.expander("🥒 Nutritional components findings"):
         show_nutritional_analysis = st.checkbox(
             "Recipes ranking/nutritional component",
             True,
