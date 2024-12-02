@@ -696,7 +696,7 @@ def main():
     # Expander for health diets
     with st.sidebar.expander("🍽️ Food diets"):
         show_health_diets = st.checkbox(
-            "Diet Plans: diabete, obesity, muscle strenghtening & bad cholesterol",
+            "Diet plans: diabete, obesity, muscle strenghtening & bad cholesterol",
             True,
             key="health_diet",
         )
@@ -731,7 +731,7 @@ def main():
         display_nutritional_analysis_ratio(context_key="nutritional_components")
 
     if show_health_diets:
-        st.subheader("ﮩـﮩﮩ٨ـ🫀ﮩ٨ـﮩﮩ٨ـ Top Recipes for Optimal Health")
+        st.subheader("ﮩـﮩﮩ٨ـ🫀ﮩ٨ـﮩﮩ٨ـ Top recipes for optimal health")
         display_ideal_recipes_health()
 
 
