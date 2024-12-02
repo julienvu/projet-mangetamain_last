@@ -112,22 +112,22 @@ def stats_bio(df_preprocessed: pd.DataFrame) -> pd.DataFrame:
     )
     # convert %daily value to interational measures(g,mg)
     nutrition_df["Total Fat (g)"] = (
-        (nutrition_df["Total Fat (g)"] * current_daily_total_fat)
+        nutrition_df["Total Fat (g)"] * current_daily_total_fat
     ) / 100
     nutrition_df["Sugar (g)"] = (
-        (nutrition_df["Sugar (g)"] * current_daily_total_sugar)
+        nutrition_df["Sugar (g)"] * current_daily_total_sugar
     ) / 100
     nutrition_df["Sodium (mg)"] = (
-        (nutrition_df["Sodium (mg)"] * current_daily_total_sodium)
+        nutrition_df["Sodium (mg)"] * current_daily_total_sodium
     ) / 100
     nutrition_df["Protein (g)"] = (
-        (nutrition_df["Protein (g)"] * current_daily_total_protein)
+        nutrition_df["Protein (g)"] * current_daily_total_protein
     ) / 100
     nutrition_df["Saturated Fat (g)"] = (
-        (nutrition_df["Saturated Fat (g)"] * current_daily_total_saturated_fat)
+        nutrition_df["Saturated Fat (g)"] * current_daily_total_saturated_fat
     ) / 100
     nutrition_df["Carbohydrates (g)"] = (
-        (nutrition_df["Carbohydrates (g)"] * current_daily_total_carbo)
+        nutrition_df["Carbohydrates (g)"] * current_daily_total_carbo
     ) / 100
     # Calculate basic statistical indicators: mean, median, standard deviation, min, max
     combined_df = pd.concat(
