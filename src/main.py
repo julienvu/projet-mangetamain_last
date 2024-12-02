@@ -207,7 +207,8 @@ def display_featureengineeringsteps() -> None:
     st.markdown(
         """
         6. Advanced Transformations and Modeling
-        - **Normalization/Standardization**: Scaling numerical features using methods like
+        - **Normalization/Standardization**: Scaling numerical
+        features using methods like
         Min-Max scaling or Z-score normalization for better model performance.
         """
     )
