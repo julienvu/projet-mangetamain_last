@@ -84,6 +84,155 @@ def set_global_styles():
 
 
 @st.fragment
+def display_featureengineeringsteps() -> None:
+    """
+    Display the steps of feature engineering in interactions and recipes data
+
+    Explains the project's two main themes:
+    1. **interactions data feature engineering steps**:
+    2. **recipes data feature engineering steps**:
+    Behavior:
+        - Uses `st.markdown` to display formatted project details.
+        - Highlights data-driven insights on bio recipes and health.
+    """
+    # interactions data
+    st.title("Feature Engineering for interactions dataset")
+    feature_engineering_text_interactions = """
+        **Feature Engineering steps :**
+
+        1. **Date-Related Features:**
+        - Extracting day, month, year, or weekday from the date column.
+
+        2. **Interaction Type:**
+        - Interaction count: Counting the number of interactions per recipe_id.
+
+        3. **User-Based Features:**
+        - Total interactions per user: Counting how many recipes
+          a user has interacted with.
+
+        4. **Recipe-Based Features:**
+        - Recipe popularity: Calculating how many users interacted with each recipe.
+        5. **Handling Missing Data:**
+        - Dropping unnecessary columns such as textual data.
+        - Filling missing values in numeric columns.
+
+        ---
+
+        **Columns to Drop or Retain in Feature Engineering:**
+        1. **Columns to Drop:**
+        - `review`
+        - `cuisine`
+        - `rating`
+        - `interaction_type`
+        2. **Columns to Retain:**
+        - `recipe_id`
+        - `date`
+    """
+    st.markdown(feature_engineering_text_interactions)
+    st.title("Feature Engineering for recipes dataset")
+    # Step 1: Data Parsing and Cleaning
+    st.markdown(
+        """
+        1. Data Parsing and Cleaning
+        - **Nutrition Data**: The `nutrition` column contains a
+        list of values representing
+        different nutritional components. Spliting it into separate columns for
+        - Calories
+        - Total Fat
+        - Proteins
+        - Carbohydrates
+        - Sugar
+        - Sodium
+        - Saturated Fat
+        - **Ingredient IDs**: The `ingredient_ids` column stores a list of
+        ingredient IDs.
+        - **Remove Irrelevant Columns**: Dropping columns
+        that are not useful for analysis.
+        """
+    )
+
+    # Step 2: Feature Engineering on Nutrition Data
+    st.markdown(
+        """
+        2. Feature Engineering on Nutrition Data
+        - Creating new columns from the `nutrition`
+        data as described above.
+        - Adding calculated features to gain deeper insights such
+        as:
+            - **Protein-to-Calorie Ratio**: Useful for
+            assessing nutritional density.
+            - **Fat-to-Calorie Ratio**: Helps in monitoring fat
+            content relative to energy.
+            - **Fiber-to-Carbohydrate Ratio**: Evaluates the balance of fiber
+            in the recipe.
+        """
+    )
+
+    # Step 3: Handling Ingredient IDs
+    st.markdown(
+        """
+        3. Handling Ingredient IDs
+        - **Ingredient Count**: Adding a feature
+        representing the total number of ingredients
+        in each recipe.
+        """
+    )
+
+    # Step 4: Integrating User Interaction Data
+    st.markdown(
+        """
+        4. Integrating User Interaction Data
+        - **Join Interaction Data**: Merging the recipe
+        dataset with user interaction data to
+        enrich it with features like:
+            - Total interaction count per recipe.
+            - Average rating given by each user.
+        """
+    )
+
+    # Step 5: Handling Missing Values
+    st.markdown(
+        """
+         5. Handling Missing
+         Values
+        - **Imputation**: Filling missing values with appropriate strategies as the mean
+        and the
+        median
+        - **Dropping Rows/Columns**: Removing rows or columns with excessive missing
+        data.
+        """
+    )
+
+    # Step 6: Advanced Transformations and Modeling
+    st.markdown(
+        """
+        6. Advanced Transformations and Modeling
+        - **Normalization/Standardization**: Scaling numerical
+        features using methods like
+        Min-Max scaling or Z-score normalization for better model performance.
+        """
+    )
+    st.markdown(
+        """
+        **Columns to Drop or Retain in Feature Engineering:**
+        1. **Columns to Drop:**
+        - `minutes`
+        - `contributor_id`
+        - `submitted`
+        - `tags`
+        - `n_steps`
+        - `steps`
+        - `description`
+        2. **Columns to Retain:**
+        - `name`
+        - `id`
+        - `nutrition`
+        - `ingredient_ids`
+        """
+    )
+
+
+@st.fragment
 def display_explications_webapp() -> None:
     """
     Display the introduction and purpose of the web application.
@@ -652,6 +801,7 @@ def main():
     add_background_from_url(background_url)
     # set_global_styles()
     display_explications_webapp()
+    display_featureengineeringsteps()
     display_title()
     # Sidebar setup
     st.markdown(
