@@ -159,12 +159,9 @@ def display_featureengineeringsteps() -> None:
         data as described above.
         - Adding calculated features to gain deeper insights such
         as:
-            - **Protein-to-Calorie Ratio**: Useful for
-            assessing nutritional density.
-            - **Fat-to-Calorie Ratio**: Helps in monitoring fat
-            content relative to energy.
-            - **Fiber-to-Carbohydrate Ratio**: Evaluates the balance of fiber
-            in the recipe.
+            - **Proteins/Carbohydrates Ratio**
+            - **Proteins/Sodium Ratio**
+            - **Proteins/Saturated Fat Ratio**
         """
     )
 
@@ -186,7 +183,6 @@ def display_featureengineeringsteps() -> None:
         dataset with user interaction data to
         enrich it with features like:
             - Total interaction count per recipe.
-            - Average rating given by each user.
         """
     )
 
@@ -195,9 +191,6 @@ def display_featureengineeringsteps() -> None:
         """
          5. Handling Missing
          Values
-        - **Imputation**: Filling missing values with appropriate strategies as the mean
-        and the
-        median
         - **Dropping Rows/Columns**: Removing rows or columns with excessive missing
         data.
         """
