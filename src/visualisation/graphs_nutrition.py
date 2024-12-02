@@ -119,7 +119,20 @@ def nutrition_bar_ratio_sodium_proteins(
             template="plotly_white",  # Clean white background for readability
             color_discrete_map=color_map,
         )
-
+        # Text annotation to remind the ratios formulas
+        fig2.add_annotation(
+            text="Ratios formulas :<br>"
+            "Protein_Carb_Ratio = Protein (g) / Carbohydrates (g)<br>"
+            "Protein_Sodium_Ratio = Protein (g) / (Sodium (mg) * 0.001)<br>"
+            "Protein_Saturated_fat_Ratio = Protein (g) / Saturated Fat (g)",
+            xref="paper",
+            yref="paper",
+            align="left",
+            x=0,
+            y=1.37,
+            showarrow=False,
+            font=dict(size=12, color="white"),
+        )
         # Add a reference line for a balanced ratio (optional)
         fig2.add_hline(
             y=1.0,  # Balanced ratio line
