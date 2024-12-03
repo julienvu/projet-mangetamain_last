@@ -101,7 +101,7 @@ def display_featureengineeringsteps() -> None:
         **Feature Engineering steps :**
 
         1. **Date-Related Features:**
-        - Extracting day, month, year, or weekday from the date column.
+        - Extracting day, month, year from the date column.
 
         2. **Interaction Type:**
         - Interaction count: Counting the number of interactions per recipe_id.
@@ -146,6 +146,9 @@ def display_featureengineeringsteps() -> None:
         - Saturated Fat
         - **Ingredient IDs**: The `ingredient_ids` column stores a list of
         ingredient IDs.
+        - **Tags**: Filtering the dataframe by using the `tags`
+        column related to the bio keywords (substainable, eco-friendly,
+        fresh, natural and so on).
         - **Remove Irrelevant Columns**: Dropping columns
         that are not useful for analysis.
         """
@@ -157,7 +160,7 @@ def display_featureengineeringsteps() -> None:
         2. Feature Engineering on Nutrition Data
         - Creating new columns from the `nutrition`
         data as described above.
-        - Adding calculated features to gain deeper insights such
+        - Adding new KPI's to gain deeper insights such
         as:
             - **Proteins/Carbohydrates Ratio**
             - **Proteins/Sodium Ratio**
@@ -203,6 +206,8 @@ def display_featureengineeringsteps() -> None:
         - **Normalization/Standardization**: Scaling numerical
         features using methods like
         Min-Max scaling or Z-score normalization for better model performance.
+        Deleting outliers (recipes with `minutes` column values equal
+        to 0 and superior to 3600 minutes)
         """
     )
     st.markdown(

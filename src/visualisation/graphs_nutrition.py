@@ -131,7 +131,7 @@ def nutrition_bar_ratio_sodium_proteins(
             x=0,
             y=1.37,
             showarrow=False,
-            font=dict(size=12, color="white"),
+            font=dict(size=12, color="#FF00FF"),
         )
         # Add a reference line for a balanced ratio (optional)
         fig2.add_hline(
