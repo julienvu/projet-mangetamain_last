@@ -1576,3 +1576,63 @@
 2024-12-02 11:14:37,509 - matplotlib - DEBUG - platform is darwin
 2024-12-02 11:14:37,628 - matplotlib - DEBUG - CACHEDIR=/Users/julienvu/.matplotlib
 2024-12-02 11:14:37,647 - matplotlib.font_manager - DEBUG - Using fontManager instance from /Users/julienvu/.matplotlib/fontlist-v390.json
+2024-12-03 19:09:39,506 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-12-03 19:09:40,362 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-12-03 19:09:40,421 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-12-03 19:09:40,719 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-12-03 19:09:45,617 - matplotlib - DEBUG - matplotlib data path: /Users/julienvu/.pyenv/versions/3.11.8/lib/python3.11/site-packages/matplotlib/mpl-data
+2024-12-03 19:09:45,660 - matplotlib - DEBUG - CONFIGDIR=/Users/julienvu/.matplotlib
+2024-12-03 19:09:45,668 - matplotlib - DEBUG - interactive is False
+2024-12-03 19:09:45,669 - matplotlib - DEBUG - platform is darwin
+2024-12-03 19:09:46,104 - matplotlib - DEBUG - CACHEDIR=/Users/julienvu/.matplotlib
+2024-12-03 19:09:46,111 - matplotlib.font_manager - DEBUG - Using fontManager instance from /Users/julienvu/.matplotlib/fontlist-v390.json
+2024-12-03 19:17:38,987 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-12-03 19:17:39,250 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-12-03 19:17:39,285 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-12-03 19:17:39,370 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-12-03 19:17:42,030 - matplotlib - DEBUG - matplotlib data path: /Users/julienvu/.pyenv/versions/3.11.8/lib/python3.11/site-packages/matplotlib/mpl-data
+2024-12-03 19:17:42,068 - matplotlib - DEBUG - CONFIGDIR=/Users/julienvu/.matplotlib
+2024-12-03 19:17:42,071 - matplotlib - DEBUG - interactive is False
+2024-12-03 19:17:42,072 - matplotlib - DEBUG - platform is darwin
+2024-12-03 19:17:42,347 - matplotlib - DEBUG - CACHEDIR=/Users/julienvu/.matplotlib
+2024-12-03 19:17:42,359 - matplotlib.font_manager - DEBUG - Using fontManager instance from /Users/julienvu/.matplotlib/fontlist-v390.json
+2024-12-03 19:20:05,763 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-12-03 19:20:05,950 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-12-03 19:20:05,976 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-12-03 19:20:06,044 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-12-03 19:20:07,359 - matplotlib - DEBUG - matplotlib data path: /Users/julienvu/.pyenv/versions/3.11.8/lib/python3.11/site-packages/matplotlib/mpl-data
+2024-12-03 19:20:07,378 - matplotlib - DEBUG - CONFIGDIR=/Users/julienvu/.matplotlib
+2024-12-03 19:20:07,380 - matplotlib - DEBUG - interactive is False
+2024-12-03 19:20:07,380 - matplotlib - DEBUG - platform is darwin
+2024-12-03 19:20:07,545 - matplotlib - DEBUG - CACHEDIR=/Users/julienvu/.matplotlib
+2024-12-03 19:20:07,550 - matplotlib.font_manager - DEBUG - Using fontManager instance from /Users/julienvu/.matplotlib/fontlist-v390.json
+2024-12-03 19:23:46,274 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-12-03 19:23:46,699 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-12-03 19:23:46,759 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-12-03 19:23:46,890 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-12-03 19:23:50,466 - matplotlib - DEBUG - matplotlib data path: /Users/julienvu/.pyenv/versions/3.11.8/lib/python3.11/site-packages/matplotlib/mpl-data
+2024-12-03 19:23:50,484 - matplotlib - DEBUG - CONFIGDIR=/Users/julienvu/.matplotlib
+2024-12-03 19:23:50,491 - matplotlib - DEBUG - interactive is False
+2024-12-03 19:23:50,492 - matplotlib - DEBUG - platform is darwin
+2024-12-03 19:23:50,965 - matplotlib - DEBUG - CACHEDIR=/Users/julienvu/.matplotlib
+2024-12-03 19:23:50,978 - matplotlib.font_manager - DEBUG - Using fontManager instance from /Users/julienvu/.matplotlib/fontlist-v390.json
+2024-12-03 19:32:02,344 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-12-03 19:32:02,529 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-12-03 19:32:02,558 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-12-03 19:32:02,625 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-12-03 19:32:04,833 - matplotlib - DEBUG - matplotlib data path: /Users/julienvu/.pyenv/versions/3.11.8/lib/python3.11/site-packages/matplotlib/mpl-data
+2024-12-03 19:32:04,849 - matplotlib - DEBUG - CONFIGDIR=/Users/julienvu/.matplotlib
+2024-12-03 19:32:04,868 - matplotlib - DEBUG - interactive is False
+2024-12-03 19:32:04,868 - matplotlib - DEBUG - platform is darwin
+2024-12-03 19:32:05,246 - matplotlib - DEBUG - CACHEDIR=/Users/julienvu/.matplotlib
+2024-12-03 19:32:05,286 - matplotlib.font_manager - DEBUG - Using fontManager instance from /Users/julienvu/.matplotlib/fontlist-v390.json
+2024-12-03 19:35:04,064 - data_loader - INFO - Loading data from dataset/PP_users.csv.zip
+2024-12-03 19:35:04,364 - data_loader - INFO - Loaded CSV from ZIP: dataset/PP_users.csv_extracted/PP_users.csv
+2024-12-03 19:35:04,422 - data_loader - INFO - Loading data from dataset/ingr_map.pkl
+2024-12-03 19:35:04,920 - data_loader - INFO - Loaded Pickle file: dataset/ingr_map.pkl
+2024-12-03 19:35:07,676 - matplotlib - DEBUG - matplotlib data path: /Users/julienvu/.pyenv/versions/3.11.8/lib/python3.11/site-packages/matplotlib/mpl-data
+2024-12-03 19:35:07,719 - matplotlib - DEBUG - CONFIGDIR=/Users/julienvu/.matplotlib
+2024-12-03 19:35:07,727 - matplotlib - DEBUG - interactive is False
+2024-12-03 19:35:07,729 - matplotlib - DEBUG - platform is darwin
+2024-12-03 19:35:08,016 - matplotlib - DEBUG - CACHEDIR=/Users/julienvu/.matplotlib
+2024-12-03 19:35:08,026 - matplotlib.font_manager - DEBUG - Using fontManager instance from /Users/julienvu/.matplotlib/fontlist-v390.json
