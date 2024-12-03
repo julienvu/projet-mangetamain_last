@@ -96,29 +96,35 @@ def display_featureengineeringsteps() -> None:
         - Highlights data-driven insights on bio recipes and health.
     """
     # interactions data
-    st.title("Feature Engineering for interactions dataset")
+    st.title("Feature engineering for interactions dataset")
     feature_engineering_text_interactions = """
         **Feature Engineering steps :**
+        1. **Data Parsing and Cleaning**
+        - **Remove Irrelevant Columns**: Dropping columns
+        that are not useful for analysis
+        - `review`
+        - `cuisine`
+        - `rating`
+        - `interaction_type`
+        - **Remove outliers**: using z-score method
+        2. **Date-related features:**
+        - Extracting day, month, year from the `date` column.
 
-        1. **Date-Related Features:**
-        - Extracting day, month, year from the date column.
+        3. **Interaction type:**
+        - Interaction count: Counting the number of interactions per `recipe_id`.
 
-        2. **Interaction Type:**
-        - Interaction count: Counting the number of interactions per recipe_id.
-
-        3. **User-Based Features:**
+        4. **User-based features:**
         - Total interactions per user: Counting how many recipes
           a user has interacted with.
 
-        4. **Recipe-Based Features:**
+        5. **Recipe-based features:**
         - Recipe popularity: Calculating how many users interacted with each recipe.
-        5. **Handling Missing Data:**
-        - Dropping unnecessary columns such as textual data.
-        - Filling missing values in numeric columns.
+        6. **Handling missing data:**
+        - Filling missing values in numeric columns (deleting rows with NaN values).
 
         ---
 
-        **Columns to Drop or Retain in Feature Engineering:**
+        **Summary about the columns :**
         1. **Columns to Drop:**
         - `review`
         - `cuisine`
@@ -129,12 +135,12 @@ def display_featureengineeringsteps() -> None:
         - `date`
     """
     st.markdown(feature_engineering_text_interactions)
-    st.title("Feature Engineering for recipes dataset")
+    st.title("Feature engineering for recipes dataset")
     # Step 1: Data Parsing and Cleaning
     st.markdown(
         """
-        1. Data Parsing and Cleaning
-        - **Nutrition Data**: The `nutrition` column contains a
+        1. Data parsing and cleaning
+        - **Nutrition data**: The `nutrition` column contains a
         list of values representing
         different nutritional components. Spliting it into separate columns for
         - Calories
@@ -149,7 +155,7 @@ def display_featureengineeringsteps() -> None:
         - **Tags**: Filtering the dataframe by using the `tags`
         column related to the bio keywords (substainable, eco-friendly,
         fresh, natural and so on).
-        - **Remove Irrelevant Columns**: Dropping columns
+        - **Remove irrelevant columns**: Dropping columns
         that are not useful for analysis.
         """
     )
@@ -157,7 +163,7 @@ def display_featureengineeringsteps() -> None:
     # Step 2: Feature Engineering on Nutrition Data
     st.markdown(
         """
-        2. Feature Engineering on Nutrition Data
+        2. Feature Engineering on nutrition data
         - Creating new columns from the `nutrition`
         data as described above.
         - Adding new KPI's to gain deeper insights such
@@ -171,7 +177,7 @@ def display_featureengineeringsteps() -> None:
     # Step 3: Handling Ingredient IDs
     st.markdown(
         """
-        3. Handling Ingredient IDs
+        3. Handling ingredient IDs
         - **Ingredient Count**: Adding a feature
         representing the total number of ingredients
         in each recipe.
@@ -181,7 +187,7 @@ def display_featureengineeringsteps() -> None:
     # Step 4: Integrating User Interaction Data
     st.markdown(
         """
-        4. Integrating User Interaction Data
+        4. Integrating user interaction data
         - **Join Interaction Data**: Merging the recipe
         dataset with user interaction data to
         enrich it with features like:
@@ -192,9 +198,9 @@ def display_featureengineeringsteps() -> None:
     # Step 5: Handling Missing Values
     st.markdown(
         """
-         5. Handling Missing
-         Values
-        - **Dropping Rows/Columns**: Removing rows or columns with excessive missing
+         5. Handling missing
+         values
+        - **Dropping rows/columns**: Removing rows or columns with excessive missing
         data.
         """
     )
@@ -202,7 +208,7 @@ def display_featureengineeringsteps() -> None:
     # Step 6: Advanced Transformations and Modeling
     st.markdown(
         """
-        6. Advanced Transformations and Modeling
+        6. Advanced transformations and modeling
         - **Normalization/Standardization**: Scaling numerical
         features using methods like
         Min-Max scaling or Z-score normalization for better model performance.
@@ -212,7 +218,7 @@ def display_featureengineeringsteps() -> None:
     )
     st.markdown(
         """
-        **Columns to Drop or Retain in Feature Engineering:**
+        **Summary about the columns:**
         1. **Columns to Drop:**
         - `minutes`
         - `contributor_id`
@@ -476,8 +482,6 @@ def add_background_from_url(url: str) -> None:
 @st.fragment
 def display_general_observations() -> None:
     """Displays general analysis charts"""
-    st.write("🌟 The website and the database was extremely visited before 2011.")
-    st.write("Instagram had an impact of the number of visitors after 2011.")
     st.plotly_chart(fig2, key="unique_key_for_selectbox_50", use_container_width=True)
 
 
@@ -825,7 +829,7 @@ def main():
             key="general_observations_checkbox34",
         )
         show_inter_obs = st.checkbox(
-            "Evolution of interactions", True, key="general_observations_checkbox4453"
+            "Interactions", True, key="general_observations_checkbox4453"
         )
     # Expander for nutritional components analysis
     with st.sidebar.expander("🥒 Nutritional components findings"):

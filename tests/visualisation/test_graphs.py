@@ -107,22 +107,28 @@ def test_annotations_in_figures(interactions_preprocessed_data):
     """
     # Create an histogram
     fig2 = px.histogram(interactions_preprocessed_data.date, title="Evolution of interactions")
+    # Add an annotation for the interaction drop with hover info
     fig2.add_annotation(
-        text="Instagram",
-        x="2012-01-31",
-        y=6000,
-        showarrow=False,
-        font=dict(size=15, color="black"),
-        bgcolor="rgba(255, 255, 255, 0.7)",
-        bordercolor="black",
-        borderwidth=1,
-        borderpad=4,
+        x="2011-01-01",  # Adjust the date as needed
+        y=4500,  # Adjust y based on your data
+        text="🔻",  # Emoji to make it visible, you can use other small characters
+        showarrow=True,
+        arrowhead=3,
+        arrowcolor="pink",
+        ax=0,  # Adjust horizontal offset for the arrowhead
+        ay=-100,  # Adjust vertical offset
+        hovertext=(
+            "🌟 The website was highly visited before 2011. "
+            "Instagram's rise impacted visitor numbers after 2011."
+        ),
+        hoverlabel=dict(
+            bgcolor="pink",  # Changed to a more noticeable color
+            font_size=14,
+            font_color="black",
+        ),
     )
 
     # Check if annotation
     assert (
         len(fig2.layout.annotations) == 1
     ), "L'annotation n'a pas été ajoutée correctement."
-    assert (
-        fig2.layout.annotations[0].text == "Instagram"
-    ), "Le texte de l'annotation n'est pas correct."

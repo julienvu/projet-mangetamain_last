@@ -9,29 +9,35 @@ interactions_preprocessed = data_loader.load_data(
 )
 # Creates a histogram to show the dynamics of interactions over time
 fig2 = px.histogram(interactions_preprocessed.date, color_discrete_sequence=["green"])
-print(fig2)
+# Add an annotation for the interaction drop with hover info
+# Add an annotation for the interaction drop with hover info
 fig2.add_annotation(
-    text="Instagram",
-    x="2012-01-31",  # x position in the time interval (adjust as needed)
-    y=6000,  # y position (adjust as needed)
-    showarrow=False,
-    font=dict(size=15, color="green"),
-    bgcolor="rgba(255, 255, 255, 0.7)",  # Semi-transparent white background
-    bordercolor="black",
-    borderwidth=3,
-    borderpad=4,
+    x="2011-01-01",  # Adjust the date as needed
+    y=4500,  # Adjust y based on your data
+    text="🔻",  # Emoji to make it visible, you can use other small characters
+    showarrow=True,
+    arrowhead=3,
+    arrowcolor="pink",
+    ax=0,  # Adjust horizontal offset for the arrowhead
+    ay=-100,  # Adjust vertical offset
+    hovertext=(
+        "🌟 The website was highly visited before 2011. "
+        "Instagram's rise impacted visitor numbers after 2011."
+    ),
+    hoverlabel=dict(
+        bgcolor="pink",  # Changed to a more noticeable color
+        font_size=14,
+        font_color="black",
+    ),
 )
-
-# Updates the labels of the axes
+# Update the layout
 fig2.update_layout(
     xaxis_title="Time",  # x-axis label
     yaxis_title="Number of interactions",  # y-axis label
-    showlegend=True,  # Enable the legend
     title=dict(
-        text="Evolution of interactions",  # Graph title
+        text="Evolution of Interactions Over Time",
         x=0.5,  # Center the title
-        xanchor="center",
-        yanchor="top",
-        font=dict(size=20),  # Font size
+        font=dict(size=20),
     ),
+    hovermode="x unified",  # Unified hover across the x-axis
 )
