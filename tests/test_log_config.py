@@ -6,8 +6,72 @@ from src.log_config import setup_logging, MaxLevelFilter
 
 
 class TestLogConfig(unittest.TestCase):
+    """
+    Unit tests for the logging configuration and custom logging filters.
 
+    This class contains tests for verifying the correct setup of logging handlers, 
+    log levels, and the behavior of the `MaxLevelFilter`. It ensures that the logging 
+    system behaves as expected when `setup_logging` is called, and that custom 
+    filtering mechanisms operate correctly.
+
+    Methods:
+    --------
+    setUp():
+        Resets the logging configuration before each test to ensure a clean environment.
+        Clears any existing handlers to simulate a fresh logger state.
+
+    test_setup_logging_sets_correct_handlers():
+        Tests that the `setup_logging` function properly configures two handlers:
+        - A DEBUG level handler that logs detailed debugging information.
+        - An ERROR level handler that logs error messages only.
+        Also checks that each handler is correctly assigned a formatter and 
+        added to the logger.
+
+    test_max_level_filter():
+        Verifies the behavior of the `MaxLevelFilter`, ensuring it filters log records 
+        based on their log level.
+        - Allows log messages at levels DEBUG, INFO, and WARNING.
+        - Blocks log messages at levels above WARNING (e.g., ERROR).
+
+    Usage:
+    ------
+    Run this test suite using a unittest-compatible test runner to verify 
+    the behavior of the logging configuration.
+
+    Dependencies:
+    -------------
+    - `unittest`: Python's built-in unit testing framework.
+    - `unittest.mock`: Provides the ability to mock objects for testing.
+    - `logging`: Python's logging module for log configuration.
+    - `os`: Used for filesystem operations in the logging setup.
+
+    Example:
+    --------
+    To run the tests, use the following command:
+        >>> python -m unittest test_log_config.py
+
+    Notes:
+    ------
+    - This test suite ensures that the `setup_logging` function adheres to 
+      best practices by correctly configuring log handlers, levels, and formatters.
+    - The `MaxLevelFilter` is tested to ensure it restricts logging messages 
+      to the specified maximum level.
+    - Mocking is extensively used to simulate file and logger operations without 
+      affecting the actual filesystem or logger behavior.
+
+    Raises:
+    -------
+    AssertionError:
+        - If the expected log handlers are not set up correctly.
+        - If the log levels and filtering do not match the specified criteria.
+    """
     def setUp(self):
+        """
+        Set up a clean logger state before each test.
+
+        This ensures the logger is reset, with no handlers,
+        simulating a fresh logging environment for each test case.
+        """
         # Reset any logging configuration before each test
         logger = logging.getLogger()
         logger.handlers = []  # Clear all handlers to simulate a fresh logger
@@ -20,10 +84,13 @@ class TestLogConfig(unittest.TestCase):
         self, mock_getLogger, mock_FileHandler, mock_exists, mock_makedirs
     ):
         """
-        Test that setup_logging sets the correct log handlers for DEBUG and ERROR.
+        Test that setup_logging correctly configures logging handlers.
 
-        This test ensures that the setup_logging function configures the loggers
-        with the correct handlers and log levels.
+        This verifies that:
+        - Two handlers (DEBUG and ERROR) are added to the logger.
+        - The DEBUG handler logs at the DEBUG level.
+        - The ERROR handler logs at the ERROR level.
+        - Each handler has a formatter assigned.
         """
         # Mock log directory doesn't exist
         mock_exists.return_value = False
@@ -68,7 +135,11 @@ class TestLogConfig(unittest.TestCase):
 
     def test_max_level_filter(self):
         """
-        Test the MaxLevelFilter allows only messages below or equal to the specified max level.
+        Test the behavior of MaxLevelFilter for filtering log messages by level.
+
+        This checks that:
+        - Messages at or below the max level (WARNING) are allowed.
+        - Messages above the max level (ERROR) are blocked.
         """
         max_level = logging.WARNING
         log_filter = MaxLevelFilter(max_level)
