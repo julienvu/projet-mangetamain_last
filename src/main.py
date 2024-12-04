@@ -98,7 +98,7 @@ def display_featureengineeringsteps() -> None:
     # interactions data
     st.title("Feature engineering for interactions dataset")
     feature_engineering_text_interactions = """
-        **Feature Engineering steps (preprocessed_data folder in the file 
+        **Feature Engineering steps (preprocessed_data folder in the file
         PP_interactions_mangetamain.csv) :**
         1. **Data Parsing and Cleaning**
         - **Remove Irrelevant Columns**: Dropping columns
