@@ -98,7 +98,7 @@ def display_featureengineeringsteps() -> None:
     # interactions data
     st.title("Feature engineering for interactions dataset")
     feature_engineering_text_interactions = """
-        **Feature Engineering steps :**
+        **Feature Engineering steps (preprocessed_data folder in the file PP_interactions_mangetamain.csv) :**
         1. **Data Parsing and Cleaning**
         - **Remove Irrelevant Columns**: Dropping columns
         that are not useful for analysis
@@ -107,6 +107,7 @@ def display_featureengineeringsteps() -> None:
         - `rating`
         - `interaction_type`
         - **Remove outliers**: using z-score method
+        - **Deleting rows with duplicates**
         2. **Date-related features:**
         - Extracting day, month, year from the `date` column.
 
@@ -117,11 +118,8 @@ def display_featureengineeringsteps() -> None:
         - Total interactions per user: Counting how many recipes
           a user has interacted with.
 
-        5. **Recipe-based features:**
-        - Recipe popularity: Calculating how many users interacted with each recipe.
-        6. **Handling missing data:**
-        - Filling missing values in numeric columns (deleting rows with NaN values).
-
+        5. **Handling missing data:**
+        - Filling missing values in numeric columns with NaN values.
         ---
 
         **Summary about the columns :**
@@ -139,6 +137,7 @@ def display_featureengineeringsteps() -> None:
     # Step 1: Data Parsing and Cleaning
     st.markdown(
         """
+        preprocessed_data folder (PP_recipes_mangetamain.csv)
         1. Data parsing and cleaning
         - **Nutrition data**: The `nutrition` column contains a
         list of values representing
@@ -166,11 +165,8 @@ def display_featureengineeringsteps() -> None:
         2. Feature Engineering on nutrition data
         - Creating new columns from the `nutrition`
         data as described above.
-        - Adding new KPI's to gain deeper insights such
-        as:
-            - **Proteins/Carbohydrates Ratio**
-            - **Proteins/Sodium Ratio**
-            - **Proteins/Saturated Fat Ratio**
+        - Studying the values and the international unit measures of each
+        nutritional component
         """
     )
 
@@ -333,7 +329,7 @@ def display_explications_webapp() -> None:
 def display_title() -> None:
     """Displays the main title of the project"""
     st.markdown(
-        "<h1 style='font-size: 36px; text-align: center;'>Welcome to Mangetamain</h1>",
+        "<h1 style='font-size: 36px; text-align: center;'>Mangetamain world</h1>",
         unsafe_allow_html=True,
     )
 
@@ -802,8 +798,6 @@ def main():
     )  # Image URL
     add_background_from_url(background_url)
     # set_global_styles()
-    display_explications_webapp()
-    display_featureengineeringsteps()
     display_title()
     # Sidebar setup
     st.markdown(
@@ -821,6 +815,16 @@ def main():
         unsafe_allow_html=True,
     )
     clear_cache_button()
+    # Expander for general observations
+    with st.sidebar.expander("🍒 Storytelling and feature engineering"):
+        show_storytelling = st.checkbox(
+            "Storytelling for my webapp",
+            True,
+            key="storytelling_checkbox3490",
+        )
+        show_feature_engineering = st.checkbox(
+            "Feature engineering", True, key="feature_engineering_checkbox4443"
+        )
     # Expander for general observations
     with st.sidebar.expander("📊 General observations"):
         show_general_obs = st.checkbox(
@@ -861,6 +865,12 @@ def main():
                 """,
                 unsafe_allow_html=True,
             )
+    # storytelling button
+    if show_storytelling:
+        display_explications_webapp()
+    # feature engineering button
+    if show_feature_engineering:
+        display_featureengineeringsteps()
     # Main content
     if show_general_obs:
         st.subheader("Key numbers for recipes")

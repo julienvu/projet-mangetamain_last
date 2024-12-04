@@ -6,7 +6,39 @@ from src.visualisation.graphs_nutrition import plot_top_4_recipes_by_nutrition, 
 
 @pytest.fixture
 def sample_combined_df():
-    """Fixture to create a sample DataFrame for testing."""
+    """
+    Fixture to create a sample DataFrame for testing nutritional data analysis.
+
+    This function generates a mock dataset designed for testing purposes. It simulates
+    a collection of recipes, each with various nutritional components such as calories,
+    fats, sugars, sodium, proteins, and carbohydrates. The dataset structure resembles 
+    what one might expect in real-world recipe data, making it useful for testing 
+    data transformations, feature engineering, and analytics workflows.
+
+    Returns:
+        pandas.DataFrame: A DataFrame containing the following columns:
+        
+        - 'name': Names of the recipes (string).
+        - 'Calories': Caloric content of each recipe (integer, in kcal).
+        - 'Total Fat (g)': Total fat content (integer, in grams).
+        - 'Sugar (g)': Sugar content (integer, in grams).
+        - 'Sodium (mg)': Sodium content (integer, in milligrams).
+        - 'Protein (g)': Protein content (integer, in grams).
+        - 'Saturated Fat (g)': Saturated fat content (integer, in grams).
+        - 'Carbohydrates (g)': Total carbohydrate content (integer, in grams).
+
+    Example:
+        >>> df = sample_combined_df()
+        >>> print(df.head())
+            name  Calories  Total Fat (g)  Sugar (g)  Sodium (mg)  Protein (g)  Saturated Fat (g)  Carbohydrates (g)
+        0  Recipe A       500             20           5           300            10                  5                 60
+        1  Recipe B       450             25          10           400            20                  7                 50
+        2  Recipe C       600             30          15           500            30                  9                 70
+
+    Note:
+        This fixture is useful for unit tests involving data manipulation or 
+        statistical analysis where real-world datasets are too large or complex to handle.
+    """
     data = {
         'name': ['Recipe A', 'Recipe B', 'Recipe C', 'Recipe D', 'Recipe E', 'Recipe F'],
         'Calories': [500, 450, 600, 300, 200, 700],

@@ -6,7 +6,70 @@ from src.data_loader import DataLoader
 
 
 class TestDataLoader(unittest.TestCase):
+    """
+    A class for loading data from various file formats such as CSV, ZIP, XZ, and Pickle.
 
+    This class provides methods to handle different file types and to ensure data is 
+    correctly extracted, decompressed, and loaded into pandas DataFrames for analysis.
+
+    Methods:
+    --------
+    load_data(file_name: str) -> pd.DataFrame:
+        Loads data from the specified file and returns it as a pandas DataFrame.
+        Supports CSV, ZIP, XZ, and Pickle file formats, and raises an error for unsupported types.
+    
+    unzip_data(file_name: str) -> List[str]:
+        Extracts the contents of a ZIP or XZ file to a specified directory and returns 
+        a list of the extracted file paths. Raises a `ValueError` for unsupported file types.
+    
+    decompress_xz(file_name: str, output_dir: str) -> str:
+        Decompresses an XZ file and saves the resulting CSV to the specified output directory.
+        Returns the path to the decompressed file.
+
+    Helper Methods (if applicable):
+    -------------------------------
+    _ensure_directory_exists(directory: str):
+        Ensures the specified directory exists, creating it if necessary.
+    
+    _validate_file_extension(file_name: str, allowed_extensions: List[str]):
+        Validates that the file extension matches one of the allowed types.
+        Raises a `ValueError` if the extension is not supported.
+
+    Usage:
+    ------
+    To load data from a CSV file:
+        >>> data_loader = DataLoader()
+        >>> df = data_loader.load_data("example.csv")
+
+    To load data from a ZIP file containing CSVs:
+        >>> df = data_loader.load_data("archive.zip")
+
+    To handle XZ compressed files:
+        >>> df = data_loader.load_data("compressed.xz")
+
+    Example with Pickle:
+        >>> df = data_loader.load_data("data.pkl")
+
+    Raises:
+    -------
+    ValueError:
+        - If an unsupported file type is passed to `load_data` or `unzip_data`.
+        - If the decompression or extraction process encounters an issue.
+
+    Notes:
+    ------
+    - This class is designed to abstract away the complexity of dealing with 
+      various compressed or archived data formats, providing a consistent interface for users.
+    - The class relies on `pandas` for data handling and `zipfile` and `lzma` for decompression.
+    - Ensure that the input file paths are valid and that the necessary Python modules are available.
+
+    Dependencies:
+    -------------
+    - pandas: For reading data into DataFrames.
+    - os: For file and directory operations.
+    - zipfile: For handling ZIP file extraction.
+    - lzma (optional): For handling XZ file decompression.
+    """
     def setUp(self):
         self.data_loader = DataLoader()
 
